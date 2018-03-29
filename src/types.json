@@ -1,0 +1,42 @@
+{
+  "physical" : {
+    "title" : "Physical",
+    "description" : "Weak against Tech. Strong against Mystic",
+    "image" : "https://i.imgur.com/VCy0Qx7.png",
+    "color" : "0xff0000",
+    "adv" : "mystic",
+    "weak" : "tech"
+  },
+  "mystic" : {
+    "title" : "Mystic",
+    "description" : "Weak against Physical. Strong against Cosmic",
+    "image" : "https://i.imgur.com/yVAvTNi.png",
+    "color" : "0x9e28c4",
+    "adv" : "cosmic",
+    "weak" : "physical"
+  },
+  "cosmic" : {
+    "title" : "Cosmic",
+    "description" : "Weak against Mystic. Strong against Science",
+    "image" : "https://i.imgur.com/H78Rxba.png",
+    "color" : "0xf5b921",
+    "adv" : "science",
+    "weak" : "mystic"
+  },
+  "science" : {
+    "title" : "Science",
+    "description" : "Weak against Cosmic. Strong against Tech",
+    "image" : "https://i.imgur.com/3q7kNJZ.png.png",
+    "color" : "0x00ff00",
+    "adv" : "tech",
+    "weak" : "cosmic"
+  },
+  "tech" : {
+    "title" : "Tech",
+    "description" : "Weak against Science. Strong against Physical",
+    "image" : "https://i.imgur.com/pA9Pf2r.png",
+    "color" : "0x0000ff",
+    "adv" : "physical",
+    "weak" : "science"
+  }
+}

@@ -45,3 +45,8 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+src/config.json
+
+.gitignore
+node_modules
+src/config.json
