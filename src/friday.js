@@ -2,7 +2,8 @@
 const Discord = require('discord.js'),
       config  = require('./data/config.json'),
       characterList = require('./data/characters.json'),
-      typeList = require('./data/types.json')
+      typeList = require('./data/types.json'),
+      gacha = require('./data/gacha.json')
       fs = require('fs')
 // const 
 
@@ -21,6 +22,7 @@ client.on('ready', () => {
 // Create an event listener for messages
 client.on('message', message => {
   if (!message.content.startsWith(config.prefix) || message.author.bot || message.channel.type === 'dm') return;
+  if(!isregistered(message.guild)) return;
 
   const args = message.content.slice(config.prefix.length).trim().split(/ +/g);
   const command = args.shift().toLowerCase();
@@ -28,6 +30,7 @@ client.on('message', message => {
   switch (command) {
     case "type" :
     case "t" :
+      if(isAllowed(message)) return;
       let [type, arg] = args;
       if(arg !== undefined) arg = arg.toLowerCase()
       if(type != undefined) {
@@ -55,6 +58,7 @@ client.on('message', message => {
     case "c" :
     case "char" :
     case "character" :
+      if(isAllowed(message)) return;
       let char = args.join('').toLowerCase()
       let character = getCharacter(char)
       if(character !== undefined){
@@ -65,16 +69,31 @@ client.on('message', message => {
         message.channel.send(`${args.join(' ')} is not a valid character`)
       }
     break;
+    case "g" :
+    case "gacha" :
+      if(isAllowed(message)) return;
+      let category = args.join('').toLowerCase()
+      let cat = Object.keys(gacha)
+      if(category === '' || category === 'all'){
+        return message.channel.send(`These are all the current Time Capsule categories:\n\`${cat.join(', ')}\``)
+      }
+      if(cat.indexOf(category) > -1) {
+        const embed = embedGacha(gacha[category])
+        return message.channel.send({embed})        
+      }
+      return message.channel.send(`Invalid Category\nThese are all the current Time Capsule categories:\n\`${cat.join(', ')}\``)
+    break;
     case 'l':
     case 'link':
     case 'links':
+      if(isAllowed(message)) return;
       let [linkArg, url] = args;
       let urlName = args.slice(2).join(' ')
       if(linkArg === undefined) {
         const embed = embedLinks()
         return message.channel.send({embed})
       } 
-      if(!isAdmin(message.member.id)){
+      if(!isAdmin(message,message.member.id)){
         return message.channel.send('Only Mods can add or modify links')
       }
       switch(linkArg){
@@ -127,24 +146,41 @@ client.on('message', message => {
     break;
     case 'a':
     case 'admin':
-      if(message.member.id !== message.guild.ownerID && !message.member.hasPermission("ADMINISTRATOR") && !isAdmin(message.member.id)) return message.channel.send('you are not server owner');
+      if(!isAdmin(message,message.member.id)) return message.channel.send('You are not a mod.');
       let [adminArg, user] = args;
       let toAdmin = message.mentions.users.first() || message.guild.members.get(user)
+      if(adminArg === undefined) return;
       switch(adminArg){
         case 'add':
           if(!toAdmin) return message.channel.send("You did not not specify a user.")    
-          if(isAdmin(toAdmin.id || toAdmin.user.id)) return message.channel.send("User is already Admin.")
-          config.admin.push((toAdmin.id || toAdmin.user.id))
+          if(isAdmin(message,toAdmin.id || toAdmin.user.id)) return message.channel.send("User is already Admin.")
+          config.server[message.guild.id].admin.push((toAdmin.id || toAdmin.user.id))
           writeToFile(config, `${__dirname}/data/config.json`)
           return message.channel.send(`${(toAdmin.username || toAdmin.user.username)} can now use bot admin commands.`)
         break;
         case 'remove':
           if(!toAdmin) return message.channel.send("You did not not specify a user.")
-          if(!isAdmin(toAdmin.id || toAdmin.user.id)) return message.channel.send("User is not an Admin.")
-          let index = config.admin.indexOf(toAdmin.id || toAdmin.user.id)
-          config.admin.splice(index, 1)
+          if(!isAdmin(message,toAdmin.id || toAdmin.user.id)) return message.channel.send("User is not an Admin.")
+          if((toAdmin.id || toAdmin.user.id) === message.guild.ownerID) return message.channel.send("You cannot remove the owner")
+          let index = config.server[message.guild.id].admin.indexOf(toAdmin.id || toAdmin.user.id)
+          config.server[message.guild.id].admin.splice(index, 1)
           writeToFile(config, `${__dirname}/data/config.json`)
           return message.channel.send(`${(toAdmin.username || toAdmin.user.username)} can no longer use bot admin commands.`)
+        break;
+        case 'toggle':
+          let channelName = message.channel.name;
+          let = roomNumber = config.server[message.guild.id].rooms.indexOf(channelName);
+          if(roomNumber === -1) {
+            message.channel.send(`I am now monitoring ${channelName}`)
+            config.server[message.guild.id].rooms.push(channelName)
+          }
+          else {
+            message.channel.send(`I am no longer keeping track of ${channelName}`)
+            let index = config.server[message.guild.id].rooms.indexOf(channelName)
+            config.server[message.guild.id].rooms.splice(index, 1)
+          }
+          writeToFile(config, `${__dirname}/data/config.json`)
+          break;
         break;
       }
 
@@ -165,8 +201,8 @@ function getCharacter(prompt) {
 
 function getCharactersByType(type){
   let characters = ''
-  for (var character in characterList){
-    if(characterList[character].type == type){
+  for (let character in characterList){
+    if(characterList[character].type == type && characterList[character].class !== "Boss"){
       characters = characters.concat(character + ', ')
     }
   }
@@ -176,17 +212,17 @@ function getCharactersByType(type){
 function embedCharacter(character){
   const embed = new Discord.RichEmbed()
     .setAuthor('S.H.I.E.L.D. intel','https://i.imgur.com/JLIGMuA.png')
-    .setColor(typeList[character.type.toLowerCase()].color)
-    .setTitle(character.title)
-    .setDescription(`**Aliases**: ${character.aliases}\n`)
-    .setThumbnail(`${character.thumbnail}`)
-    .addField(`Type`, `${character.type} ${character.class}\n`)
-    .addField(`Hero Shard Location`, `${character.location}\n\n`)
-    .addField(`${character.atk1Name}`, `${character.atk1Desc}\n`)
-    .addField(`${character.atk2Name}`, `${character.atk2Desc}\n`)
-    .addField(`${character.atk3Name}`, `${character.atk3Desc}\n`)
-    .addField(`${character.atk4Name}`, `${character.atk4Desc}\n`)
-    .addField(`${character.atk5Name}`, `${character.atk5Desc}\n`)
+  if(character.type !== '') embed.setColor(typeList[character.type.toLowerCase()].color)
+  if(character.title !== '') embed.setTitle(character.title)
+  if(character.aliases !== '') embed.setDescription(`**Aliases**: ${character.aliases}\n`)
+  if(character.thumbnail !== '') embed.setThumbnail(`${character.thumbnail}`)
+  if(character.type !== '' && character.class !== '') embed.addField(`Type`, `${character.type} ${character.class}\n`)
+  if(character.location !== '') embed.addField(`Hero Shard Location`, `${character.location}\n\n`)
+  if(character.atk1Name !== '') embed.addField(`${character.atk1Name}`, `${character.atk1Desc}\n`)
+  if(character.atk2Name !== '') embed.addField(`${character.atk2Name}`, `${character.atk2Desc}\n`)
+  if(character.atk3Name !== '') embed.addField(`${character.atk3Name}`, `${character.atk3Desc}\n`)
+  if(character.atk4Name !== '') embed.addField(`${character.atk4Name}`, `${character.atk4Desc}\n`)
+  if(character.atk5Name !== '') embed.addField(`${character.atk5Name}`, `${character.atk5Desc}\n`)
   return(embed)
 }
 
@@ -216,7 +252,29 @@ function embedLinks(){
   return embed
 }
 
-function isAdmin(element) { return config.admin.indexOf(element) > -1}
+function embedGacha(type){
+  const embed = new Discord.RichEmbed()
+    .setAuthor('S.H.I.E.L.D. intel','https://i.imgur.com/JLIGMuA.png')
+    .setColor(type.color)
+    .setThumbnail(type.image)
+    .setTitle(`These are the minimum percentage odds for prizes in the current ${type.category} Time Capsules`)
+
+  if(type.heroes !== '') {
+    let shardText = 'You can earn shards for the following characters in different amounts shown below:'
+    embed.addField(shardText,type.heroes.join(', '))  
+  }
+  if(Object.keys(type.prizes).length !== 0 && type.prizes.constructor === Object){
+    let dropRate = Object.keys(type.prizes)
+    for (let i = 0; i < dropRate.length && i < 24; i++) {
+      embed.addField(dropRate[i], type.prizes[dropRate[i]].join(', ')) 
+    }
+  }
+  return embed
+}
+
+function isAdmin(message, ID) { 
+  return (config.server[message.guild.id].admin.indexOf(ID) > -1)
+}
 
 function writeToFile(element, location){
   json = JSON.stringify(element,null, 2)
@@ -224,6 +282,32 @@ function writeToFile(element, location){
     if (err) throw err;
     console.log('The file has been saved!');
   });
+}
+
+function inAllowedChannel(message){
+  console.log(config.server[message.guild.id].rooms.length === 0 +' '+ config.server[message.guild.id].rooms.indexOf(message.channel.name) !== -1)
+  return (config.server[message.guild.id].rooms.length === 0 || config.server[message.guild.id].rooms.indexOf(message.channel.name) !== -1)
+}
+
+function registerServer(server){
+  if(!(server.id in config.server)){
+    config.server[server.id] = {"rooms": []}
+    config.server[server.id]['admin'] = [server.ownerID]
+    writeToFile(config, `${__dirname}/data/config.json`)
+  }
+}
+
+function isregistered(server){
+  if(!(server.id in config.server)){
+    registerServer(server)
+    return false
+  }
+  return true;
+}
+
+function isAllowed(message){
+  if (inAllowedChannel(message) || (isAdmin(message,message.member.id))) return false;
+  return true;
 }
 
 function ValidURL(str) {
