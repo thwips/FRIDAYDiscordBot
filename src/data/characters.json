@@ -71,7 +71,10 @@
     "title" : "James Buchanan Barnes",
     "aliases" : "Bucky Barnes, Young Bucky, Past Bucky, AU Bucky",
     "nickname" : [
+      "bucky",
+      "barnes",
       "buckybarnes",
+      "aubucky",
       "aubarnes",
       "youngbucky",
       "pastbucky"
@@ -428,9 +431,9 @@
     "title" : "James Buchanan Barnes",
     "aliases" : "Bucky, Winter Soldier",
     "nickname" : [
-      "bucky",
       "wintersoldier",
-      "ws"
+      "ws",
+      "buckybear"
     ],
     "thumbnail" : "http://i.imgur.com/m5DZCKC.png",
     "type" : "Tech",
