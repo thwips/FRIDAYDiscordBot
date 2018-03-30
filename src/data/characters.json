@@ -3,6 +3,7 @@
     "title" : "Tony Stark",
     "aliases" : "Iron Man",
     "nickname" : [
+      "tony",
       "tonystark",
       "ts",
       "ironman",
@@ -71,7 +72,10 @@
     "title" : "James Buchanan Barnes",
     "aliases" : "Bucky Barnes, Young Bucky, Past Bucky, AU Bucky",
     "nickname" : [
+      "bucky",
+      "barnes",
       "buckybarnes",
+      "aubucky",
       "aubarnes",
       "youngbucky",
       "pastbucky"
@@ -428,9 +432,9 @@
     "title" : "James Buchanan Barnes",
     "aliases" : "Bucky, Winter Soldier",
     "nickname" : [
-      "bucky",
       "wintersoldier",
-      "ws"
+      "ws",
+      "buckybear"
     ],
     "thumbnail" : "http://i.imgur.com/m5DZCKC.png",
     "type" : "Tech",
@@ -717,6 +721,30 @@
     "atk4Name" : "Hidden Panther",
     "atk4Desc" : "Increased Crit Chance 5% (10%)\nIncreased Evasion 5% (10%)",
     "atk5Name" : "Techno-Magic",
+    "atk5Desc" : "125% (200%) atk\n50% (100%) atk DoT (4 turns)"
+  },
+  "Abomination":{
+    "title" : "Emil Blonsky",
+    "aliases" : "Abomination",
+    "nickname" : [
+      "abom",
+      "abomination",
+      "emilblonsky",
+      "blonksy"
+    ],
+    "thumbnail" : "https://i.imgur.com/GvIsjlg.jpg",
+    "type" : "Tech",
+    "class" : "Boss",
+    "location" : "",
+    "atk1Name" : "Big Punch",
+    "atk1Desc" : "120% atk",
+    "atk2Name" : "Special Attack",
+    "atk2Desc" : "85% atk + Stun target (100%)",
+    "atk3Name" : "Ultimate",
+    "atk3Desc" : "Hits all for 70% atk + Chance to Stun (?%)",
+    "atk4Name" : "",
+    "atk4Desc" : "Increased Crit Chance 5% (10%)\nIncreased Evasion 5% (10%)",
+    "atk5Name" : "",
     "atk5Desc" : "125% (200%) atk\n50% (100%) atk DoT (4 turns)"
   }
 }
