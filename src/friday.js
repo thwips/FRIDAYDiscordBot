@@ -3,7 +3,7 @@ const Discord = require('discord.js'),
       config  = require('./data/config.json'),
       characterList = require('./data/characters.json'),
       typeList = require('./data/types.json'),
-      gacha = require('./data/gacha.json')
+      gacha = require('./data/gacha.json'),
       fs = require('fs')
 // const 
 
@@ -30,7 +30,7 @@ client.on('message', message => {
   switch (command) {
     case "type" :
     case "t" :
-      if(isAllowed(message)) return;
+      if(!isAllowed(message)) return;
       let [type, arg] = args;
       if(arg !== undefined) arg = arg.toLowerCase()
       if(type != undefined) {
@@ -58,7 +58,7 @@ client.on('message', message => {
     case "c" :
     case "char" :
     case "character" :
-      if(isAllowed(message)) return;
+      if(!isAllowed(message)) return;
       let char = args.join('').toLowerCase()
       let character = getCharacter(char)
       if(character !== undefined){
@@ -71,7 +71,7 @@ client.on('message', message => {
     break;
     case "g" :
     case "gacha" :
-      if(isAllowed(message)) return;
+      if(!isAllowed(message)) return;
       let category = args.join('').toLowerCase()
       let cat = Object.keys(gacha)
       if(category === '' || category === 'all'){
@@ -86,7 +86,7 @@ client.on('message', message => {
     case 'l':
     case 'link':
     case 'links':
-      if(isAllowed(message)) return;
+      if(!isAllowed(message)) return;
       let [linkArg, url] = args;
       let urlName = args.slice(2).join(' ')
       if(linkArg === undefined) {
@@ -169,7 +169,7 @@ client.on('message', message => {
         break;
         case 'toggle':
           let channelName = message.channel.name;
-          let = roomNumber = config.server[message.guild.id].rooms.indexOf(channelName);
+          let roomNumber = config.server[message.guild.id].rooms.indexOf(channelName);
           if(roomNumber === -1) {
             message.channel.send(`I am now monitoring ${channelName}`)
             config.server[message.guild.id].rooms.push(channelName)
@@ -277,7 +277,7 @@ function isAdmin(message, ID) {
 }
 
 function writeToFile(element, location){
-  json = JSON.stringify(element,null, 2)
+  let json = JSON.stringify(element,null, 2)
   fs.writeFile(location, json, 'utf8', (err) => {
     if (err) throw err;
     console.log('The file has been saved!');
@@ -285,7 +285,6 @@ function writeToFile(element, location){
 }
 
 function inAllowedChannel(message){
-  console.log(config.server[message.guild.id].rooms.length === 0 +' '+ config.server[message.guild.id].rooms.indexOf(message.channel.name) !== -1)
   return (config.server[message.guild.id].rooms.length === 0 || config.server[message.guild.id].rooms.indexOf(message.channel.name) !== -1)
 }
 
@@ -306,8 +305,8 @@ function isregistered(server){
 }
 
 function isAllowed(message){
-  if (inAllowedChannel(message) || (isAdmin(message,message.member.id))) return false;
-  return true;
+  if (inAllowedChannel(message) || (isAdmin(message,message.member.id))) return true;
+  return false;
 }
 
 function ValidURL(str) {
