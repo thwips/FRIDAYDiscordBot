@@ -259,7 +259,7 @@ function embedGacha(type){
     .setThumbnail(type.image)
     .setTitle(`These are the minimum percentage odds for prizes in the current ${type.category} Time Capsules`)
 
-  if(type.heroes !== '') {
+  if(type.heroes.length > 0) {
     let shardText = 'You can earn shards for the following characters in different amounts shown below:'
     embed.addField(shardText,type.heroes.join(', '))  
   }
