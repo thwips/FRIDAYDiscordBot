@@ -357,7 +357,7 @@
     "passiveName": "Grow",
     "passiveDesc": "Increased HP 5% (10%)\nIncreased Atk 5% (15%)",
     "ultimate2Name": "Regeneration",
-    "ultimate2Desc": "15% Self HoT (5 Turns)"
+    "ultimate2Desc": "15% (30%) Self HoT (5 Turns)"
   },
   "Okoye" : {
     "title" : "Okoye",
@@ -553,7 +553,7 @@
     "passiveName": "Spider Stuff",
     "passiveDesc": "Increased Atk 5% (10%)\nIncreased Evasion 5% (10%)",
     "ultimate2Name": "Bioelectric Blast",
-    "ultimate2Desc": "100% Atk on Single Target\nDoT 35 (6 turns)"
+    "ultimate2Desc": "100% (135%) Atk on Single Target\nDoT 35 (450) (6 turns)"
   },
   "Thor" : {
     "title" : "Thor Odinson",
