@@ -168,14 +168,14 @@ client.on('message', message => {
           return message.channel.send(`${(toAdmin.username || toAdmin.user.username)} can no longer use bot admin commands.`)
         break;
         case 'toggle':
-          let channelName = message.channel.name;
+          let channelName = message.channel.id;
           let roomNumber = config.server[message.guild.id].rooms.indexOf(channelName);
           if(roomNumber === -1) {
-            message.channel.send(`I am now monitoring ${channelName}`)
+            message.channel.send(`I am now monitoring ${message.channel.name}`)
             config.server[message.guild.id].rooms.push(channelName)
           }
           else {
-            message.channel.send(`I am no longer keeping track of ${channelName}`)
+            message.channel.send(`I am no longer keeping track of ${message.channel.name}`)
             let index = config.server[message.guild.id].rooms.indexOf(channelName)
             config.server[message.guild.id].rooms.splice(index, 1)
           }
@@ -266,7 +266,7 @@ function embedGacha(type){
   if(Object.keys(type.prizes).length !== 0 && type.prizes.constructor === Object){
     let dropRate = Object.keys(type.prizes)
     for (let i = 0; i < dropRate.length && i < 24; i++) {
-      embed.addField(dropRate[i], type.prizes[dropRate[i]].join(', ')) 
+      embed.addField(dropRate[i], type.prizes[dropRate[i]]) 
     }
   }
   return embed
@@ -285,7 +285,7 @@ function writeToFile(element, location){
 }
 
 function inAllowedChannel(message){
-  return (config.server[message.guild.id].rooms.length === 0 || config.server[message.guild.id].rooms.indexOf(message.channel.name) !== -1)
+  return (config.server[message.guild.id].rooms.length === 0 || config.server[message.guild.id].rooms.indexOf(message.channel.id) !== -1)
 }
 
 function registerServer(server){
