@@ -168,14 +168,14 @@ client.on('message', message => {
           return message.channel.send(`${(toAdmin.username || toAdmin.user.username)} can no longer use bot admin commands.`)
         break;
         case 'toggle':
-          let channelName = message.channel.name;
+          let channelName = message.channel.id;
           let roomNumber = config.server[message.guild.id].rooms.indexOf(channelName);
           if(roomNumber === -1) {
-            message.channel.send(`I am now monitoring ${channelName}`)
+            message.channel.send(`I am now monitoring ${message.channel.name}`)
             config.server[message.guild.id].rooms.push(channelName)
           }
           else {
-            message.channel.send(`I am no longer keeping track of ${channelName}`)
+            message.channel.send(`I am no longer keeping track of ${message.channel.name}`)
             let index = config.server[message.guild.id].rooms.indexOf(channelName)
             config.server[message.guild.id].rooms.splice(index, 1)
           }
@@ -212,17 +212,17 @@ function getCharactersByType(type){
 function embedCharacter(character){
   const embed = new Discord.RichEmbed()
     .setAuthor('S.H.I.E.L.D. intel','https://i.imgur.com/JLIGMuA.png')
-  if(character.type !== '') embed.setColor(typeList[character.type.toLowerCase()].color)
-  if(character.title !== '') embed.setTitle(character.title)
-  if(character.aliases !== '') embed.setDescription(`**Aliases**: ${character.aliases}\n`)
-  if(character.thumbnail !== '') embed.setThumbnail(`${character.thumbnail}`)
-  if(character.type !== '' && character.class !== '') embed.addField(`Type`, `${character.type} ${character.class}\n`)
-  if(character.location !== '') embed.addField(`Hero Shard Location`, `${character.location}\n\n`)
-  if(character.atk1Name !== '') embed.addField(`${character.atk1Name}`, `${character.atk1Desc}\n`)
-  if(character.atk2Name !== '') embed.addField(`${character.atk2Name}`, `${character.atk2Desc}\n`)
-  if(character.atk3Name !== '') embed.addField(`${character.atk3Name}`, `${character.atk3Desc}\n`)
-  if(character.atk4Name !== '') embed.addField(`${character.atk4Name}`, `${character.atk4Desc}\n`)
-  if(character.atk5Name !== '') embed.addField(`${character.atk5Name}`, `${character.atk5Desc}\n`)
+  if(character.type !== undefined) embed.setColor(typeList[character.type.toLowerCase()].color)
+  if(character.title !== undefined) embed.setTitle(character.title)
+  if(character.aliases !== undefined) embed.setDescription(`**Aliases**: ${character.aliases}\n`)
+  if(character.thumbnail !== undefined) embed.setThumbnail(`${character.thumbnail}`)
+  if(character.type !== undefined && character.class !== undefined) embed.addField(`Type`, `${character.type} ${character.class}\n`)
+  if(character.location !== undefined) embed.addField(`Hero Shard Location`, `${character.location}\n\n`)
+  if(character.basicName !== undefined) embed.addField(`${character.basicName}`, `${character.basicDesc}\n`)
+  if(character.specialName !== undefined) embed.addField(`${character.specialName}`, `${character.specialDesc}\n`)
+  if(character.ultimate1Name !== undefined) embed.addField(`${character.ultimate1Name}`, `${character.ultimate1Desc}\n`)
+  if(character.passiveName !== undefined) embed.addField(`${character.passiveName}`, `${character.passiveDesc}\n`)
+  if(character.ultimate2Name !== undefined) embed.addField(`${character.ultimate2Name}`, `${character.ultimate2Desc}\n`)
   return(embed)
 }
 
@@ -259,14 +259,14 @@ function embedGacha(type){
     .setThumbnail(type.image)
     .setTitle(`These are the minimum percentage odds for prizes in the current ${type.category} Time Capsules`)
 
-  if(type.heroes !== '') {
+  if(type.heroes.length > 0) {
     let shardText = 'You can earn shards for the following characters in different amounts shown below:'
     embed.addField(shardText,type.heroes.join(', '))  
   }
   if(Object.keys(type.prizes).length !== 0 && type.prizes.constructor === Object){
     let dropRate = Object.keys(type.prizes)
     for (let i = 0; i < dropRate.length && i < 24; i++) {
-      embed.addField(dropRate[i], type.prizes[dropRate[i]].join(', ')) 
+      embed.addField(dropRate[i], type.prizes[dropRate[i]]) 
     }
   }
   return embed
@@ -285,7 +285,7 @@ function writeToFile(element, location){
 }
 
 function inAllowedChannel(message){
-  return (config.server[message.guild.id].rooms.length === 0 || config.server[message.guild.id].rooms.indexOf(message.channel.name) !== -1)
+  return (config.server[message.guild.id].rooms.length === 0 || config.server[message.guild.id].rooms.indexOf(message.channel.id) !== -1)
 }
 
 function registerServer(server){
