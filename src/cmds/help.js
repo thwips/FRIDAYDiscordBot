@@ -1,12 +1,12 @@
 module.exports.run = async (bot,message,args) => {
-	console.log('avatar works')
-	
+	console.log('help works')
 }
 
 module.exports.help = {
-	name: "avatar",
+	name: "help",
 	aliases: [
-		"avatar",
-		"a"
-	]
+		"help",
+		"h"
+	],
+  ignore : []
 }
