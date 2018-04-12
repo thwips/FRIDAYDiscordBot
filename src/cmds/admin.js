@@ -15,7 +15,7 @@ module.exports.run = async (bot, message, args) => {
     let toAdmin = message.mentions.users.first() || message.guild.members.get(user)
     if(!toAdmin) return message.channel.send("You did not not specify a user.")
 
-    if(isAdmin(message,toAdmin.id || toAdmin.user.id)) return message.channel.send("User is already Admin.")
+    if(gf.isAdmin(message.guild.id, message,toAdmin.id || toAdmin.user.id)) return message.channel.send("User is already Admin.")
     config.server[message.guild.id].admin.push((toAdmin.id || toAdmin.user.id))
     gf.writeToFile(config, `./config/config.json`)
     return message.channel.send(`${(toAdmin.username || toAdmin.user.username)} can now use bot admin commands.`)
@@ -25,7 +25,7 @@ module.exports.run = async (bot, message, args) => {
     let toAdmin = message.mentions.users.first() || message.guild.members.get(user)
 
     if(!toAdmin) return message.channel.send("You did not not specify a user.")
-    if(!isAdmin(message,toAdmin.id || toAdmin.user.id)) return message.channel.send("User is not an Admin.")
+    if(!gf.isAdmin(message.guild.id, message,toAdmin.id || toAdmin.user.id)) return message.channel.send("User is not an Admin.")
     if((toAdmin.id || toAdmin.user.id) === message.guild.ownerID) return message.channel.send("You cannot remove the owner")
     let index = config.server[message.guild.id].admin.indexOf(toAdmin.id || toAdmin.user.id)
     config.server[message.guild.id].admin.splice(index, 1)

@@ -6,13 +6,13 @@
     "image" : "https://i.imgur.com/cIgnEYF.png",
     "heroes" : [],
     "prizes" : {
-      "0.53%" : [
+      "0.53" : [
         "**3 Hero Shards for:** \n\tBlack Widow, Bucky Barnes, Captain America, Enchantress, Falcon, Iron Man, Spider Woman, Wasp\n**1 Hero Shards for:**\n\tBlack Widow, Bucky Barnes, Captain America, Enchantress, Falcon, Iron Man, Spider Woman, Wasp\n20 Infinity Shards"
       ],
-      "2.31%" : [
+      "2.31" : [
         "Tier Two Attribute Energy Core\n2 Ranking Materials\n10 Infinity Shards\n1-2 Comic Books"
       ],
-      "3.53%": [
+      "3.53": [
         "Tier One Attribute Energy Core,\n1 Comic Page\n1-2 Trading Cards\n1-2 Generic Energy Core\n1 Ranking Material\n5 Infinity Shards\n5 Time Remotes"
       ]
     }
@@ -24,20 +24,23 @@
     "image" : "https://i.imgur.com/tSPAAHK.png",
     "heroes" : [],
     "prizes" : {
-      "0.18%" : [
-        "**30 Hero Shards for:**\n\tBlack Panther, Black Widow, Bucky Barnes, Captain America, Enchantress, Falcon, Hawkeye, Hulk, Iron Man, Jocasta, Loki, Mockingbird, Maria Hill, Ms Marvel, Phil Coulson, Quake, Red Hulk, **Rick Jones**, **Skaar**, Spider-Woman, Thor, Tigra, Valkyrie, Vision, War Machine, Wasp, Wiccan, Winter Soldier"
+      "0.049" : [
+        "**30 Hero Shards for:**\n\tIron Man, Wasp, Loki, Black Widow, Bucky Barnes, Falcon, Enchantress, Spider-Woman, Captain America, Mockingbird, Tigra, Phil Coulson, Jocasta, War Machine, Hawkeye, Maria Hill, Ms. Marvel, Quake, Wiccan, Vision, Hulk, Thor, Valkyrie, Red Hulk, Black Panther, Voyager, Winter Soldier"
       ],
-      "0.58%" : [
-        "**10 Hero Shards for:**\n\tBlack Panther, Black Widow, Bucky Barnes, Captain America, Enchantress, Falcon, Hawkeye, Hulk, Iron Man, Jocasta, Loki, Maria Hill, Mockingbird, Ms Marvel, Phil Coulson, Quake, Red Hulk, Spider Woman, Thor, Tigra, Valkyrie, Vision, War Machine, Wasp, Wiccan, Winter Soldier"
+      "0.556" : [
+        "**10 Hero Shards for:**\n\tIron Man, Wasp, Loki, Black Widow, Bucky Barnes, Falcon, Enchantress, Spider-Woman, Captain America, Mockingbird, Tigra, Phil Coulson, Jocasta, War Machine, Hawkeye, Maria Hill, Ms. Marvel, Quake, Wiccan, Vision, Hulk, Thor, Valkyrie, Red Hulk, Black Panther, Voyager, Winter Soldier"
       ],
-      "0.77%" : [
-        "**8 Hero Shards for:**\n\tBlack Panther, Black Widow, Bucky Barnes, Captain America, Enchantress, Falcon, Hawkeye, Hulk, Iron Man, Jocasta, Loki, Maria Hill, Mockingbird, Ms Marvel, Phil Coulson, Quake, Red Hulk, Spider Woman, Thor, Tigra, Valkyrie, Vision, War Machine, Wasp, Wiccan, Winter Soldier"
+      "0.741" : [
+        "**8 Hero Shards for:**\n\tIron Man, Wasp, Loki, Black Widow, Bucky Barnes, Falcon, Enchantress, Spider-Woman, Captain America, Mockingbird, Tigra, Phil Coulson, Jocasta, War Machine, Hawkeye, Maria Hill, Ms. Marvel, Quake, Wiccan, Vision, Hulk, Thor, Valkyrie, Red Hulk, Black Panther, Voyager, Winter Soldier"
       ],
-      "0.96%" : [
-        "**5 Hero Shards for:**\n\tBlack Panther, Black Widow, Bucky Barnes, Captain America, Enchantress, Falcon, Hawkeye, Hulk, Iron Man, Jocasta, Loki, Maria Hill, Mockingbird, Ms Marvel, Phil Coulson, Quake, Red Hulk, Spider Woman, Thor, Tigra, Valkyrie, Vision, War Machine, Wasp, Wiccan, Winter Soldier"
+      "0.926" : [
+        "**5 Hero Shards for:**\n\tIron Man, Wasp, Loki, Black Widow, Bucky Barnes, Falcon, Enchantress, Spider-Woman, Captain America, Mockingbird, Tigra, Phil Coulson, Jocasta, War Machine, Hawkeye, Maria Hill, Ms. Marvel, Quake, Wiccan, Vision, Hulk, Thor, Valkyrie, Red Hulk, Black Panther, Voyager, Winter Soldier"
       ],
-      "1.35%" : [
-        "**3 Hero Shards for:**\n\tBlack Panther, Black Widow, Bucky Barnes, Captain America, Enchantress, Falcon, Hawkeye, Hulk, Iron Man, Jocasta, Loki, Maria Hill, Mockingbird, Ms Marvel, Phil Coulson, Quake, Red Hulk, Spider Woman, Thor, Tigra, Valkyrie, Vision, War Machine, Wasp, Wiccan, Winter Soldier"
+      "1.296" : [
+        "**5 Hero Shards for:**\n\tIron Man, Wasp, Loki, Black Widow, Bucky Barnes, Falcon, Enchantress, Spider-Woman, Captain America, Mockingbird, Tigra, Phil Coulson, Jocasta, War Machine, Hawkeye, Maria Hill, Ms. Marvel, Quake, Wiccan, Vision, Hulk, Thor, Valkyrie, Red Hulk, Black Panther, Voyager, Winter Soldier"
+      ],
+      "1.833" : [
+        "**30 Hero Shards for:**\n\tRick Jones, Skaar"
       ]
     }
   }

@@ -39,7 +39,6 @@ bot.on('ready', () => {
 // Create an event listener for messages
 bot.on('message', async message => {
   if (!message.content.startsWith(config.prefix) || message.author.bot || message.channel.type === 'dm') return;
-  // if(!isregistered(message.guild)) return;
   const args = message.content.slice(config.prefix.length).trim().split(/ +/g);
   const command = args.shift().toLowerCase();
 
