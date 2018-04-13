@@ -73,7 +73,7 @@ module.exports.embedGacha = (type) => {
     .setAuthor('S.H.I.E.L.D. intel','https://i.imgur.com/JLIGMuA.png')
     .setColor(type.color)
     .setThumbnail(type.image)
-    .setTitle(`These are the minimum percentage odds for prizes in the current ${type.category} Time Capsules`)
+    .setTitle(`These are the minimum percentage odds for prizes in the current ${type.category} Capsules`)
 
   if(type.heroes.length > 0) {
     let shardText = 'You can earn shards for the following characters in different amounts shown below:'
