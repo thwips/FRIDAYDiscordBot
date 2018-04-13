@@ -207,5 +207,17 @@
       "30 Rick Jones Shards",
       "30 Skaar Shards"
     ]
+  },
+  "hellcat" : {
+    "1": ["5 Shards"],
+    "2": ["1 Comic Page","1 Tier 1 Mystic Energy Core"],
+    "3": ["10 Hydra Intel","5 Hellcat Shards"],
+    "4": ["2 Time Remotes"],
+    "5": ["2 Basic Energy Core", "1 Mystic Fragment"],
+    "10": ["100 Coins"],
+    "11": ["5 Trading Cards"],
+    "12": ["5 Hydra Intel"],
+    "15": ["3 Hellcat Shards"],
+    "27": ["1 Hellcat Shard"]
   }
 }

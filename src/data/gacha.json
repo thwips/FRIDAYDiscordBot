@@ -45,7 +45,7 @@
     "category" : "Hellcat",
     "time" : "",
     "color" : "0x9e28c4",
-    "image" : "https://i.imgur.com/ixgjaWq.png",
+    "image" : "https://i.imgur.com/nMU9WMG.png",
     "heroes" : [],
     "prizes" : {
       "1" : [
@@ -81,7 +81,7 @@
     "category" : "Jessica Jones",
     "time" : "",
     "color" : "0xff0000",
-    "image" : "https://i.imgur.com/lfBIAbN.png",
+    "image" : "https://i.imgur.com/xJO3Tcs.png",
     "heroes" : [],
     "prizes" : {
       "1": ["10 Shards"],
@@ -100,7 +100,7 @@
     "category" : "Luke Cage",
     "time" : "",
     "color" : "0xff0000",
-    "image" : "https://i.imgur.com/xAYTkYO.png",
+    "image" : "https://i.imgur.com/yxu80hL.png",
     "heroes" : [],
     "prizes" : {
       "1": ["15 Shards"],
@@ -119,15 +119,15 @@
     "category" : "Hood",
     "time" : "",
     "color" : "0x9e28c4",
-    "image" : "https://i.imgur.com/1KwhKVW.png",
+    "image" : "https://i.imgur.com/KD4CppJ.png",
     "heroes" : [],
     "prizes" : {
       ".3": ["70 The Hood Shards"],
       ".65": ["6 The Hood Shards"],
-      ".8" : ["6 Hero Shards for:**\n\tBlack Widow, Bucky Barnes, Captain America, Enchantress, Falcon, Hawkeye, Hulk, Jocasta, Maria Hill, Mockingbird, Ms. Marvel, Phil Coulson, Quake, Red Hulk, Spider Woman, Thor, Tigra, Valkyrie, Vision, Voyager, War Machine, Wiccan, Winter Solder"],
+      ".8" : ["**6 Hero Shards for:**\n\tBlack Widow, Bucky Barnes, Captain America, Enchantress, Falcon, Hawkeye, Hulk, Jocasta, Maria Hill, Mockingbird, Ms. Marvel, Phil Coulson, Quake, Red Hulk, Spider Woman, Thor, Tigra, Valkyrie, Vision, Voyager, War Machine, Wiccan, Winter Solder"],
       "1.13": ["3 The Hood Shards"],
-      "1.60" : ["3 Hero Shards for:**\n\tBlack Widow, Bucky Barnes, Captain America, Enchantress, Falcon, Hawkeye, Hulk, Jocasta, Maria Hill, Mockingbird, Ms. Marvel, Phil Coulson, Quake, Red Hulk, Spider Woman, Thor, Tigra, Valkyrie, Vision, Voyager, War Machine, Wiccan, Winter Solder"],
-      "3.48" : ["6 Hero Shards for:**\n\tHellcat, Jessica Jones, Luke Cage"],
+      "1.60" : ["**3 Hero Shards for:**\n\tBlack Widow, Bucky Barnes, Captain America, Enchantress, Falcon, Hawkeye, Hulk, Jocasta, Maria Hill, Mockingbird, Ms. Marvel, Phil Coulson, Quake, Red Hulk, Spider Woman, Thor, Tigra, Valkyrie, Vision, Voyager, War Machine, Wiccan, Winter Solder"],
+      "3.48" : ["**6 Hero Shards for:**\n\tHellcat, Jessica Jones, Luke Cage"],
       "5" : ["10 S.H.I.E.L.D. License, 10 Mixtapes"],
       "11.15" : ["5 S.H.I.E.L.D. License, 5 Mixtapes"]
     }
