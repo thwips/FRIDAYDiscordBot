@@ -61,6 +61,7 @@ module.exports.help = {
   name: "simulation",
   aliases: [
     "simulation",
+    "simulator",
     "sim",
     "s"
   ],

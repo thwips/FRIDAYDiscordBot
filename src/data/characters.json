@@ -27,7 +27,7 @@
       "blackpanther",
       "bp"
     ],
-    "thumbnail" : "http://i.imgur.com/M5j76ET.png",
+    "thumbnail" : "https://i.imgur.com/wKOFup7.png",
     "type": "Tech",
     "class": "Attacker",
     "location": "GTC",
@@ -53,7 +53,7 @@
       "natasharomanoff",
       "nataliaalianovnaromanova"
     ],
-    "thumbnail" : "http://i.imgur.com/0TCRAX8.png",
+    "thumbnail" : "http://i.imgur.com/bgAb8Xd.png",
     "type": "Physical",
     "class": "Attacker",
     "location": "2:10 Heroic",
@@ -78,9 +78,11 @@
       "aubucky",
       "aubarnes",
       "youngbucky",
-      "pastbucky"
+      "pastbucky",
+      "sergeantbarnes",
+      "sgtbarnes"
     ],
-    "thumbnail" : "http://i.imgur.com/d9I9QxS.png",
+    "thumbnail" : "http://i.imgur.com/i5cmrwS.png",
     "type" : "Science",
     "class" : "Attacker",
     "location": "2:15 Heroic",
@@ -109,7 +111,7 @@
       "cap",
       "chris evans"
     ],
-    "thumbnail" : "http://i.imgur.com/u57Olpj.png",
+    "thumbnail" : "http://i.imgur.com/WF623nM.png",
     "type": "Science",
     "class": "Tank",
     "location": "4:5 Heroic",
@@ -131,7 +133,7 @@
       "amora",
       "enchantress"
     ],
-    "thumbnail" : "http://i.imgur.com/VH8T4fo.png",
+    "thumbnail" : "http://i.imgur.com/lHd9lN5.png",
     "type": "Mystic",
     "class": "Support",
     "location": "3:10 Heroic",
@@ -154,7 +156,7 @@
       "samwilson",
       "captainfalcon"
     ],
-    "thumbnail" : "http://i.imgur.com/iWW3QeJ.png",
+    "thumbnail" : "http://i.imgur.com/hipUEVh.png",
     "type": "Tech",
     "class": "Support",
     "location": "3:5 Heroic",
@@ -179,7 +181,7 @@
       "arrowguy",
       "hawkguy"
     ],
-    "thumbnail" : "http://i.imgur.com/JaupXCH.png",
+    "thumbnail" : "http://i.imgur.com/jTAX3yP.png",
     "type": "Physical",
     "class": "Attacker",
     "location": "6:5 Heroic",
@@ -202,10 +204,10 @@
       "brucebanner",
       "hulk"
     ],
-    "thumbnail" : "http://i.imgur.com/xk9V7Ft.png",
+    "thumbnail" : "http://i.imgur.com/zItYwIo.png",
     "type": "Science",
     "class": "Tank",
-    "location": "Event\nSector 1",
+    "location": "N/A",
     "basicName": "Ground Pound",
     "basicDesc": "100% (115%) atk",
     "specialName": "Thunderclap",
@@ -227,7 +229,7 @@
       "ironman",
       "im"
     ],
-    "thumbnail" : "http://i.imgur.com/oRaSZy2.png",
+    "thumbnail" : "http://i.imgur.com/evPA1bu.png",
     "type" : "Tech",
     "class" : "Tank",
     "location": "1:5 Heroic",
@@ -248,7 +250,7 @@
     "nickname" : [
       "jocasta"
     ],
-    "thumbnail" : "http://i.imgur.com/uQCzunw.png",
+    "thumbnail" : "http://i.imgur.com/fszNfNS.png",
     "type": "Tech",
     "class": "Tank",
     "location": "5:10 Heroic",
@@ -271,7 +273,7 @@
       "godofmischief",
       "lowkey"
     ],
-    "thumbnail" : "http://i.imgur.com/UYXrSBu.png",
+    "thumbnail" : "http://i.imgur.com/REnYQBD.png",
     "type" : "Cosmic",
     "class" : "Support",
     "location": "2:5 Heroic",
@@ -294,7 +296,7 @@
       "agenthill",
       "directorhill"
     ],
-    "thumbnail" : "http://i.imgur.com/dKBtnQb.png",
+    "thumbnail" : "http://i.imgur.com/GqF4Zsm.png",
     "type": "Physical",
     "class": "Support",
     "location": "6:10 Heroic",
@@ -320,7 +322,7 @@
       "agent19",
       "adriannepalicki"
     ],
-    "thumbnail" : "http://i.imgur.com/7N0ByOw.png",
+    "thumbnail" : "http://i.imgur.com/BjQbw9T.png",
     "type": "Physical",
     "class": "Attacker",
     "location": "4:10 Heroic",
@@ -344,7 +346,7 @@
       "msmarvel",
       "ms.marvel"
     ],
-    "thumbnail" : "http://i.imgur.com/xN1kg7H.png",
+    "thumbnail" : "http://i.imgur.com/G6jHqn4.png",
     "type": "Science",
     "class": "Tank",
     "location": " 6:15 Heroic",
@@ -367,7 +369,7 @@
       "doramilaje",
       "doramilajegeneral"
     ],
-    "thumbnail" : "https://i.imgur.com/iFp4QSm.png",
+    "thumbnail" : "https://i.imgur.com/AXOsbm1.png",
     "type": "Tech",
     "class": "Support",
     "location": "N/A",
@@ -394,7 +396,7 @@
       "coulson",
       "agent"
     ],
-    "thumbnail" : "http://i.imgur.com/PXkRG7U.png",
+    "thumbnail" : "http://i.imgur.com/C8Njlj7.png",
     "type": "Physical",
     "class": "Support",
     "location": "5:5 Heroic",
@@ -422,7 +424,7 @@
       "chloebennet",
       "shitwaifu"
     ],
-    "thumbnail" : "http://i.imgur.com/lr3Ajqh.png",
+    "thumbnail" : "http://i.imgur.com/r7SpTNP.png",
     "type": "Science",
     "class": "Attacker",
     "location": "7:5 Heroic",
@@ -449,10 +451,10 @@
       "redhulk",
       "thaddeusross"
     ],
-    "thumbnail" : "http://i.imgur.com/JX2n5HM.png",
+    "thumbnail" : "http://i.imgur.com/fhpLwP4.png",
     "type": "Science",
     "class": "Attacker",
-    "location": "Event\nSector 2",
+    "location": "N/A",
     "basicName": "Punch It",
     "basicDesc": "115% (150%) atk",
     "specialName": "Flame On",
@@ -472,10 +474,10 @@
       "ultimaterickjones",
       "ultimatecaptainmarvel"
     ],
-    "thumbnail" : "https://i.imgur.com/Anz0B9X.png",
+    "thumbnail" : "https://i.imgur.com/I434WfI.png",
     "type": "Cosmic",
     "class": "Tank",
-    "location": "Event\nLeaderboard",
+    "location": "N/A",
     "basicName": "Firing the Laser!",
     "basicDesc": "100% (115%) atk",
     "specialName": "Flying Marvel",
@@ -495,7 +497,7 @@
       "memequeen",
       "disneyprincess"
     ],
-    "thumbnail" : "https://i.imgur.com/T5S5SJZ.png",
+    "thumbnail" : "https://i.imgur.com/YUQl89G.png",
     "type": "Tech",
     "class": "Attacker",
     "location": "N/A",
@@ -516,10 +518,10 @@
     "nickname" : [
       "skaar"
     ],
-    "thumbnail" : "https://i.imgur.com/b6uanAz.png",
+    "thumbnail" : "https://i.imgur.com/CrUKSt6.png",
     "type": "Science",
     "class": "Attacker",
-    "location": "Event\nQuests",
+    "location": "N/A",
     "basicName": "Cleave",
     "basicDesc": "115% (150%) atk",
     "specialName": "Cut Them Down",
@@ -538,9 +540,10 @@
       "spider-woman",
       "spiderwoman",
       "jessicadrew",
+      "jessdrew",
       "sw"
     ],
-    "thumbnail" : "http://i.imgur.com/T5k05zz.png",
+    "thumbnail" : "http://i.imgur.com/ka2g3uF.png",
     "type": "Science",
     "class": "Attacker",
     "location": "3:15 Heroic",
@@ -567,7 +570,7 @@
       "lordofthunder",
       "sparkles"
     ],
-    "thumbnail" : "http://i.imgur.com/TUI3t6c.png",
+    "thumbnail" : "http://i.imgur.com/tqgKEg5.png",
     "type": "Cosmic",
     "class": "Tank",
     "location": "GTC",
@@ -589,7 +592,7 @@
       "greergrant",
       "tigra"
     ],
-    "thumbnail" : "http://i.imgur.com/aFU6kvm.png",
+    "thumbnail" : "http://i.imgur.com/nd1ODMg.png",
     "type": "Mystic",
     "class": "Attacker",
     "location": "4:15 Heroic",
@@ -612,7 +615,7 @@
       "valkyrie",
       "brunnhilde"
     ],
-    "thumbnail" : "https://i.imgur.com/tY3unRf.png",
+    "thumbnail" : "https://i.imgur.com/KeRfW2i.png",
     "type": "Cosmic",
     "class": "Attacker",
     "location": "GTC",
@@ -634,7 +637,7 @@
       "vision",
       "vis"
     ],
-    "thumbnail" : "http://i.imgur.com/zE6l3IL.png",
+    "thumbnail" : "https://i.imgur.com/8W0ixmW.png",
     "type": "Tech",
     "class": "Support",
     "location": "Event\nSector 3",
@@ -659,7 +662,7 @@
       "grandmaster'sdaughter",
       "grandmaster’sdaughter"
     ],
-    "thumbnail" : "https://i.imgur.com/NdG25hY.png",
+    "thumbnail" : "https://i.imgur.com/HCgDDem.png",
     "type": "Cosmic",
     "class": "Support",
     "location": "GTC",
@@ -683,7 +686,7 @@
       "wm",
       "rhodey"
     ],
-    "thumbnail" : "http://i.imgur.com/L8SkflA.png",
+    "thumbnail" : "http://i.imgur.com/7HzYoBq.png",
     "type": "Tech",
     "class": "Attacker",
     "location": "5:15 Heroic",
@@ -707,7 +710,7 @@
       "janetvandyne",
       "vandyne"
     ],
-    "thumbnail" : "http://i.imgur.com/cuGUzKP.png",
+    "thumbnail" : "http://i.imgur.com/QNSNgsu.png",
     "type" : "Science",
     "class" : "Attacker",
     "location": "1:10 Heroic",
@@ -728,9 +731,10 @@
     "nickname" : [
       "wiccan",
       "billykaplan",
-      "williamkaplan"
+      "williamkaplan",
+      "demiurge"
     ],
-    "thumbnail" : "http://i.imgur.com/u4XmnLt.png",
+    "thumbnail" : "http://i.imgur.com/Xx3I2G7.png",
     "type": "Mystic",
     "class": "Attacker",
     "location": "7:10 Heroic",
@@ -753,9 +757,10 @@
       "ws",
       "buckybear",
       "emobuck",
-      "emobucky"
+      "emobucky",
+      "buck"
     ],
-    "thumbnail" : "http://i.imgur.com/m5DZCKC.png",
+    "thumbnail" : "http://i.imgur.com/THXTtJU.png",
     "type": "Tech",
     "class": "Attacker",
     "location": "7:15 Heroic",
@@ -769,5 +774,109 @@
     "passiveDesc": "Increased HP 5% (10%)\nIncreased Atk 5% (15%)",
     "ultimate2Name": "Cold War",
     "ultimate2Desc": "Hits Back Row 115% (150%) atk"
+  },
+  "Jessica Jones" : {
+    "title" : "Jessica Jones",
+    "aliases" : "Jewel",
+    "nickname" : [
+      "jessicajones",
+      "jj",
+      "jones",
+      "jewel",
+      "j jones",
+      "jessjones"
+    ],
+    "thumbnail" : "https://i.imgur.com/lfBIAbN.png",
+    "type": "Physical",
+    "class": "Attacker",
+    "location": "Event",
+    "basicName": "Deal Some Justice",
+    "basicDesc": "Basic Attack",
+    "specialName": "\"Special Abilities\"",
+    "specialDesc": "Damage to an enemy\n10% self attack buff",
+    "ultimate1Name": "Get Even",
+    "ultimate1Desc": "AoE damage to enemies",
+    "passiveName": "Sheer Willpower",
+    "passiveDesc": "10% self crit buff\n5% self attack buff",
+    "ultimate2Name": "You're a Winner!",
+    "ultimate2Desc": "AoE damage to enemies\n15% self attack buff"
+  },
+  "Luke Cage" : {
+    "title" : "Luke Cage",
+    "aliases" : "Power Man",
+    "nickname" : [
+      "lukecage",
+      "luke",
+      "powerman",
+      "lc",
+      "sweetchristmas"
+    ],
+    "thumbnail" : "https://i.imgur.com/xAYTkYO.png",
+    "type": "Physical",
+    "class": "Attacker",
+    "location": "Event",
+    "basicName": "Move Forward",
+    "basicDesc": "Basic Attack",
+    "specialName": "Uptown Uppercut",
+    "specialDesc": "Aoe damage to enemies\n25% chance to stun for 1 turn",
+    "ultimate1Name": "Break it up",
+    "ultimate1Desc": "AoE damage to enemies\n20% attack debuff for 2 turns",
+    "passiveName": "Indestructibility",
+    "passiveDesc": "10% self hp buff\n5% self attack buff",
+    "ultimate2Name": "Uncaged",
+    "ultimate2Desc": "AoE damage to enemies\n15% HoT 3 turns"
+  },
+  "Hellcat" : {
+    "title" : "Patricia Walker",
+    "aliases" : "Hellcat",
+    "nickname" : [
+      "hellcat",
+      "hc",
+      "patriciawalker",
+      "patsy",
+      "patsywalker",
+      "trish",
+      "trishwalker"
+    ],
+    "thumbnail" : "https://i.imgur.com/ixgjaWq.png",
+    "type": "Mystic",
+    "class": "Attacker",
+    "location": "Event",
+    "basicName": "Titanium Training",
+    "basicDesc": "Basic Attack",
+    "specialName": "Pounce!",
+    "specialDesc": "AoE damage to enemies\n10% self crit buff",
+    "ultimate1Name": "Cat Scratch Attack",
+    "ultimate1Desc": "AoE damage to enemies\n20 DoT 2 turns",
+    "passiveName": "Psionic Senses",
+    "passiveDesc": "7% self crit buff\n5% self evasion buff",
+    "ultimate2Name": "Unleash Hell",
+    "ultimate2Desc": "AoE damage to enemies\n5% self evasion buff 3 turns"
+  },
+  "Hood" : {
+    "title" : "Parker Robbins",
+    "aliases" : "The Hood",
+    "nickname" : [
+      "parkerrobbins",
+      "thehood",
+      "hood",
+      "teeth",
+      "teethyboy",
+      "dahood"
+    ],
+    "thumbnail" : "https://i.imgur.com/1KwhKVW.png",
+    "type": "Mystic",
+    "class": "Attacker",
+    "location": "Event",
+    "basicName": "Bust A Cap",
+    "basicDesc": "Basic Attack",
+    "specialName": "Now You See Me",
+    "specialDesc": "AoE Damage to an enemie\n15% self evasion buff 1 turn",
+    "ultimate1Name": "Shocker",
+    "ultimate1Desc": "AoE damage to enemies\n15% ally evasion buff for 2 turns",
+    "passiveName": "Cloak of Invisibility",
+    "passiveDesc": "10% self evasion buff",
+    "ultimate2Name": "Dark Reign",
+    "ultimate2Desc": "AoE damage to enemies\n5% enemy evasion debuff 2 for turns"
   }
 }
