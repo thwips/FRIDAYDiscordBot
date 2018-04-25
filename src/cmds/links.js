@@ -1,7 +1,7 @@
 const gf = require('../globalfunctions.js'),
-      gacha = require('../data/gacha.json'),
-      config = require('../config/config.json'),
       fs = require('fs')
+let   gacha = require('../data/gacha.json'),
+      config = require('../config/config.json')
 
 module.exports.run = async (bot, message, args) => {
   if(!gf.isAllowed(message, module.exports.help.ignore)) return;

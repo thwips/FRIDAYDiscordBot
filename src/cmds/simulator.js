@@ -3,6 +3,8 @@ const gf = require('../globalfunctions.js'),
       typeList = require('../data/types.json'),
       fs = require('fs')
 
+const max = 1000
+
 module.exports.run = async (bot,message,args) => {
   if(!gf.isAllowed(message, module.exports.help.ignore)) return;
 
@@ -14,7 +16,12 @@ module.exports.run = async (bot,message,args) => {
   if(cat.indexOf(category) > -1) {
     let amount = parseInt(args[1])
     if(!isNaN(amount)){
-      if(amount < 0 || amount > 1000) return message.channel.send('Please enter a number between 1-1000')
+      let check = ''
+      if(args[2] !== undefined){
+        if (!isNaN(Number(args[2]))) check = args.slice(3).join(' ')
+        else check = args.slice(2).join(' ')
+      }
+      if(amount < 0 || amount > max) return message.channel.send(`Please enter a number between 1-${max}`)
       let prizes = {}
       for(let i = 0; i < amount;i++){
         let prize = getPrize(gacha[category])
@@ -22,18 +29,20 @@ module.exports.run = async (bot,message,args) => {
         if(isNaN(Number(prize[0]))) amount = 1
         else amount = Number(prize.shift())
         prize = prize.join(' ')
-        if(prize.substr(prize.length - 1) !== 's'){
-          prize += 's'
+        if(args[2] === undefined || check.toLowerCase() == prize.toLowerCase()){
+          if(prize.substr(prize.length - 1) !== 's'){
+            prize += 's'
+          }
+          if (prize in prizes) prizes[prize] += amount
+          else prizes[prize] = amount
         }
-        if (prize in prizes) prizes[prize] += amount
-        else prizes[prize] = amount
       }
       const ordered = {};
       Object.keys(prizes).sort().forEach(function(key) {
         ordered[key] = prizes[key]
       })
       prizes = ordered
-      string = ''
+      let string = ''
       for(key in prizes){
         string += `${prizes[key]} ${key}, `
       }
@@ -69,24 +78,6 @@ module.exports.help = {
     "416432474193657867" //arena-of-war
   ]
 }
-
-// var heroes = ["Black Panther", "Black Widow", "Bucky Barnes", "Captain America", "Enchantress", "Falcon", "Hawkeye", "Hulk", "Iron Man", "J.O.C.A.S.T.A", "Loki", "Mockingbird", "Maria Hill", "Ms. Marvel", "Phil Coulson", "Quake", "Red Hulk", "Spider-Woman", "Thor", "Tigra", "Valkyrie", "Vision", "War Machine", "Wasp", "Wiccan", "Winter Soldier","Rick Jones","Skaar"]
-// var nums = {3:26,5:26,8:26,10:26,30:28};  //number of heroes in each tier; used for odds
-// var probs = [0.35,0.25,0.2,0.15,0.05];
-
-// var Tier = function(value, heroes) {  //handle each tier 3/5/8/10/30 as separate object
-//   this.value = value;
-//   this.heroes = heroes;
-//   }
-
-// function generateTiers(nums) {
-//   var i, tiers = [];
-//   for (i in nums) {
-//     Logger.log(i);
-//     tiers.push(new Tier(i,nums[i]));
-//   }
-//   return tiers;
-// }
   
 function weightedRand(probs,sizes) {    //selects tier (3,5,8,10,30) by weighted probability
   var i, sum = 0, r = Math.random();

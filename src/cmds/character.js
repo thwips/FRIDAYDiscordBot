@@ -11,10 +11,10 @@ module.exports.run = async (bot, message, args) => {
   let character = gf.getCharacter(charArgs)
   if(character !== undefined){
     const embed = gf.embedCharacter(character)
-    message.channel.send({embed})
+    return message.channel.send({embed})
   }
   else {
-    message.channel.send(`${args.join(' ')} is not a valid character`)
+    return message.channel.send(`${args.join(' ')} is not a valid character`)
   }
 }
 

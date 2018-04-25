@@ -1,33 +1,33 @@
 {
-  "Abomination":{
-    "title" : "Emil Blonsky",
-    "aliases" : "Abomination",
-    "nickname" : [
+  "abomination": {
+    "title": "Emil Blonsky",
+    "aliases": "Abomination",
+    "nickname": [
       "abom",
       "abomination",
       "emilblonsky",
       "blonksy"
     ],
-    "thumbnail" : "https://i.imgur.com/GvIsjlg.jpg",
-    "type" : "Tech",
-    "class" : "Boss",
-    "basicName" : "Big Punch",
-    "basicDesc" : "120% atk",
-    "specialName" : "Flying Elbow",
-    "specialDesc" : "85% atk + Stun target (100%)",
-    "ultimate1Name" : "Rock Toss",
-    "ultimate1Desc" : "Hits all for 70% atk + Chance to Stun (?%)"
+    "thumbnail": "https://i.imgur.com/GvIsjlg.jpg",
+    "type": "Tech",
+    "class": "Boss",
+    "basicName": "Big Punch",
+    "basicDesc": "120% atk",
+    "specialName": "Flying Elbow",
+    "specialDesc": "85% atk + Stun target (100%)",
+    "ultimate1Name": "Rock Toss",
+    "ultimate1Desc": "Hits all for 70% atk + Chance to Stun (?%)"
   },
-  "Black Panther" : {
-    "title" : "T'Challa",
-    "aliases" : "Black Panther, King of the Dead",
-    "nickname" : [
+  "black panther": {
+    "title": "T'Challa",
+    "aliases": "Black Panther, King of the Dead",
+    "nickname": [
       "t'challa",
       "tchalla",
       "blackpanther",
       "bp"
     ],
-    "thumbnail" : "https://i.imgur.com/wKOFup7.png",
+    "thumbnail": "https://i.imgur.com/wKOFup7.png",
     "type": "Tech",
     "class": "Attacker",
     "location": "GTC",
@@ -41,11 +41,11 @@
     "passiveDesc": "Increased Crit Chance 5% (10%)\nIncreased HP 5% (10%)",
     "ultimate2Name": "Wakandan Weaponry",
     "ultimate2Desc": "Hits All Enemies 100% (125%) atk\nChance to Stun 10% (20%) 1 turn"
-  }, 
-  "Black Widow" : {
-    "title" : "Natalia Alianovna Romanova",
-    "aliases" : "Black Widow, Natasha Romanoff",
-    "nickname" : [
+  },
+  "black widow": {
+    "title": "Natalia Alianovna Romanova",
+    "aliases": "Black Widow, Natasha Romanoff",
+    "nickname": [
       "bw",
       "nat",
       "blackwidow",
@@ -53,7 +53,7 @@
       "natasharomanoff",
       "nataliaalianovnaromanova"
     ],
-    "thumbnail" : "http://i.imgur.com/bgAb8Xd.png",
+    "thumbnail": "http://i.imgur.com/bgAb8Xd.png",
     "type": "Physical",
     "class": "Attacker",
     "location": "2:10 Heroic",
@@ -67,11 +67,11 @@
     "passiveDesc": "Increased Crit Damage 50% (75%)",
     "ultimate2Name": "Assassinate",
     "ultimate2Desc": "225% (350%) atk"
-  }, 
-  "Bucky Barnes" : {
-    "title" : "James Buchanan Barnes",
-    "aliases" : "Bucky Barnes, Young Bucky, Past Bucky, AU Bucky",
-    "nickname" : [
+  },
+  "bucky barnes": {
+    "title": "James Buchanan Barnes",
+    "aliases": "Bucky Barnes, Young Bucky, Past Bucky, AU Bucky",
+    "nickname": [
       "bucky",
       "barnes",
       "buckybarnes",
@@ -82,9 +82,9 @@
       "sergeantbarnes",
       "sgtbarnes"
     ],
-    "thumbnail" : "http://i.imgur.com/i5cmrwS.png",
-    "type" : "Science",
-    "class" : "Attacker",
+    "thumbnail": "http://i.imgur.com/i5cmrwS.png",
+    "type": "Science",
+    "class": "Attacker",
     "location": "2:15 Heroic",
     "basicName": "Combo",
     "basicDesc": "100% (115%) atk",
@@ -97,10 +97,10 @@
     "ultimate2Name": "Covering Fire",
     "ultimate2Desc": "No Damage\nEvasion Debuff (All Enemy) -10% (-20%)"
   },
-  "Captain America" : {
-    "title" : "Steve Rogers",
-    "aliases" : "Captain America",
-    "nickname" : [
+  "captain america": {
+    "title": "Steve Rogers",
+    "aliases": "Captain America",
+    "nickname": [
       "steverogers",
       "ca",
       "thefirstavengers",
@@ -111,7 +111,7 @@
       "cap",
       "chris evans"
     ],
-    "thumbnail" : "http://i.imgur.com/WF623nM.png",
+    "thumbnail": "http://i.imgur.com/WF623nM.png",
     "type": "Science",
     "class": "Tank",
     "location": "4:5 Heroic",
@@ -126,14 +126,14 @@
     "ultimate2Name": "Disobey Physics",
     "ultimate2Desc": "Hits All Enemies 100% (120%) atk\nChance to Stun 10% (25%)"
   },
-  "Enchantress" : {
-    "title" : "Amora",
-    "aliases" : "Enchantress",
-    "nickname" : [
+  "enchantress": {
+    "title": "Amora",
+    "aliases": "Enchantress",
+    "nickname": [
       "amora",
       "enchantress"
     ],
-    "thumbnail" : "http://i.imgur.com/lHd9lN5.png",
+    "thumbnail": "http://i.imgur.com/lHd9lN5.png",
     "type": "Mystic",
     "class": "Support",
     "location": "3:10 Heroic",
@@ -148,15 +148,15 @@
     "ultimate2Name": "Shot through the Heart",
     "ultimate2Desc": "Hits Back Row 125% (200%) atk\nAtk Debuff  -15% (-30%) "
   },
-  "Falcon" : {
-    "title" : "Sam Wilson",
-    "aliases" : "Falcon, Captain America",
-    "nickname" : [
+  "falcon": {
+    "title": "Sam Wilson",
+    "aliases": "Falcon, Captain America",
+    "nickname": [
       "falcon",
       "samwilson",
       "captainfalcon"
     ],
-    "thumbnail" : "http://i.imgur.com/hipUEVh.png",
+    "thumbnail": "http://i.imgur.com/hipUEVh.png",
     "type": "Tech",
     "class": "Support",
     "location": "3:5 Heroic",
@@ -171,17 +171,17 @@
     "ultimate2Name": "Bolster",
     "ultimate2Desc": "125% (200%) atk\nHeals All Allies 10% (30%) Falcon's HP"
   },
-  "Hawkeye" : {
-    "title" : "Clint Barton",
-    "aliases" : "Hawkeye, Ronin",
-    "nickname" : [
+  "hawkeye": {
+    "title": "Clint Barton",
+    "aliases": "Hawkeye, Ronin",
+    "nickname": [
       "hawkeye",
       "clintbarton",
       "ronin",
       "arrowguy",
       "hawkguy"
     ],
-    "thumbnail" : "http://i.imgur.com/jTAX3yP.png",
+    "thumbnail": "http://i.imgur.com/jTAX3yP.png",
     "type": "Physical",
     "class": "Attacker",
     "location": "6:5 Heroic",
@@ -196,15 +196,16 @@
     "ultimate2Name": "Precise Shot",
     "ultimate2Desc": "250% (400%) atk\nIncreased Accuracy 25% (50%)"
   },
-  "Hulk" : {
-    "title" : "Bruce Banner",
-    "aliases" : "Hulk",
-    "nickname" : [
+  "hulk": {
+    "title": "Bruce Banner",
+    "aliases": "Hulk",
+    "nickname": [
       "bruce",
       "brucebanner",
-      "hulk"
+      "hulk",
+      "strongestavenger"
     ],
-    "thumbnail" : "http://i.imgur.com/zItYwIo.png",
+    "thumbnail": "http://i.imgur.com/zItYwIo.png",
     "type": "Science",
     "class": "Tank",
     "location": "N/A",
@@ -219,19 +220,19 @@
     "ultimate2Name": "Strongest There Is",
     "ultimate2Desc": "No Damage\nChance to Stun All Enemies 15% (35%) (2 turns)\nSelf Heal 15% (35%)"
   },
-  "Iron Man" : {
-    "title" : "Tony Stark",
-    "aliases" : "Iron Man",
-    "nickname" : [
+  "iron man": {
+    "title": "Tony Stark",
+    "aliases": "Iron Man",
+    "nickname": [
       "tony",
       "tonystark",
       "ts",
       "ironman",
       "im"
     ],
-    "thumbnail" : "http://i.imgur.com/evPA1bu.png",
-    "type" : "Tech",
-    "class" : "Tank",
+    "thumbnail": "http://i.imgur.com/evPA1bu.png",
+    "type": "Tech",
+    "class": "Tank",
     "location": "1:5 Heroic",
     "basicName": "Shoot",
     "basicDesc": "100% (115%) atk",
@@ -244,13 +245,13 @@
     "ultimate2Name": "Self Repair",
     "ultimate2Desc": "Hits Front Row 100% atk\n10% (25%) Self Heal"
   },
-  "Jocasta" : {
-    "title" : "Jocasta Vi Quitéria",
-    "aliases" : "Jocasta",
-    "nickname" : [
+  "jocasta": {
+    "title": "Jocasta Vi Quitéria",
+    "aliases": "Jocasta",
+    "nickname": [
       "jocasta"
     ],
-    "thumbnail" : "http://i.imgur.com/fszNfNS.png",
+    "thumbnail": "http://i.imgur.com/fszNfNS.png",
     "type": "Tech",
     "class": "Tank",
     "location": "5:10 Heroic",
@@ -265,17 +266,17 @@
     "ultimate2Name": "Force Field",
     "ultimate2Desc": "Self Heal 10% (15%) of HP"
   },
-  "Loki" : {
-    "title" : "Loki Laufeyson",
-    "aliases" : "God of Mischief",
-    "nickname" : [
+  "loki": {
+    "title": "Loki Laufeyson",
+    "aliases": "God of Mischief",
+    "nickname": [
       "loki",
       "godofmischief",
       "lowkey"
     ],
-    "thumbnail" : "http://i.imgur.com/REnYQBD.png",
-    "type" : "Cosmic",
-    "class" : "Support",
+    "thumbnail": "http://i.imgur.com/REnYQBD.png",
+    "type": "Cosmic",
+    "class": "Support",
     "location": "2:5 Heroic",
     "basicName": "Zap",
     "basicDesc": "100% (115%) atk",
@@ -288,15 +289,15 @@
     "ultimate2Name": "Trickster God",
     "ultimate2Desc": "100% Atk on All Enemy\nChance to Stun 10% (20%)"
   },
-  "Maria Hill" : {
-    "title" : "Maria Hill",
-    "aliases" : "Agent Hill, Director Hill",
-    "nickname" : [
+  "maria hill": {
+    "title": "Maria Hill",
+    "aliases": "Agent Hill, Director Hill",
+    "nickname": [
       "mariahill",
       "agenthill",
       "directorhill"
     ],
-    "thumbnail" : "http://i.imgur.com/GqF4Zsm.png",
+    "thumbnail": "http://i.imgur.com/GqF4Zsm.png",
     "type": "Physical",
     "class": "Support",
     "location": "6:10 Heroic",
@@ -311,10 +312,10 @@
     "ultimate2Name": "Air Strike",
     "ultimate2Desc": "Hits All Enemies 225% (350%) atk"
   },
-  "Mockingbird" : {
-    "title" : "Bobbi Morse",
-    "aliases" : "Mockingbird",
-    "nickname" : [
+  "mockingbird": {
+    "title": "Bobbi Morse",
+    "aliases": "Mockingbird",
+    "nickname": [
       "bobbimorse",
       "barbaramorse",
       "bobbi",
@@ -322,7 +323,7 @@
       "agent19",
       "adriannepalicki"
     ],
-    "thumbnail" : "http://i.imgur.com/BjQbw9T.png",
+    "thumbnail": "http://i.imgur.com/BjQbw9T.png",
     "type": "Physical",
     "class": "Attacker",
     "location": "4:10 Heroic",
@@ -337,16 +338,16 @@
     "ultimate2Name": "Javelin",
     "ultimate2Desc": "Random Enemy 150% (250%)\nChance to Stun 10% (35%)"
   },
-  "Ms Marvel" : {
-    "title" : "Kamala Khan",
-    "aliases" : "Ms. Marvel",
-    "nickname" : [
+  "ms marvel": {
+    "title": "Kamala Khan",
+    "aliases": "Ms. Marvel",
+    "nickname": [
       "kamala",
       "kamalakhan",
       "msmarvel",
       "ms.marvel"
     ],
-    "thumbnail" : "http://i.imgur.com/G6jHqn4.png",
+    "thumbnail": "http://i.imgur.com/G6jHqn4.png",
     "type": "Science",
     "class": "Tank",
     "location": " 6:15 Heroic",
@@ -361,15 +362,15 @@
     "ultimate2Name": "Regeneration",
     "ultimate2Desc": "15% (30%) Self HoT (5 Turns)"
   },
-  "Okoye" : {
-    "title" : "Okoye",
-    "aliases" : "Dora Milaje General",
-    "nickname" : [
+  "okoye": {
+    "title": "Okoye",
+    "aliases": "Dora Milaje General",
+    "nickname": [
       "okoye",
       "doramilaje",
       "doramilajegeneral"
     ],
-    "thumbnail" : "https://i.imgur.com/AXOsbm1.png",
+    "thumbnail": "https://i.imgur.com/AXOsbm1.png",
     "type": "Tech",
     "class": "Support",
     "location": "N/A",
@@ -384,10 +385,10 @@
     "ultimate2Name": "General's Call",
     "ultimate2Desc": "Atk Buff to All Allies 100% (125%) (3 turns)\nEvasion Buff to All Allies 5% (10%) (3 turns)"
   },
-  "Phil Coulson" : {
-    "title" : "Phil Coulson",
-    "aliases" : "Agent, Agent Coulson, Director Coulson, Son of Coul",
-    "nickname" : [
+  "phil coulson": {
+    "title": "Phil Coulson",
+    "aliases": "Agent, Agent Coulson, Director Coulson, Son of Coul",
+    "nickname": [
       "philcoulson",
       "phil",
       "agentcoulson",
@@ -396,7 +397,7 @@
       "coulson",
       "agent"
     ],
-    "thumbnail" : "http://i.imgur.com/C8Njlj7.png",
+    "thumbnail": "http://i.imgur.com/C8Njlj7.png",
     "type": "Physical",
     "class": "Support",
     "location": "5:5 Heroic",
@@ -411,10 +412,10 @@
     "ultimate2Name": "Timely Rescue",
     "ultimate2Desc": "No Damage\nChance to Dispel (All Allies) 50% (70%)\nIncreased Evasion (All Allies) 5% (15%)"
   },
-  "Quake" : {
-    "title" : "Daisy Johnson",
-    "aliases" : "Quake, Agent Johnson, Skye",
-    "nickname" : [
+  "quake": {
+    "title": "Daisy Johnson",
+    "aliases": "Quake, Agent Johnson, Skye",
+    "nickname": [
       "quake",
       "agentjohnson",
       "destroyerofworlds",
@@ -424,7 +425,7 @@
       "chloebennet",
       "shitwaifu"
     ],
-    "thumbnail" : "http://i.imgur.com/r7SpTNP.png",
+    "thumbnail": "http://i.imgur.com/r7SpTNP.png",
     "type": "Science",
     "class": "Attacker",
     "location": "7:5 Heroic",
@@ -439,10 +440,10 @@
     "ultimate2Name": "Richter Wrecker",
     "ultimate2Desc": "Hits All Enemies 125% (200%) atk\nChance to Stun 10% (20%)"
   },
-  "Red Hulk" : {
-    "title" : "Thaddeus Ross",
-    "aliases" : "General Thunderbolt Ross, Red Hulk",
-    "nickname" : [
+  "red hulk": {
+    "title": "Thaddeus Ross",
+    "aliases": "General Thunderbolt Ross, Red Hulk",
+    "nickname": [
       "generalthunderboltross",
       "generalross",
       "genross",
@@ -451,7 +452,7 @@
       "redhulk",
       "thaddeusross"
     ],
-    "thumbnail" : "http://i.imgur.com/fhpLwP4.png",
+    "thumbnail": "http://i.imgur.com/fhpLwP4.png",
     "type": "Science",
     "class": "Attacker",
     "location": "N/A",
@@ -466,15 +467,15 @@
     "ultimate2Name": "Ultimate Form",
     "ultimate2Desc": "Attack 3 Random Enemies 150% (200%)\nIncreased atk 15% (35%) (2 turns)"
   },
-  "Rick Jones" : {
-    "title" : "Rick Jones (Ultimate)",
-    "aliases" : "Ultimate Rick Jones, Ultimate Captain Marvel",
-    "nickname" : [
+  "rick jones": {
+    "title": "Rick Jones (Ultimate)",
+    "aliases": "Ultimate Rick Jones, Ultimate Captain Marvel",
+    "nickname": [
       "rickjones",
       "ultimaterickjones",
       "ultimatecaptainmarvel"
     ],
-    "thumbnail" : "https://i.imgur.com/I434WfI.png",
+    "thumbnail": "https://i.imgur.com/I434WfI.png",
     "type": "Cosmic",
     "class": "Tank",
     "location": "N/A",
@@ -489,15 +490,15 @@
     "ultimate2Name": "Nuclear Power",
     "ultimate2Desc": "Increased Evasion 30% (60%) (2 turns)"
   },
-  "Shuri" : {
-    "title" : "Shuri",
-    "aliases" : "Black Panther",
-    "nickname" : [
+  "shuri": {
+    "title": "Shuri",
+    "aliases": "Black Panther",
+    "nickname": [
       "shuri",
       "memequeen",
       "disneyprincess"
     ],
-    "thumbnail" : "https://i.imgur.com/YUQl89G.png",
+    "thumbnail": "https://i.imgur.com/YUQl89G.png",
     "type": "Tech",
     "class": "Attacker",
     "location": "N/A",
@@ -512,13 +513,13 @@
     "ultimate2Name": "Techno-Magic",
     "ultimate2Desc": "125 (200%) atk\n50% (100%) atk DoT (4 turns)"
   },
-  "Skaar" : {
-    "title" : "Skaar",
-    "aliases" : "Skaar",
-    "nickname" : [
+  "skaar": {
+    "title": "Skaar",
+    "aliases": "Skaar",
+    "nickname": [
       "skaar"
     ],
-    "thumbnail" : "https://i.imgur.com/CrUKSt6.png",
+    "thumbnail": "https://i.imgur.com/CrUKSt6.png",
     "type": "Science",
     "class": "Attacker",
     "location": "N/A",
@@ -533,17 +534,17 @@
     "ultimate2Name": "This! Is! Sakaar!",
     "ultimate2Desc": "Targets Single Enemy 150% (300%) Atk\nSelf HoT 10% (20%)"
   },
-  "Spider-Woman" : {
-    "title" : "Jessica Drew",
-    "aliases" : "Spider-Woman",
-    "nickname" : [
+  "spider-woman": {
+    "title": "Jessica Drew",
+    "aliases": "Spider-Woman",
+    "nickname": [
       "spider-woman",
       "spiderwoman",
       "jessicadrew",
       "jessdrew",
       "sw"
     ],
-    "thumbnail" : "http://i.imgur.com/ka2g3uF.png",
+    "thumbnail": "http://i.imgur.com/ka2g3uF.png",
     "type": "Science",
     "class": "Attacker",
     "location": "3:15 Heroic",
@@ -558,10 +559,10 @@
     "ultimate2Name": "Bioelectric Blast",
     "ultimate2Desc": "100% (135%) Atk on Single Target\nDoT 35 (450) (6 turns)"
   },
-  "Thor" : {
-    "title" : "Thor Odinson",
-    "aliases" : "God of Thunder",
-    "nickname" : [
+  "thor": {
+    "title": "Thor Odinson",
+    "aliases": "God of Thunder",
+    "nickname": [
       "thor",
       "pointbreak",
       "godofthunder",
@@ -570,7 +571,7 @@
       "lordofthunder",
       "sparkles"
     ],
-    "thumbnail" : "http://i.imgur.com/tqgKEg5.png",
+    "thumbnail": "http://i.imgur.com/tqgKEg5.png",
     "type": "Cosmic",
     "class": "Tank",
     "location": "GTC",
@@ -585,14 +586,14 @@
     "ultimate2Name": "Hammer of the Gods",
     "ultimate2Desc": "Hits All Enemies 100% (130%) atk\nChance to Stun 25% (50%)"
   },
-  "Tigra" : {
-    "title" : "Greer Grant",
-    "aliases" : "Tigra",
-    "nickname" : [
+  "tigra": {
+    "title": "Greer Grant",
+    "aliases": "Tigra",
+    "nickname": [
       "greergrant",
       "tigra"
     ],
-    "thumbnail" : "http://i.imgur.com/nd1ODMg.png",
+    "thumbnail": "http://i.imgur.com/nd1ODMg.png",
     "type": "Mystic",
     "class": "Attacker",
     "location": "4:15 Heroic",
@@ -607,15 +608,15 @@
     "ultimate2Name": "Huntress",
     "ultimate2Desc": "No Damage\n5% (15%) Evasion debuff on All (2 turns)\n5% (10%) Self HoT"
   },
-  "Valkyrie" : {
-    "title" : "Brunnhilde",
-    "aliases" : "Valkyrie",
-    "nickname" : [
+  "valkyrie": {
+    "title": "Brunnhilde",
+    "aliases": "Valkyrie",
+    "nickname": [
       "valk",
       "valkyrie",
       "brunnhilde"
     ],
-    "thumbnail" : "https://i.imgur.com/KeRfW2i.png",
+    "thumbnail": "https://i.imgur.com/KeRfW2i.png",
     "type": "Cosmic",
     "class": "Attacker",
     "location": "GTC",
@@ -630,14 +631,14 @@
     "ultimate2Name": "Big Freakin' Gun",
     "ultimate2Desc": "Targets Single Enemy 150% (300%) atk\nHeal All Allies 10% (20%)"
   },
-  "Vision" : {
-    "title" : "Vision",
-    "aliases" : "Vision",
-    "nickname" : [
+  "vision": {
+    "title": "Vision",
+    "aliases": "Vision",
+    "nickname": [
       "vision",
       "vis"
     ],
-    "thumbnail" : "https://i.imgur.com/8W0ixmW.png",
+    "thumbnail": "https://i.imgur.com/8W0ixmW.png",
     "type": "Tech",
     "class": "Support",
     "location": "Event\nSector 3",
@@ -652,17 +653,17 @@
     "ultimate2Name": "Nanites",
     "ultimate2Desc": "No Damage\nHoT (All Allies) 10% (25%)\nIncreased Evasion 15% (50%)"
   },
-  "Voyager" : {
-    "title" : "Valerie Vector",
-    "aliases" : "Voyager",
-    "nickname" : [
+  "voyager": {
+    "title": "Valerie Vector",
+    "aliases": "Voyager",
+    "nickname": [
       "voyager",
       "valerievector",
       "destroyerofbookclub",
       "grandmaster'sdaughter",
       "grandmaster’sdaughter"
     ],
-    "thumbnail" : "https://i.imgur.com/HCgDDem.png",
+    "thumbnail": "https://i.imgur.com/HCgDDem.png",
     "type": "Cosmic",
     "class": "Support",
     "location": "GTC",
@@ -677,16 +678,16 @@
     "ultimate2Name": "Quantum Field",
     "ultimate2Desc": "Hits All Enemies 100% (120%) atk\nChance to Stun 15% (30%)"
   },
-  "War Machine" : {
-    "title" : "James Rhodes",
-    "aliases" : "War Machine",
-    "nickname" : [
+  "war machine": {
+    "title": "James Rhodes",
+    "aliases": "War Machine",
+    "nickname": [
       "jamesrhodes",
       "warmachine",
       "wm",
       "rhodey"
     ],
-    "thumbnail" : "http://i.imgur.com/7HzYoBq.png",
+    "thumbnail": "http://i.imgur.com/7HzYoBq.png",
     "type": "Tech",
     "class": "Attacker",
     "location": "5:15 Heroic",
@@ -701,18 +702,18 @@
     "ultimate2Name": "Heat Seakers",
     "ultimate2Desc": "Two Random Targets 125% (200%) atk"
   },
-  "Wasp" : {
-    "title" : "Janet Van Dyne",
-    "aliases" : "Wasp",
-    "nickname" : [
+  "wasp": {
+    "title": "Janet Van Dyne",
+    "aliases": "Wasp",
+    "nickname": [
       "wasp",
       "janet",
       "janetvandyne",
       "vandyne"
     ],
-    "thumbnail" : "http://i.imgur.com/QNSNgsu.png",
-    "type" : "Science",
-    "class" : "Attacker",
+    "thumbnail": "http://i.imgur.com/QNSNgsu.png",
+    "type": "Science",
+    "class": "Attacker",
     "location": "1:10 Heroic",
     "basicName": "Punch",
     "basicDesc": "100% (150%) atk",
@@ -725,16 +726,16 @@
     "ultimate2Name": "Buzz",
     "ultimate2Desc": "No Damage\nSelf Atk Buff 5% (15%)\nSelf Evasion Buff 5% (15%)"
   },
-  "Wiccan" : {
-    "title" : "William Kaplan",
-    "aliases" : "Wiccan",
-    "nickname" : [
+  "wiccan": {
+    "title": "William Kaplan",
+    "aliases": "Wiccan",
+    "nickname": [
       "wiccan",
       "billykaplan",
       "williamkaplan",
       "demiurge"
     ],
-    "thumbnail" : "http://i.imgur.com/Xx3I2G7.png",
+    "thumbnail": "http://i.imgur.com/Xx3I2G7.png",
     "type": "Mystic",
     "class": "Attacker",
     "location": "7:10 Heroic",
@@ -749,10 +750,10 @@
     "ultimate2Name": "Lightning Bolt",
     "ultimate2Desc": "Hits Two Random Targets 150% (225%)"
   },
-  "Winter Soldier" : {
-    "title" : "James Buchanan Barnes",
-    "aliases" : "Bucky, Winter Soldier",
-    "nickname" : [
+  "winter soldier": {
+    "title": "James Buchanan Barnes",
+    "aliases": "Bucky, Winter Soldier",
+    "nickname": [
       "wintersoldier",
       "ws",
       "buckybear",
@@ -760,7 +761,7 @@
       "emobucky",
       "buck"
     ],
-    "thumbnail" : "http://i.imgur.com/THXTtJU.png",
+    "thumbnail": "http://i.imgur.com/THXTtJU.png",
     "type": "Tech",
     "class": "Attacker",
     "location": "7:15 Heroic",
@@ -775,10 +776,10 @@
     "ultimate2Name": "Cold War",
     "ultimate2Desc": "Hits Back Row 115% (150%) atk"
   },
-  "Jessica Jones" : {
-    "title" : "Jessica Jones",
-    "aliases" : "Jewel",
-    "nickname" : [
+  "jessica jones": {
+    "title": "Jessica Jones",
+    "aliases": "Jewel",
+    "nickname": [
       "jessicajones",
       "jj",
       "jones",
@@ -786,7 +787,7 @@
       "j jones",
       "jessjones"
     ],
-    "thumbnail" : "https://i.imgur.com/lfBIAbN.png",
+    "thumbnail": "https://i.imgur.com/lfBIAbN.png",
     "type": "Physical",
     "class": "Attacker",
     "location": "Event",
@@ -801,17 +802,17 @@
     "ultimate2Name": "You're a Winner!",
     "ultimate2Desc": "AoE damage to enemies\n15% self attack buff"
   },
-  "Luke Cage" : {
-    "title" : "Luke Cage",
-    "aliases" : "Power Man",
-    "nickname" : [
+  "luke cage": {
+    "title": "Luke Cage",
+    "aliases": "Power Man",
+    "nickname": [
       "lukecage",
       "luke",
       "powerman",
       "lc",
       "sweetchristmas"
     ],
-    "thumbnail" : "https://i.imgur.com/xAYTkYO.png",
+    "thumbnail": "https://i.imgur.com/xAYTkYO.png",
     "type": "Physical",
     "class": "Attacker",
     "location": "Event",
@@ -826,10 +827,10 @@
     "ultimate2Name": "Uncaged",
     "ultimate2Desc": "AoE damage to enemies\n15% HoT 3 turns"
   },
-  "Hellcat" : {
-    "title" : "Patricia Walker",
-    "aliases" : "Hellcat",
-    "nickname" : [
+  "hellcat": {
+    "title": "Patricia Walker",
+    "aliases": "Hellcat",
+    "nickname": [
       "hellcat",
       "hc",
       "patriciawalker",
@@ -838,7 +839,7 @@
       "trish",
       "trishwalker"
     ],
-    "thumbnail" : "https://i.imgur.com/ixgjaWq.png",
+    "thumbnail": "https://i.imgur.com/ixgjaWq.png",
     "type": "Mystic",
     "class": "Attacker",
     "location": "Event",
@@ -853,10 +854,10 @@
     "ultimate2Name": "Unleash Hell",
     "ultimate2Desc": "AoE damage to enemies\n5% self evasion buff 3 turns"
   },
-  "Hood" : {
-    "title" : "Parker Robbins",
-    "aliases" : "The Hood",
-    "nickname" : [
+  "hood": {
+    "title": "Parker Robbins",
+    "aliases": "The Hood",
+    "nickname": [
       "parkerrobbins",
       "thehood",
       "hood",
@@ -864,7 +865,7 @@
       "teethyboy",
       "dahood"
     ],
-    "thumbnail" : "https://i.imgur.com/1KwhKVW.png",
+    "thumbnail": "https://i.imgur.com/1KwhKVW.png",
     "type": "Mystic",
     "class": "Attacker",
     "location": "Event",
@@ -878,5 +879,26 @@
     "passiveDesc": "10% self evasion buff",
     "ultimate2Name": "Dark Reign",
     "ultimate2Desc": "AoE damage to enemies\n5% enemy evasion debuff 2 for turns"
+  },
+  "blooper": {
+    "title": "",
+    "aliases": "",
+    "nickname": [
+      "blooper"
+    ],
+    "thumbnail": "https://i.imgur.com/sLUUa52.png",
+    "type": "",
+    "class": "",
+    "location": "",
+    "basicName": "",
+    "basicDesc": "",
+    "specialName": "",
+    "specialDesc": "",
+    "ultimate1Name": "",
+    "ultimate1Desc": "",
+    "passiveName": "",
+    "passiveDesc": "",
+    "ultimate2Name": "",
+    "ultimate2Desc": ""
   }
 }
