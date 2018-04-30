@@ -39,7 +39,7 @@ module.exports.run = async (bot, message, args) => {
     let charSearch = args[0].toLowerCase()
     if(charSearch === '') return;
 
-    let character = getCharacter(charSearch)
+    let character = getCharacter(charSearch.split(' ').join('').toLowerCase())
     message.channel.send(`Use --${character} to retrieve ${args[0]}`)
   }
 }
@@ -89,12 +89,14 @@ function editCharacter(message, args){
       let nicknameCheck = gf.getCharacter(nick)
       if(nicknameCheck !== undefined) return message.channel.send(`${nicknameCheck.title} already has the nickname ${description}`)
       characterList[character].nickname.push(nick)
+      message.channel.send(`You can now retrieve ${character} with ${nick}`)
     }
     else if(characterField === 'removenickname'){
       const nick = description.split(' ').join('').toLowerCase()
       const nickIndex = characterList[character].nickname.indexOf(nick)
       if(nickIndex === -1) return message.channel.send(`${character} does not have a nickname of '${description}'`)
       characterList[character].nickname.splice(nickIndex, 1)
+      message.channel.send(`You can no longer retrieve ${character} with ${nick}`)
     }
     else{
       characterList[character][characterField] = description

@@ -41,95 +41,39 @@
       ]
     }
   },
-  "hellcat" : {
-    "category" : "Hellcat",
+    "infinity": {
+    "category" : "Infinity",
     "time" : "",
-    "color" : "0x9e28c4",
-    "image" : "https://i.imgur.com/nMU9WMG.png",
+    "color" : "0xFFD700",
+    "image" : "https://i.imgur.com/Zx0a8rN.png",
     "heroes" : [],
     "prizes" : {
-      "1" : [
-        "5 Shards"
-      ],
-      "2" : [
-        "1 Comic Page, 1 Tier 1 Mystic Energy Core"
-      ],
-      "3" : [
-        "10 Hydra Intel, 5 Hellcat Shards"
-      ],
-      "4" : [
-        "2 Time Remotes"
-      ],
-      "5" : [
-        "2 Basic Energy Core, 1 Mystic Fragment"
-      ],
-      "10" : [
-        "100 Coins"
-      ],
-      "12" : [
-        "5 Hydra Intel"
-      ],
-      "15" : [
-        "3 Hellcat Shards"
-      ],
-      "27" : [
-        "1 Hellcat Shard"
-      ]
+      ".5" : ["10 Gold Capsules"],
+      "1" : ["750 Infinity Shards"],
+      "1.75" : ["80 Scarlet Witch Shards"],
+      "1.9" : ["1 Tier Three Attribute Energy Core"],
+      "3" : ["700 Academy XP"],
+      "4" : ["20 Teen Groot Shards, 3 Gold Capsules"],
+      "7" : ["10 Teen Groot Shards, 8000 Coins"],
+      "10" : ["8 Graphic Novels, 1 Gold Capsule"],
+      "12" : ["20 Dr Strange Shards"],
+      "30.25" : ["10 Dr Strange Hero Shards"]
     }
   },
-  "jessicajones": {
-    "category" : "Jessica Jones",
+  "strange": {
+    "category" : "Doctor Strange",
     "time" : "",
-    "color" : "0xff0000",
-    "image" : "https://i.imgur.com/xJO3Tcs.png",
+    "color" : "0xFF0000",
+    "image" : "https://i.imgur.com/3wlaIeQ.png",
     "heroes" : [],
     "prizes" : {
-      "1": ["10 Shards"],
-      "2": ["1 Comic Book, 1 Tier 1 Physical Energy Core"],
-      "3": ["10 Hydra Intel, 5 Jessica Jones Shards"],
-      "4": ["3 Time Remotes"],
-      "5": ["3 Basic Energy Core, 1 Punching Bag"],
-      "10": ["150 Coins"],
-      "11": ["2 Comic Page"],
-      "12": ["5 Hydra Intel"],
-      "15": ["3 Jessica Jones Shards"],
-      "27": ["1 Jessica Jones Shards"]
-    }
-  },
-  "lukecage": {
-    "category" : "Luke Cage",
-    "time" : "",
-    "color" : "0xff0000",
-    "image" : "https://i.imgur.com/yxu80hL.png",
-    "heroes" : [],
-    "prizes" : {
-      "1": ["15 Shards"],
-      "2": ["1 Graphic Novel, 1 Tier 1 Physical Energy Core"],
-      "3": ["10 Hydra Intel, 5 Luke Cage Shards"],
-      "4": ["5 Time Remotes"],
-      "5": ["5 Basic Energy Core, 1 Punching Bag"],
-      "10": ["200 Coins"],
-      "11": ["1 Comic Book"],
-      "12": ["5 Hydra Intel"],
-      "15": ["3 Luke Cage Shards"],
-      "27": ["1 Luke Cage Shards"]
-    }
-  },
-  "hood": {
-    "category" : "Hood",
-    "time" : "",
-    "color" : "0x9e28c4",
-    "image" : "https://i.imgur.com/KD4CppJ.png",
-    "heroes" : [],
-    "prizes" : {
-      ".3": ["70 The Hood Shards"],
-      ".65": ["6 The Hood Shards"],
-      ".8" : ["**6 Hero Shards for:**\n\tBlack Widow, Bucky Barnes, Captain America, Enchantress, Falcon, Hawkeye, Hulk, Jocasta, Maria Hill, Mockingbird, Ms. Marvel, Phil Coulson, Quake, Red Hulk, Spider-Woman, Thor, Tigra, Valkyrie, Vision, Voyager, War Machine, Wiccan, Winter Soildier"],
-      "1.13": ["3 The Hood Shards"],
-      "1.60" : ["**3 Hero Shards for:**\n\tBlack Widow, Bucky Barnes, Captain America, Enchantress, Falcon, Hawkeye, Hulk, Jocasta, Maria Hill, Mockingbird, Ms. Marvel, Phil Coulson, Quake, Red Hulk, Spider-Woman, Thor, Tigra, Valkyrie, Vision, Voyager, War Machine, Wiccan, Winter Soldier"],
-      "3.48" : ["**6 Hero Shards for:**\n\tHellcat, Jessica Jones, Luke Cage"],
-      "5" : ["10 S.H.I.E.L.D. License, 10 Mixtapes"],
-      "11.15" : ["5 S.H.I.E.L.D. License, 5 Mixtapes"]
+      "1" : ["1 Tier 2 Mystic Energy Cores"],
+      "3" : ["15 Infinity Shards, 8 Tier 1 Mystic Energy Cores, 8 Generic Energy Cores, 50 Academy XP"],
+      "4" : ["1 Teen Groot Hero Shards, 5 Gauntlet Prototypes, 1 Graphic Novel"],
+      "8" : ["5 Dr. Strange Hero Shards"],
+      "9" : ["8 Comic Pages"],
+      "26" : ["3 Dr. Strange Shards"],
+      "32" : ["1 Dr Strange Shard"]
     }
   }
 }

@@ -51,7 +51,8 @@
       "blackwidow",
       "natasha",
       "natasharomanoff",
-      "nataliaalianovnaromanova"
+      "nataliaalianovnaromanova",
+      "widow"
     ],
     "thumbnail": "http://i.imgur.com/bgAb8Xd.png",
     "type": "Physical",
@@ -109,7 +110,8 @@
       "capwolf",
       "nomad",
       "cap",
-      "chris evans"
+      "chris evans",
+      "steve"
     ],
     "thumbnail": "http://i.imgur.com/WF623nM.png",
     "type": "Science",
@@ -124,7 +126,7 @@
     "passiveName": "Super Serum",
     "passiveDesc": "Increased Atk 5% (10%)\nIncreased HP 5% (15%)",
     "ultimate2Name": "Disobey Physics",
-    "ultimate2Desc": "Hits All Enemies 100% (120%) atk\nChance to Stun 10% (25%)"
+    "ultimate2Desc": "100% (120%) Atk to Back Row\n10% (25%) Chance to Stun"
   },
   "enchantress": {
     "title": "Amora",
@@ -295,7 +297,8 @@
     "nickname": [
       "mariahill",
       "agenthill",
-      "directorhill"
+      "directorhill",
+      "bananahill"
     ],
     "thumbnail": "http://i.imgur.com/GqF4Zsm.png",
     "type": "Physical",
@@ -542,7 +545,7 @@
       "spiderwoman",
       "jessicadrew",
       "jessdrew",
-      "sw"
+      "drew"
     ],
     "thumbnail": "http://i.imgur.com/ka2g3uF.png",
     "type": "Science",
@@ -733,7 +736,8 @@
       "wiccan",
       "billykaplan",
       "williamkaplan",
-      "demiurge"
+      "demiurge",
+      "billy"
     ],
     "thumbnail": "http://i.imgur.com/Xx3I2G7.png",
     "type": "Mystic",
@@ -896,6 +900,94 @@
     "specialDesc": "",
     "ultimate1Name": "",
     "ultimate1Desc": "",
+    "passiveName": "",
+    "passiveDesc": "",
+    "ultimate2Name": "",
+    "ultimate2Desc": ""
+  },
+  "scarlet witch": {
+    "title": "Wanda Maximoff",
+    "aliases": "",
+    "nickname": [
+      "scarletwitch",
+      "wanda"
+    ],
+    "thumbnail": "https://i.imgur.com/9IvVlmf.png",
+    "type": "Mystic",
+    "class": "Attacker",
+    "location": "",
+    "basicName": "Hex Bolts",
+    "basicDesc": "100% (115%) Atk",
+    "specialName": "Magic Ward",
+    "specialDesc": "150% (200%) Atk to Single Target\n10% (35%) Self Atk Buff for Two Turns",
+    "ultimate1Name": "Invoke Witchcraft",
+    "ultimate1Desc": "150% (275%) Atk to Single Target\n120 (150) DoT for Three Turns",
+    "passiveName": "Focused Intent",
+    "passiveDesc": "25% (85%) Increased Crit Damage",
+    "ultimate2Name": "Chaos Magic",
+    "ultimate2Desc": "175% (275%) Atk to Single Target\n10% (460%) Increased Crit Chance for Two Turns"
+  },
+  "teen groot": {
+    "title": "Teen Groot",
+    "aliases": "",
+    "nickname": [
+      "teengroot",
+      "groot"
+    ],
+    "thumbnail": "https://tinyurl.com/yb2kf8jo",
+    "type": "Cosmic",
+    "class": "Tank",
+    "location": "",
+    "basicName": "Branch Out",
+    "basicDesc": "100% (115%) Atk",
+    "specialName": "Have A Ball",
+    "specialDesc": "100% (115%) Atk to Single Target\n5% (20%) Self Evasion Buff for One Turn",
+    "ultimate1Name": "Grow Strong",
+    "ultimate1Desc": "115% (140%) Atk to Single Target\n15% (25%) Self HoT for Two Turns",
+    "passiveName": "Forest Shield",
+    "passiveDesc": "5% (10%) Increased HP for Front Row Allies",
+    "ultimate2Name": "Teen Rage",
+    "ultimate2Desc": "125% (155%) Atk to Single Target\n10% (?%) Reduced Atk for All Enemies for One Turn"
+  },
+  "doctor strange": {
+    "title": "Stephen Strange",
+    "aliases": "The Sorcerer Supreme",
+    "nickname": [
+      "doctorstrange",
+      "strange",
+      "drstrange"
+    ],
+    "thumbnail": "https://tinyurl.com/y9ubd7uv",
+    "type": "Mystic",
+    "class": "Attacker",
+    "location": "",
+    "basicName": "Multi-Plane Punch",
+    "basicDesc": "100% (115%) Atk",
+    "specialName": "Sigil Magic",
+    "specialDesc": "115% (140%) Atk to Second Row\n10% (20%) Self Crit Chance Buff for Two Turns",
+    "ultimate1Name": "Magic Whip",
+    "ultimate1Desc": "100% (150%) Atk to Back Row\n25% (100%) Self Crit Damage Buff for Three Turns",
+    "passiveName": "Mystic Mastery",
+    "passiveDesc": "10% (19%) Atk Increase",
+    "ultimate2Name": "Supreme Sorcery",
+    "ultimate2Desc": "150% (200%) Atk to Second Row\n50% (90%) Chance to Dispel Buffs to Back Row Enemies"
+  },
+  "thanos": {
+    "title": "Thanos",
+    "aliases": "",
+    "nickname": [
+      "thanos"
+    ],
+    "thumbnail": "https://tinyurl.com/y77sznb5",
+    "type": "Cosmic",
+    "class": "Boss",
+    "location": "",
+    "basicName": "",
+    "basicDesc": "",
+    "specialName": "Special Attack",
+    "specialDesc": "150% Atk + Self Evasion Buff",
+    "ultimate1Name": "Ultimate Attack",
+    "ultimate1Desc": "Single Row 200% Atk + Chance to Stun(?%)",
     "passiveName": "",
     "passiveDesc": "",
     "ultimate2Name": "",
