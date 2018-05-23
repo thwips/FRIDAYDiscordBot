@@ -64,7 +64,15 @@ module.exports.embedCharacter = (character) => {
   if(character.specialName !== undefined && character.specialName !== '' && character.specialDesc !== '') embed.addField(`${character.specialName}`, `${character.specialDesc}\n`)
   if(character.ultimate1Name !== undefined && character.ultimate1Name !== '' && character.ultimate1Desc !== '') embed.addField(`${character.ultimate1Name}`, `${character.ultimate1Desc}\n`)
   if(character.passiveName !== undefined && character.passiveName !== '' && character.passiveDesc !== '') embed.addField(`${character.passiveName}`, `${character.passiveDesc}\n`)
-  if(character.ultimate2Name !== undefined && character.ultimate2Name !== '' && character.ultimate2Desc !== '') embed.addField(`${character.ultimate2Name}`, `${character.ultimate2Desc}\n`)
+  if(character.ultimate2Name !== undefined && character.ultimate2Name !== '' && character.ultimate2Desc !== '') embed.addField(`${character.ultimate2Name}`, `${character.ultimate2Desc}\n`) 
+  if(character.skins !== undefined){
+    let text = ""
+    const skins = Object.keys(character.skins)
+    skins.forEach(skin => {
+        text += `${skin} - ${character.skins[skin]}\n`
+    })
+    embed.addField(`Skin Buffs`, text)
+  }
   return(embed)
 }
 
