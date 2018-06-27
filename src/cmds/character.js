@@ -14,7 +14,7 @@ module.exports.run = async (bot, message, args) => {
     return message.channel.send({embed})
   }
   else {
-    return message.channel.send(`${args.join(' ')} is not a valid character`)
+    return message.channel.send(`${args.join(' ')} is not a valid fighter name`)
   }
 }
 
