@@ -75,7 +75,8 @@ module.exports.help = {
     "s"
   ],
   ignore : [
-    "416432474193657867" //arena-of-war
+    "416432474193657867", //arena-of-war
+    "429222755745923073"
   ]
 }
   

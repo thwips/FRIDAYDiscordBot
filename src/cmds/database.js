@@ -5,11 +5,10 @@ let   characterList = require('../data/characters.json'),
       gachaList = require('../data/gacha.json'),
       config = require('../config/config.json')
 
-const characterFields = ["title", "aliases", "skin", "thumbnail", "type", "class", "location", "basicName", 
+const characterFields = ["title", "aliases", "nickname", "thumbnail", "type", "class", "location", "basicName", 
                          "basicDesc", "specialName", "specialDesc", "ultimate1Name", "ultimate1Desc", "passiveName",
                          "passiveDesc", "ultimate2Name", "ultimate2Desc"]
 
-const gachaFields = ["time","color","image"]
 
 module.exports.run = async (bot, message, args) => {
   if(!gf.isAllowed(message, module.exports.help.ignore)) return;
@@ -24,13 +23,16 @@ module.exports.run = async (bot, message, args) => {
     message.channel.send('Help Text')
   }
   else if(command === 'edit'){
+    if(args.length !== 4);
     return Edit(message, args)
   }
   else if(command === 'add'){
+    if(args.length !== 2) return message.channel.send('You have inputted too many arguments');
     return Add(message, args)
 
   }
   else if(command === 'remove'){
+    if(args.length !== 2) return;
     return Remove(message, args)
   }
   else if(command === 'get'){
@@ -80,8 +82,9 @@ function editCharacter(message, args){
     else if(characterField !== 'addnickname' && characterField !== 'removenickname' && characterField !== 'addskin' && characterField !== 'removeskin') {
       return message.channel.send('Not a valid character field')
     }
+    const description = args.shift()
+
     if(characterField === 'addnickname'){
-      const description = args.shift()
       const nick = description.split(' ').join('').toLowerCase()
       let nicknameCheck = gf.getCharacter(nick)
       if(nicknameCheck !== undefined) return message.channel.send(`${nicknameCheck.title} already has the nickname ${description}`)
@@ -89,7 +92,6 @@ function editCharacter(message, args){
       message.channel.send(`You can now retrieve ${character} with ${nick}`)
     }
     else if(characterField === 'removenickname'){
-      const description = args.shift()
       const nick = description.split(' ').join('').toLowerCase()
       const nickIndex = characterList[character].nickname.indexOf(nick)
       if(nickIndex === -1) return message.channel.send(`${character} does not have a nickname of '${description}'`)
@@ -97,20 +99,19 @@ function editCharacter(message, args){
       message.channel.send(`You can no longer retrieve ${character} with ${nick}`)
     }
     else if(characterField === 'addskin'){
-      const skinName = args.shift()
+      const skinName = description
       if(characterList[character].skins !== undefined && characterList[character].skins[skinName] !== undefined) return message.channel.send(`${character} already has the skin "${skinName}"`)
-      skinText = args.shift()
+      const skinText = args.shift()
       characterList[character].skins[skinName] = skinText
       message.channel.send(`${character} now has a skin "${skinName}"`)
     }
     else if(characterField === 'removeskin'){
-      const skinName = args.shift()
+      const skinName = description
       if(characterList[character].skins[skinName] === undefined) return message.channel.send(`${character} doesn't have the skin "${skinName}"`)
       delete characterList[character].skins[skinName]
       message.channel.send(`${character} no longer has the skin ${skinName}`)
     }
     else{
-      const description = args.shift()
       characterList[character][characterField] = description
     }
 
@@ -120,37 +121,7 @@ function editCharacter(message, args){
 }
 
 function editGacha(message, args){
-  const capsule = args.shift().toLowerCase()
-  if(gachaList[capsule] === undefined) return message.channel.send(`${capsule} capsule not in the database`)
-  let gachaField = args.shift().toLowerCase()
-  const gachaFieldIndex = gachaFields.findIndex(field => gachaField.toLowerCase() === field.toLowerCase())
-  if(gachaFieldIndex >  -1){
-    gachaField = gachaFields[charFieldIndex]
-  }
-  else if(gachaField !== 'addprize' && gachaField !== 'removeprize' && gachaField !== 'editprize' && gachaField !== 'editheroes') {
-    return message.channel.send('Not a valid gacha field')
-  }
-  if(characterField === 'addprize'){
-    const droprate = parseFloat(args.shift())
-    if(gachaList[capsule].prize[droprate] !== undefined) return message.channel.send(`${capsule} already has the drop rate ${droprate}%`)
-    const drops = {droprate : args.join(' ')}
-    gachaList[capsule].prizes.push(drops)
-    message.channel.send(`${capsule} now has:\n\`${drops}\`\nwith a drop rate of ${droprate}%`)
-  }
-  else if(characterField === 'removeprize'){
-    const droprate = args.shift()
-    const nickIndex = characterList[character].nickname.indexOf(nick)
-    if(nickIndex === -1) return message.channel.send(`${character} does not have a nickname of '${description}'`)
-    characterList[character].nickname.splice(nickIndex, 1)
-    message.channel.send(`You can no longer retrieve ${character} with ${nick}`)
-  }
-  else{
-    characterList[character][characterField] = description
-  }
-
-  gf.writeToFile(characterList, `./data/characters.json`)
-  const embed = gf.embedCharacter(characterList[character])
-  return message.channel.send({embed})  
+    return;  
 }
 
 function Add(message, args){
@@ -169,12 +140,7 @@ function addCharacter(message, args){
 }
 
 function addGacha(message, args){
-  const type = args.shift().toLowerCase()
-  if(gachaList[type] !== undefined) return message.channel.send(`${type} already exists in Gacha List`)
-  gachaList[type] = createGacha(type)
-  gf.writeToFile(gachaList, `./data/gacha.json`)
-  const embed = gf.embedGacha(gachaList[type])
-  return message.channel.send({embed})  
+  return;
 }
 
 function Remove(message, args){
@@ -193,11 +159,7 @@ function removeCharacter(message, args){
 }
 
 function removeGacha(message, args){
-    let type = args.shift().toLowerCase()
-    if (gachaList[type] === undefined) return message.channel.send(`${type} capsule  doesn't exist`)
-    delete gachaList[type]
-    gf.writeToFile(gachaList, `./data/gacha.json`)
-    return message.channel.send(`${type} is no longer in the database`)
+  return;
 }
 
 function createCharacter(name){
@@ -208,10 +170,10 @@ function createCharacter(name){
       name.split(' ').join('')
     ],
     "thumbnail": "https://i.imgur.com/sLUUa52.png",
-    "skins": {},
     "type": "",
     "class": "",
     "location": "",
+    "skins": {},
     "basicName": "",
     "basicDesc": "",
     "specialName": "",
@@ -225,18 +187,3 @@ function createCharacter(name){
   }
   return character
 }
-
-function createGacha(name){
-  let gacha = {
-    "category" : name,
-    "time" : "",
-    "color" : "0x000000",
-    "image" : "https://i.imgur.com/xPA7gZm.png",
-    "heroes" : [],
-    "prizes" : {
-    }
-  }
-  return gacha
-}
-
-droprate.sort()

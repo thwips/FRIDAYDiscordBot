@@ -6,7 +6,7 @@ module.exports.run = async (bot, message, args) => {
   if(!gf.isAllowed(message, module.exports.help.ignore)) return;
 
   let category = args.join('').toLowerCase()
-  let cat = Object.keys(gacha)
+  let cat = Object.keys(gacha).sort()
   if(category === '' || category === 'all'){
     return message.channel.send(`These are all the current Time Capsule categories:\n\`${cat.join(', ')}\``)
   }

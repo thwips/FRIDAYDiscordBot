@@ -132,7 +132,9 @@
     "passiveDesc": "Increased Atk 5% (10%)\nIncreased HP 5% (15%)",
     "ultimate2Name": "Disobey Physics",
     "ultimate2Desc": " 100% (120%) Atk to Back Row\nChance to Stun 10% (25%)",
-    "skins": {}
+    "skins": {
+      "WWII Captain America": "+1% Boost to HP"
+    }
   },
   "enchantress": {
     "title": "Amora",
@@ -233,7 +235,9 @@
     "passiveDesc": "Increased HP 10% (20%) (5 turns)\nIncreased Atk 5% (15%) (5 turns)",
     "ultimate2Name": "Strongest There Is",
     "ultimate2Desc": "No Damage\nChance to Stun All Enemies 15% (35%) (2 turns)\nSelf Heal 15% (35%)",
-    "skins": {}
+    "skins": {
+      "Joe Fixit Hulk": "+2% Boost to HP"
+    }
   },
   "iron man": {
     "title": "Tony Stark",
@@ -251,16 +255,18 @@
     "class": "Tank",
     "location": "1:5 Heroic",
     "basicName": "Shoot",
-    "basicDesc": "100% (115%) atk",
+    "basicDesc": "100% (115%) Atk",
     "specialName": "Unibeam",
-    "specialDesc": "Hits Front Row 100% (115%) atk",
+    "specialDesc": "100% (115%) Atk to Front Row",
     "ultimate1Name": "Wrist Rocket",
     "ultimate1Desc": "100% (115%) Atk to Three Random Targets",
     "passiveName": "Suit Upgrade",
     "passiveDesc": "5% (15%) Increased HP\n5% (10%) Increased Atk",
     "ultimate2Name": "Self Repair",
-    "ultimate2Desc": "Hits Front Row 100% atk\n10% (25%) Self Heal",
-    "skins": {}
+    "ultimate2Desc": "100% Atk to Front Row\n10% (25%) Self Heal",
+    "skins": {
+      "Thanosbuster": "+35% boost to HP"
+    }
   },
   "jocasta": {
     "title": "Jocasta Vi Quitéria",
@@ -291,7 +297,8 @@
       "loki",
       "godofmischief",
       "lowkey",
-      "tomhiddleston"
+      "tomhiddleston",
+      "laufeyson"
     ],
     "thumbnail": "http://i.imgur.com/REnYQBD.png",
     "type": "Cosmic",
@@ -345,7 +352,9 @@
       "bobbi",
       "mockingbird",
       "agent19",
-      "adriannepalicki"
+      "adriannepalicki",
+      "discobird",
+      "nerkkod"
     ],
     "thumbnail": "http://i.imgur.com/BjQbw9T.png",
     "type": "Physical",
@@ -399,7 +408,7 @@
     "thumbnail": "https://i.imgur.com/AXOsbm1.png",
     "type": "Tech",
     "class": "Support",
-    "location": "N/A",
+    "location": "Gold Capsule",
     "basicName": "Dora Milaje Training",
     "basicDesc": "100% (135%) atk",
     "specialName": "Wakanda Forever!",
@@ -422,7 +431,8 @@
       "directorcoulson",
       "sonofcoul",
       "coulson",
-      "agent"
+      "agent",
+      "cheese"
     ],
     "thumbnail": "http://i.imgur.com/C8Njlj7.png",
     "type": "Physical",
@@ -451,7 +461,8 @@
       "chloewang",
       "daisy",
       "chloebennet",
-      "shitwaifu"
+      "shitwaifu",
+      "directorjohnson"
     ],
     "thumbnail": "http://i.imgur.com/r7SpTNP.png",
     "type": "Science",
@@ -508,7 +519,7 @@
     "thumbnail": "https://i.imgur.com/I434WfI.png",
     "type": "Cosmic",
     "class": "Tank",
-    "location": "N/A",
+    "location": "World War Hulk Event Only",
     "basicName": "Firing the Laser!",
     "basicDesc": "100% (115%) atk",
     "specialName": "Flying Marvel",
@@ -532,7 +543,7 @@
     "thumbnail": "https://i.imgur.com/YUQl89G.png",
     "type": "Tech",
     "class": "Attacker",
-    "location": "N/A",
+    "location": "Gold Capsule",
     "basicName": "Turbo Punch",
     "basicDesc": "100% (135%) atk",
     "specialName": "Below The Belt",
@@ -554,7 +565,7 @@
     "thumbnail": "https://i.imgur.com/CrUKSt6.png",
     "type": "Science",
     "class": "Attacker",
-    "location": "N/A",
+    "location": "World War Hulk Event Only",
     "basicName": "Cleave",
     "basicDesc": "115% (150%) atk",
     "specialName": "Cut Them Down",
@@ -608,7 +619,7 @@
     "thumbnail": "http://i.imgur.com/tqgKEg5.png",
     "type": "Cosmic",
     "class": "Tank",
-    "location": "GTC",
+    "location": "Gold Capsule",
     "basicName": "Worthiness",
     "basicDesc": "100% (115%) atk",
     "specialName": "Hammer Time",
@@ -633,15 +644,15 @@
     "class": "Attacker",
     "location": "4:15 Heroic",
     "basicName": "Claw",
-    "basicDesc": "115% (150%) atk",
+    "basicDesc": "100% (115%) Atk",
     "specialName": "Glamerous Rake",
-    "specialDesc": "No Damage\nDoT 25 (240) for Four Turns",
+    "specialDesc": "25 (340) DoT to the Front Row for Four Turns",
     "ultimate1Name": "Pounce",
-    "ultimate1Desc": "115% (150) Atk on Random Target\n20 (240) DoT(4 turns)",
+    "ultimate1Desc": "115% (150%) Atk to Random Target \n20 (240) DoT for Six Turns",
     "passiveName": "Catlike Reflexes",
-    "passiveDesc": "Increased Crit Chance 15% (20%)\nIncreased HP 5% (10%)",
+    "passiveDesc": "15% (20%) Increased Crit Chance\n5% (10%) Increased HP",
     "ultimate2Name": "Huntress",
-    "ultimate2Desc": "No Damage\n5% (15%) Evasion debuff on All (2 turns)\n5% (10%) Self HoT",
+    "ultimate2Desc": "5% (15%) Evasion Debuff on All Enemies for Two Turns\n5% (10%) Self HoT",
     "skins": {}
   },
   "valkyrie": {
@@ -655,7 +666,7 @@
     "thumbnail": "https://i.imgur.com/KeRfW2i.png",
     "type": "Cosmic",
     "class": "Attacker",
-    "location": "GTC",
+    "location": "Gold Capsule",
     "basicName": "Brawl",
     "basicDesc": "100% (135%) atk",
     "specialName": "Dragonfang",
@@ -678,7 +689,7 @@
     "thumbnail": "https://i.imgur.com/8W0ixmW.png",
     "type": "Tech",
     "class": "Support",
-    "location": "Event\nSector 3",
+    "location": "Gold Capsule",
     "basicName": "Hit",
     "basicDesc": "100% (115%) atk",
     "specialName": "Insight",
@@ -724,7 +735,8 @@
       "jamesrhodes",
       "warmachine",
       "wm",
-      "rhodey"
+      "rhodey",
+      "rhodes"
     ],
     "thumbnail": "http://i.imgur.com/7HzYoBq.png",
     "type": "Tech",
@@ -756,15 +768,15 @@
     "class": "Attacker",
     "location": "1:10 Heroic",
     "basicName": "Punch",
-    "basicDesc": "100% (150%) atk",
+    "basicDesc": "100% (115%) Atk",
     "specialName": "Shrink Blast",
-    "specialDesc": "125% (200%) atk\nIncreased Crit Chance 5% (10%)",
+    "specialDesc": "125% (200%) Atk\n5% (10%) Increased Crit Chance for Three Turns",
     "ultimate1Name": "Rally",
-    "ultimate1Desc": "Hits Front Row 150% (250%) atk\nSelf Crit Chance Boost 5% (15%)",
+    "ultimate1Desc": "150% (250%) Atk to Front Row\n5% (15%) Self Crit Chance Buff for Six Turns",
     "passiveName": "Get Smol",
-    "passiveDesc": "Increased Crit Damage 5% (15%)\nIncreased Evasion 1% (6%)",
+    "passiveDesc": "5% (15%) Increased Crit Damage\n1% (6%) Increased Evasion",
     "ultimate2Name": "Buzz",
-    "ultimate2Desc": "No Damage\nSelf Atk Buff 5% (15%)\nSelf Evasion Buff 5% (15%)",
+    "ultimate2Desc": "No Damage\n5% (15%) Self Atk Buff\n5% (305%) Self Evasion Buff",
     "skins": {}
   },
   "wiccan": {
@@ -834,7 +846,7 @@
     "thumbnail": "https://i.imgur.com/lfBIAbN.png",
     "type": "Physical",
     "class": "Attacker",
-    "location": "Event",
+    "location": "Jessica Jones Event Only",
     "basicName": "Deal Some Justice",
     "basicDesc": "100% (115%) Atk",
     "specialName": "\"Special Abilities\"",
@@ -855,12 +867,13 @@
       "luke",
       "powerman",
       "lc",
-      "sweetchristmas"
+      "sweetchristmas",
+      "cage"
     ],
     "thumbnail": "https://i.imgur.com/xAYTkYO.png",
     "type": "Physical",
-    "class": "Attacker",
-    "location": "Event",
+    "class": "Tank",
+    "location": "Jessica Jones Event Only\nLuke Cage Event Only",
     "basicName": "Move Forward",
     "basicDesc": "100% (115%) Atk",
     "specialName": "Uptown Uppercut",
@@ -888,7 +901,7 @@
     "thumbnail": "https://i.imgur.com/ixgjaWq.png",
     "type": "Mystic",
     "class": "Attacker",
-    "location": "Event",
+    "location": "Jessica Jones Event Only",
     "basicName": "Titanium Training",
     "basicDesc": "100% (115%) Atk",
     "specialName": "Pounce!",
@@ -915,7 +928,7 @@
     "thumbnail": "https://i.imgur.com/1KwhKVW.png",
     "type": "Mystic",
     "class": "Attacker",
-    "location": "Event",
+    "location": "Jessica Jones Event Only",
     "basicName": "Bust A Cap",
     "basicDesc": "100% (115%) Atk",
     "specialName": "Now You See Me",
@@ -952,7 +965,7 @@
   },
   "scarlet witch": {
     "title": "Wanda Maximoff",
-    "aliases": "",
+    "aliases": "Scarlet Witch",
     "nickname": [
       "scarletwitch",
       "wanda",
@@ -972,7 +985,9 @@
     "passiveDesc": "25% (85%) Increased Crit Damage",
     "ultimate2Name": "Chaos Magic",
     "ultimate2Desc": "175% (275%) Atk to Single Target\n10% (460%) Increased Crit Chance for Two Turns",
-    "skins": {}
+    "skins": {
+      "Royal Scarlet Witch": "+4% Attack Boost"
+    }
   },
   "teen groot": {
     "title": "Teen Groot",
@@ -999,7 +1014,7 @@
   },
   "doctor strange": {
     "title": "Stephen Strange",
-    "aliases": "The Sorcerer Supreme",
+    "aliases": "Doctor Strange, The Sorcerer Supreme",
     "nickname": [
       "doctorstrange",
       "strange",
@@ -1008,7 +1023,7 @@
     "thumbnail": "https://tinyurl.com/y9ubd7uv",
     "type": "Mystic",
     "class": "Attacker",
-    "location": "Dr Strange Capsule\nInfinity Capsule\nInfinity War Event Only",
+    "location": "Gold Capsule",
     "basicName": "Multi-Plane Punch",
     "basicDesc": "100% (115%) Atk",
     "specialName": "Sigil Magic",
@@ -1034,9 +1049,9 @@
     "basicName": "Basic Attack",
     "basicDesc": "118% Atk",
     "specialName": "Special Attack",
-    "specialDesc": "150% Atk + Self Evasion Buff",
+    "specialDesc": " 50% AOE Atk + Self Evasion Buff",
     "ultimate1Name": "Ultimate Attack",
-    "ultimate1Desc": "Single Row 200% Atk + Chance to Stun(?%)",
+    "ultimate1Desc": "250% Atk Single Target + AOE Evasion Debuff",
     "passiveName": "",
     "passiveDesc": "",
     "ultimate2Name": "",
@@ -1085,7 +1100,7 @@
     "thumbnail": "https://tinyurl.com/yajssrwj",
     "type": "Science",
     "class": "Attacker",
-    "location": "",
+    "location": "Gold Capsule",
     "basicName": "Punch",
     "basicDesc": "100% (115%) Atk",
     "specialName": "Swing Kick",
@@ -1096,11 +1111,13 @@
     "passiveDesc": "5% (10%) Increased Evasion",
     "ultimate2Name": "Fancy Moves",
     "ultimate2Desc": "120% (170%) Atk to Back Row\n15% (?%) Self Atk Buff for Two Turns",
-    "skins": {}
+    "skins": {
+      "Iron Spider-Man": "+3% Evasion Boost"
+    }
   },
   "killmonger": {
     "title": "Erik Killmonger",
-    "aliases": "",
+    "aliases": "Killmonger",
     "nickname": [
       "killmonger",
       "erik",
@@ -1110,7 +1127,7 @@
     "thumbnail": "https://tinyurl.com/y75lg33c",
     "type": "Physical",
     "class": "Attacker",
-    "location": "Star Lord Capsule\nInfinity Capsule\nInfinity War Event Only",
+    "location": "Star Lord Capsule\nNebula Capsule\nInfinity Capsule\nInfinity War Event Only",
     "basicName": "Challenge Everything",
     "basicDesc": "100% (115%) Atk",
     "specialName": "Take The Throne",
@@ -1125,17 +1142,18 @@
   },
   "star-lord": {
     "title": "Peter Quill",
-    "aliases": "",
+    "aliases": "Star-Lord",
     "nickname": [
       "star-lord",
       "peterquill",
       "starlord",
-      "quill"
+      "quill",
+      "chrispratt"
     ],
     "thumbnail": "https://tinyurl.com/y72fupjy",
     "type": "Cosmic",
     "class": "Attacker",
-    "location": "Star Lord Capsule\nInfinity Capsule\nInfinity War Event Only",
+    "location": "Gold Capsule",
     "basicName": "The Wave",
     "basicDesc": "100% (115%) Atk",
     "specialName": "Strike A Pose",
@@ -1150,28 +1168,30 @@
   },
   "punisher": {
     "title": "Frank Castle",
-    "aliases": "",
+    "aliases": "Punisher",
     "nickname": [
       "punisher",
       "frankcastle",
       "castle",
       "frank"
     ],
-    "thumbnail": "https://i.imgur.com/sLUUa52.png",
+    "thumbnail": "https://tinyurl.com/ybhkpbb4",
     "type": "Physical",
-    "class": "Support",
-    "location": "",
+    "class": "Attacker",
+    "location": "Nebula Capsule\nCaptain Marvel Capsule\nInfinity Capsule\nInfinity War Event Only",
     "basicName": "Vengeance",
     "basicDesc": "100% (115%) Atk",
     "specialName": "Punishment",
-    "specialDesc": "?% (?%) Atk to Front Row",
+    "specialDesc": "150% (220%) Atk to Front Row",
     "ultimate1Name": "Light Em' Up",
-    "ultimate1Desc": "?% (?%) to Front Row\n10% (?%) Evasion Buffs to Front Row Allies for One Turn",
+    "ultimate1Desc": "175% (200%) to Front Row\n10% (20%) Evasion Buffs to Front Row Allies for One Turn",
     "passiveName": "Sheer Willpower",
-    "passiveDesc": "6% (?%) Increased Attack\n6% (?%) Increased HP",
+    "passiveDesc": "6% (16%) Increased Attack\n6% (16%) Increased HP",
     "ultimate2Name": "Overkill",
-    "ultimate2Desc": "?% (?%) Atk to Two Random Targets in the Second or Third Row\n10% (?%) Atk Debuff on those Targets",
-    "skins": {}
+    "ultimate2Desc": "150% (200%) Atk to Two Random Targets in the Second or Third Row\n10% (25%) Atk Debuff on those Targets",
+    "skins": {
+      "Cosmic Ghost Rider": "Changes Type to Cosmic and +6% Attack Boost"
+    }
   },
   "nebula": {
     "title": "Nebula",
@@ -1182,31 +1202,231 @@
       "karengillan",
       "nebby"
     ],
-    "thumbnail": "https://i.imgur.com/sLUUa52.png",
+    "thumbnail": "https://tinyurl.com/y9xhtrc5",
     "type": "Tech",
     "class": "Attacker",
-    "location": "",
+    "location": "Gold Capsule",
     "basicName": "Titanian Training",
     "basicDesc": "100% (115%) Atk",
     "specialName": "Android Annihilation",
-    "specialDesc": "?% (?%) Atk to Single Target\n10% (?%) Self Attack Buff for Two Turns",
+    "specialDesc": "150% (250%) Atk to Single Target\n10% (20%) Self Attack Buff for Two Turns",
     "ultimate1Name": "The Blender",
-    "ultimate1Desc": "?% (?%) Atk to Single Target\n10% (?%) Self Evasion Buff for One Turn",
+    "ultimate1Desc": "200% (270%) Atk to Single Target\n10% (15%) Self Evasion Buff for One Turn",
     "passiveName": "Robotic Reflexes",
-    "passiveDesc": "10% (?%) Increased Crit Chance",
+    "passiveDesc": "10% (20%) Increased Crit Chance",
     "ultimate2Name": "Whirling Death",
-    "ultimate2Desc": "?% (?%) Atk to Random Target\n50% (?%) Self Crit Damage Buff for ? Turns",
+    "ultimate2Desc": "175% (235%) Atk to Random Target\n50% (100%) Self Crit Damage Buff for One Turn",
     "skins": {}
   },
+  "thane": {
+    "title": "Thane",
+    "aliases": "Son of Thanos",
+    "nickname": [
+      "thane"
+    ],
+    "thumbnail": "https://tinyurl.com/yb56lsn5",
+    "type": "Cosmic",
+    "class": "Tank",
+    "location": "Captain Marvel Capsule\nInfinity Capsule\nInfinity War Event Only",
+    "basicName": "Death Touch",
+    "basicDesc": "100% (115%) Atk",
+    "specialName": "Titanian Tech",
+    "specialDesc": "115% (150%) Atk to Front Row\n20% (160%) Chance to Stun Front Row for One Turn",
+    "ultimate1Name": "Amber Alert",
+    "ultimate1Desc": "135% (200%) Atk to Random Target\n20% (35%) Atk Debuff for One Turn",
+    "passiveName": "Vortex Enhancement",
+    "passiveDesc": "5% (15%) Increased Evasion",
+    "ultimate2Name": "Godkiller",
+    "ultimate2Desc": "150% (220%) Atk to Three Random Targets\n10% (25%) Evasion Buff to All Allies for One Turn",
+    "skins": {}
+  },
+  "captain marvel": {
+    "title": "Carol Danvers",
+    "aliases": "Captain Marvel",
+    "nickname": [
+      "captainmarvel",
+      "caroldanvers",
+      "carol",
+      "brielarson",
+      "capmarvel",
+      "captainthighs",
+      "capthighs"
+    ],
+    "thumbnail": "https://tinyurl.com/yarsc34f",
+    "type": "Cosmic",
+    "class": "Tank",
+    "location": "Gold Capsule",
+    "basicName": "Fly-By",
+    "basicDesc": "100% (115%) Atk",
+    "specialName": "Binary Beatdown",
+    "specialDesc": "125% (200%) Atk to Single Target\n5% (15%) Self Evasion Buff for One Turn",
+    "ultimate1Name": "Photon Blast",
+    "ultimate1Desc": "175% (240%) Atk to Front Row\n20% (35%) Self Heal",
+    "passiveName": "Kree Hybrid Enhancement",
+    "passiveDesc": "15% (30%) Increased HP",
+    "ultimate2Name": "Space Boss",
+    "ultimate2Desc": "200% (275%) Atk to Front Row\n30% (720%) HoT to Front Row Allies for Two Turns",
+    "skins": {}
+  },
+  "cloak": {
+    "title": "Tyrone Johnson",
+    "aliases": "Cloak",
+    "nickname": [
+      "cloak",
+      "tyronejohnson",
+      "tyrone"
+    ],
+    "thumbnail": "https://tinyurl.com/y9ujl5la",
+    "type": "Mystic",
+    "class": "Support",
+    "location": "Cloak and Dagger Event Only",
+    "skins": {},
+    "basicName": "Throwing Shade",
+    "basicDesc": "100% (115%) Atk",
+    "specialName": "Darkforce Dimension",
+    "specialDesc": "14% (27%) Heal to Front Row Allies\n15% (31%) Evasion Debuff to Front Row",
+    "ultimate1Name": "Void Vacuum",
+    "ultimate1Desc": "10% (20%) Accuracy Buff to All Allies\n100% Chance to Cleanse All Enemy Buffs",
+    "passiveName": "Darkforce Cloak",
+    "passiveDesc": "9% (18%) Increased Accuracy to Back Row Allies\n9% (18%) Increased HP to Back Row Allies",
+    "ultimate2Name": "Embrace of Darkness",
+    "ultimate2Desc": "10% (25%) Heal to All Allies\n100% Chance to Cleanse All Ally Debuffs"
+  },
+  "dagger": {
+    "title": "Tandy Bowen",
+    "aliases": "Dagger",
+    "nickname": [
+      "dagger",
+      "tandybowen",
+      "tandy"
+    ],
+    "thumbnail": "https://tinyurl.com/y6uzbn5m",
+    "type": "Mystic",
+    "class": "Attacker",
+    "location": "Cloak and Dagger Event Only",
+    "skins": {
+      "Negative Dagger": "+10% Boost to Atk"
+    },
+    "basicName": "Float and Sting",
+    "basicDesc": "100% (115%) Atk",
+    "specialName": "Light Daggers",
+    "specialDesc": "150% (242%) Atk to Front Row\n12% (24%) Evasion Debuff to Front Row for ? Turns",
+    "ultimate1Name": "Lighten Up",
+    "ultimate1Desc": "160% (324%) Atk\n7% (77%) Accuracy Buff to All Allies for ? Turns",
+    "passiveName": "Lightforce Manipulation",
+    "passiveDesc": "21% (42%) Increased Accuracy",
+    "ultimate2Name": "Release the Lightforce",
+    "ultimate2Desc": "233% (466%) Atk\nHits Single Target Twice"
+  },
+  "daredevil": {
+    "title": "Matthew Murdock",
+    "aliases": "Daredevil",
+    "nickname": [
+      "daredevil",
+      "dd",
+      "mattmurdock"
+    ],
+    "thumbnail": "https://tinyurl.com/y7ovecm5",
+    "skins": {
+      "Armored Daredevil": "+1% Boost to HP",
+      "Original Daredevil": "+3% Boost to HP",
+      "Shield Daredevil": "+5 Boost to Atk"
+    },
+    "type": "Physical",
+    "class": "Attacker",
+    "location": "Cloak and Dagger Event Only",
+    "basicName": "Switch-Hit",
+    "basicDesc": "100% (115%) Atk",
+    "specialName": "Justice is Served",
+    "specialDesc": "150% (210%) Atk\n14% (27%) Self Accuracy Buff for ? Turns",
+    "ultimate1Name": "Below the Belt",
+    "ultimate1Desc": "100% (140%) Atk to Front Row\n10% (20%) Evasion Debuff to Front Row for ? Turns",
+    "passiveName": "Superhuman Senses",
+    "passiveDesc": "10% (20%) Increased Accuracy\n10% (20%) Increased Atk",
+    "ultimate2Name": "Fight Fearless",
+    "ultimate2Desc": "225% (405%) Atk\n50% (125%) Accuracy Buff to Back Row Allies for ? Turns"
+  },
+  "moon knight": {
+    "title": "Marc Spector",
+    "aliases": "Moon Knight",
+    "nickname": [
+      "moonknight",
+      "codpiece",
+      "marcspector"
+    ],
+    "thumbnail": "https://cdn.discordapp.com/attachments/410302586436976641/454425994263265291/mar_2p0_premium_moonknight_token2x.png",
+    "type": "Tech",
+    "class": "Tank",
+    "location": "Cloak and Dagger Event Only",
+    "skins": {},
+    "basicName": "Mercenary Training",
+    "basicDesc": "100% (115%) Atk",
+    "specialName": "Lunar Strength",
+    "specialDesc": "175% (245%) Atk\n30% (60%) Self Evasion Buff for ? Turns",
+    "ultimate1Name": "Crescent Boomerangs",
+    "ultimate1Desc": "95% (133%) Atk to Front Row\n5% (13%) Accuracy Debuff to Front Row for ? Turns",
+    "passiveName": "Blessing of Khonshu",
+    "passiveDesc": "5% (12%) Increased HP\n3% (10%) Increased Evasion",
+    "ultimate2Name": "Moonlight",
+    "ultimate2Desc": "135% (150%) Atk to Second Row\n15% (?%) Chance to Stun Second Row for Three Turns"
+  },
+  "blade": {
+    "title": "Eric Brooks",
+    "aliases": "Blade",
+    "nickname": [
+      "blade",
+      "ericbrooks"
+    ],
+    "thumbnail": "https://cdn.discordapp.com/attachments/410302586436976641/454425980518268959/mar_2p0_premium_blade_token2x.png",
+    "type": "Physical",
+    "class": "Attacker",
+    "location": "Cloak and Dagger Event Only",
+    "skins": {
+      "Classic Blade": "+7% Boost to Atk"
+    },
+    "basicName": "Use Your Namesake",
+    "basicDesc": "100% (115%) Atk",
+    "specialName": "Wake-Up Call",
+    "specialDesc": "160% (224%) Atk to Single Target\n120% (168%) Atk to One Random Target",
+    "ultimate1Name": "Fang It",
+    "ultimate1Desc": "60% (106%) Atk to Two Random Targets\n13% (33%) Self Heal",
+    "passiveName": "Dhampir Strength",
+    "passiveDesc": "13% (26%) Increased Atk",
+    "ultimate2Name": "Bloodthirst",
+    "ultimate2Desc": "145% (261%) Atk to Second Row\n40 (240) DoT for One Turn"
+  },
+  "firebird": {
+    "title": "Bonita Juarez",
+    "aliases": "Firebird",
+    "nickname": [
+      "firebird",
+      "bonitajuarez"
+    ],
+    "thumbnail": "https://cdn.discordapp.com/attachments/410302586436976641/456879428883185664/mar_2p0_premium_firebird_token2x.png",
+    "type": "Cosmic",
+    "class": "Attacker",
+    "location": "Cloak and Dagger Event Only",
+    "skins": {},
+    "basicName": "Energy Manipulation",
+    "basicDesc": "100% (115%) Atk",
+    "specialName": "Firebird Manifestation",
+    "specialDesc": "100% (140%) Atk to Two Random Targets",
+    "ultimate1Name": "Burn It Up",
+    "ultimate1Desc": "60% (84%) Atk to Three Random Targets\n10% (25%) Self Accuracy Buff for ? Turns",
+    "passiveName": "Applied Dance Training",
+    "passiveDesc": "13% (39%) Increased Crit Chance",
+    "ultimate2Name": "Spirit of the Firebird",
+    "ultimate2Desc": "60% (108%) Atk to All Targets\n5% (12%) Atk Debuff to All Targets for One Turn"
+  },
   "test": {
-    "title": "Test",
+    "title": "",
     "aliases": "",
     "nickname": [
       "test"
     ],
     "thumbnail": "https://i.imgur.com/sLUUa52.png",
     "skins": {
-      "Test Skin": "+5 sexiness"
+      "hotbod": "hotness"
     },
     "type": "",
     "class": "",

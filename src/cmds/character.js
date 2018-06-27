@@ -26,5 +26,6 @@ module.exports.help = {
     "c"
   ],
   ignore: [
+  "429222755745923073"
   ]
 }

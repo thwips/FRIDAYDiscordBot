@@ -1,15 +1,15 @@
 {
-  "silver": {
-    "category": "Silver",
-    "time": "6 hours",
-    "color": "0xC0C0C0",
-    "image": "https://i.imgur.com/cIgnEYF.png",
-    "heroes": [],
-    "prizes": {
-      "0.53": [
+  "silver" : {
+    "category" : "Silver",
+    "time" : "6 hours",
+    "color" : "0xC0C0C0",
+    "image" : "https://i.imgur.com/cIgnEYF.png",
+    "heroes" : [],
+    "prizes" : {
+      "0.53" : [
         "**3 Hero Shards for:** \n\tBlack Widow, Bucky Barnes, Captain America, Enchantress, Falcon, Iron Man, Spider Woman, Wasp\n**1 Hero Shards for:**\n\tBlack Widow, Bucky Barnes, Captain America, Enchantress, Falcon, Iron Man, Spider Woman, Wasp\n20 Infinity Shards"
       ],
-      "2.31": [
+      "2.31" : [
         "Tier Two Attribute Energy Core\n2 Ranking Materials\n10 Infinity Shards\n1-2 Comic Books"
       ],
       "3.53": [
@@ -17,56 +17,26 @@
       ]
     }
   },
-  "gold": {
-    "category": "Gold",
-    "time": "3 Days",
-    "color": "0xFFD700",
-    "image": "https://i.imgur.com/tSPAAHK.png",
-    "heroes": [
-      "Black Panther Shards",
-      "Black Widow",
-      "Bucky Barnes",
-      "Captain America",
-      "Enchantress",
-      "Falcon",
-      "Hawkeye",
-      "Hulk",
-      "Iron man",
-      "Jocasta",
-      "Loki",
-      "Maria Hill",
-      "Mockingbird",
-      "Ms. Marvel",
-      "Okoye",
-      "Phil Coulson",
-      "Quake",
-      "Red Hulk",
-      "Shuri",
-      "Spider Woman",
-      "Thor",
-      "Tigra",
-      "Valkyrie",
-      "Vision",
-      "Voyager",
-      "War Machine",
-      "Wasp",
-      "Wiccan",
-      "Winter Soldier"
-    ],
-    "prizes": {
-      "0.18": [
+  "gold" : {
+    "category" : "Gold",
+    "time" : "3 Days",
+    "color" : "0xFFD700",
+    "image" : "https://i.imgur.com/tSPAAHK.png",
+    "heroes" : ["Black Panther Shards", "Black Widow", "Bucky Barnes", "Captain America", "Enchantress", "Falcon", "Hawkeye", "Hulk", "Iron man", "Jocasta", "Loki", "Maria Hill", "Mockingbird", "Ms. Marvel", "Okoye", "Phil Coulson", "Quake", "Red Hulk", "Shuri", "Spider Woman", "Thor", "Tigra", "Valkyrie", "Vision", "Voyager", "War Machine", "Wasp", "Wiccan", "Winter Soldier"],
+    "prizes" : {
+      "0.18" : [
         "30 Hero Shards"
       ],
-      "0.58": [
+      "0.58" : [
         "10 Hero Shards"
       ],
-      "0.77": [
+      "0.77" : [
         "8 Hero Shards"
       ],
-      "0.96": [
+      "0.96" : [
         "5 Hero Shards"
       ],
-      "1.35": [
+      "1.35" : [
         "3 Hero Shards"
       ]
     }
@@ -78,18 +48,44 @@
     "image": "https://i.imgur.com/Zx0a8rN.png",
     "heroes": [],
     "prizes": {
-      "0.5" : ["10 Gold Timefog Capsule"],
-      "0.75" : ["750 Shards, 1 Tier 3 Attribute Energy Core"],
-      "1" : ["700 Academy XP"],
-      "1.25" : ["3 Gold Timefog Capsule"],
-      "1.5" : ["8000 Credits"],
-      "1.75" : ["80 Scarlet Witch Shards"],
-      "2" : ["1 Gold Timefog Capsule"],
-      "2.5" : ["8 Graphic Novel"],
-      "4" : ["20 Punisher Shards, 20 Killmonger Shards, 20 Teen Groot Shards"],
-      "4.75" : ["20 Star-Lord Shards, 20 Dr. Strange Shards, 20 Spider-Man Shards, 20 Nebula Shards"],
-      "6" : ["10 Teen Groot Shard, 10 Killmonger Shards, 10 Punisher Shards"],
-      "9" : ["10 Star-Lord Shards, 10 Dr. Strange Shards, 10 Spider-Man Shards, 10 Nebula Shards"]
+    "0.25" : ["750 Shards, 1 Tier 3 Attribute Energy Core, 1 Gold Timefog Capsule, 3 Gold Timefog Capsule "],
+    "0.5" : ["10 Gold Timefog Capsule"],
+    "1.75" : ["80 Scarlet Witch Shards, 80 Thane Shards"],
+    "2.25" : ["10 Thane Shards"],
+    "4" : ["20 Teen Groot Shards, 20 Killmonger Shards, 20 Punisher Shards, 20 Star-Lord Shards, 20 Dr. Strange Shards, 20 Spider-Man Shards, 20 Nebula Shards, 20 Captain Marvel Shards"],
+    "6" : ["10 Teen Groot Shard, 10 Killmonger Shards, 10 Punisher Shards, 10 Captain Marvel Shards"],
+    "9" : ["10 Star-Lord Shards, 10 Dr. Strange Shards, 10 Spider-Man Shards, 10 Nebula Shards"]
+    }
+  },
+  "strange": {
+    "category" : "Doctor Strange",
+    "time" : "",
+    "color" : "0xFF0000",
+    "image" : "https://i.imgur.com/3wlaIeQ.png",
+    "heroes" : [],
+    "prizes" : {
+      "1" : ["1 Tier 2 Mystic Energy Cores"],
+      "3" : ["15 Infinity Shards, 8 Tier 1 Mystic Energy Cores, 8 Generic Energy Cores, 50 Academy XP"],
+      "4" : ["1 Teen Groot Hero Shards, 5 Gauntlet Prototypes, 1 Graphic Novel"],
+      "8" : ["5 Dr. Strange Hero Shards"],
+      "9" : ["8 Comic Pages"],
+      "26" : ["3 Dr. Strange Shards"],
+      "32" : ["1 Dr Strange Shard"]
+    }
+  },  "spider-man": {
+    "category" : "Spider-Man",
+    "time" : "",
+    "color" : "0xFF0000",
+    "image" : "https://i.imgur.com/C1ZWLJw.png",
+    "heroes" : [],
+    "prizes" : {
+      "1" : ["1 Tier 2 Science Energy Core"],
+      "3" : ["15 Shards, 8 Tier 1 Science Energy Core, 8 Basic energy Core, 50 Academy XP"],
+      "4" : ["1 Teen Groot Shard, 5 Gauntlet Prototypes, 1 Graphic Novel"],
+      "8" : ["5 Spider-Man Shard"],
+      "9" : ["8 Comic Pages"],
+      "26" : ["3 Spider-Man Shards"],
+      "32" : ["1 Spider-Man Shard"]
     }
   },
   "starlord": {
@@ -123,6 +119,25 @@
       "9" : ["9 Comic Pages"],
       "25" : ["3 Nebula Shards"],
       "40" : ["1 Nebula Shard"]
+    }
+  },
+  "capmarvel": {
+    "category" : "Captain Marvel",
+    "time" : "",
+    "color" : "0xFFD700",
+    "image" : "https://i.imgur.com/2ySiIYq.png",
+    "heroes" : [],
+    "prizes" : {
+    "1.5" : ["2 Tier 2 Cosmic Energy Core"],
+    "2" : ["2 Punisher Shard, 1 Thane Shards"],
+    "2.5" : ["25 Shards"],
+    "3" : ["100 Academy XP"],
+    "4" : ["1 Punisher Shard"],
+    "5" : ["5 Captain Marvel Shard, 10 Gauntlet Prototypes"],
+    "11" : ["5 Comic Book"],
+    "12" : ["3 Graphic Novel"],
+    "20" : ["3 Captain Marvel Shard"],
+    "32" : ["1 Captain Marvel Shard"]
     }
   }
 }

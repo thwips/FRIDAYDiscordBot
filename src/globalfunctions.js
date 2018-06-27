@@ -10,7 +10,7 @@ module.exports.isAdmin = (guild, ID) => {
 }
 
 module.exports.inAllowedChannel = (message, ignoredRooms) => {
-	return ((config.server[message.guild.id].rooms.length === 0 ||                        //bot is open to all channels
+  return ((config.server[message.guild.id].rooms.length === 0 ||                        //bot is open to all channels
           config.server[message.guild.id].rooms.indexOf(message.channel.id) !== -1) &&  //command in bot allowed channels
           ignoredRooms.indexOf(message.channel.id) === -1)                              //command not in ignored channels
 }
@@ -64,8 +64,8 @@ module.exports.embedCharacter = (character) => {
   if(character.specialName !== undefined && character.specialName !== '' && character.specialDesc !== '') embed.addField(`${character.specialName}`, `${character.specialDesc}\n`)
   if(character.ultimate1Name !== undefined && character.ultimate1Name !== '' && character.ultimate1Desc !== '') embed.addField(`${character.ultimate1Name}`, `${character.ultimate1Desc}\n`)
   if(character.passiveName !== undefined && character.passiveName !== '' && character.passiveDesc !== '') embed.addField(`${character.passiveName}`, `${character.passiveDesc}\n`)
-  if(character.ultimate2Name !== undefined && character.ultimate2Name !== '' && character.ultimate2Desc !== '') embed.addField(`${character.ultimate2Name}`, `${character.ultimate2Desc}\n`) 
-  if(character.skins !== undefined){
+  if(character.ultimate2Name !== undefined && character.ultimate2Name !== '' && character.ultimate2Desc !== '') embed.addField(`${character.ultimate2Name}`, `${character.ultimate2Desc}\n`)
+  if(character.skins !== undefined && Object.keys(character.skins).length !== 0){
     let text = ""
     const skins = Object.keys(character.skins)
     skins.forEach(skin => {
@@ -89,6 +89,7 @@ module.exports.embedGacha = (type) => {
   }
   if(Object.keys(type.prizes).length !== 0 && type.prizes.constructor === Object){
     let dropRate = Object.keys(type.prizes)
+    dropRate.sort()
     for (let i = 0; i < dropRate.length && i < 24; i++) {
       embed.addField(`${dropRate[i]}%`, type.prizes[dropRate[i]]) 
     }
