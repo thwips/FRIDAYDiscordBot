@@ -50,3 +50,4 @@ Temporary Items
 node_modules
 src/config.json
 src/data/config.json
+src/config/config.json
