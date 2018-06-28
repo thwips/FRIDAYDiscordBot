@@ -89,7 +89,9 @@ module.exports.embedGacha = (type) => {
   }
   if(Object.keys(type.prizes).length !== 0 && type.prizes.constructor === Object){
     let dropRate = Object.keys(type.prizes)
-    dropRate.sort()
+    dropRate.sort(function (a, b) {
+       return parseFloat(a) > parseFloat(b) ? 1 : parseFloat(a) < parseFloat(b) ? -1 : 0;
+    });
     for (let i = 0; i < dropRate.length && i < 24; i++) {
       embed.addField(`${dropRate[i]}%`, type.prizes[dropRate[i]]) 
     }
