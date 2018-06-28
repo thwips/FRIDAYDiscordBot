@@ -33,7 +33,7 @@
     "class": "Attacker",
     "location": "GTC",
     "basicName": "Panther Punch",
-    "basicDesc": "100% (135%) atk",
+    "basicDesc": "100% (115%) atk",
     "specialName": "Vibranium Shredding",
     "specialDesc": "125% (200%) atk\nCrit Damage Buff 100% (200%) (1 turn)",
     "ultimate1Name": "Power of the Panther",
