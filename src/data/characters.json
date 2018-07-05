@@ -70,7 +70,9 @@
     "passiveDesc": "100% (310%) Increased Crit Damage",
     "ultimate2Name": "Assassinate",
     "ultimate2Desc": "300% (540%) Atk",
-    "skins": {}
+    "skins": {
+      "Original Black Widow": "+10% Boost to Crit Chance"
+    }
   },
   "bucky barnes": {
     "title": "James Buchanan Barnes",
@@ -637,7 +639,8 @@
     "aliases": "Tigra",
     "nickname": [
       "greergrant",
-      "tigra"
+      "tigra",
+      "catgrant"
     ],
     "thumbnail": "http://i.imgur.com/nd1ODMg.png",
     "type": "Mystic",
@@ -885,7 +888,9 @@
     "passiveDesc": "21% (42%) Increased HP",
     "ultimate2Name": "Uncaged",
     "ultimate2Desc": "154% (277%) Atk to Front Row\n15% (38%) HoT for Three Turns",
-    "skins": {}
+    "skins": {
+      "Heroes For Hire Luke Cage": "+10% Boost to HP"
+    }
   },
   "hellcat": {
     "title": "Patricia Walker",
@@ -1442,5 +1447,53 @@
     "passiveDesc": "",
     "ultimate2Name": "",
     "ultimate2Desc": ""
+  },
+  "misty knight": {
+    "title": "Mercedes Knight",
+    "aliases": "",
+    "nickname": [
+      "mistyknight",
+      "mercedesknight",
+      "misty"
+    ],
+    "thumbnail": "https://cdn.discordapp.com/attachments/410302586436976641/461279974503219200/mar_2p0_premium_misty_token2x.png",
+    "type": "Tech",
+    "class": " Attacker",
+    "location": "Luke Cage Mini Event Only",
+    "skins": {
+      "Captain America Misty Knight": "+2% Boost to HP"
+    },
+    "basicName": "Bionic Punch",
+    "basicDesc": "100% (115%) Atk",
+    "specialName": "Target Practice",
+    "specialDesc": "98% (137%) Atk\n23% (47%) Chance to Stun for One Turn",
+    "ultimate1Name": "Knightly Behavior",
+    "ultimate1Desc": "180% (252%) Atk\n45% (90%) Self Crit Damage Buff for Three Turns",
+    "passiveName": "Iron Plating",
+    "passiveDesc": "20% (40%) Increased Atk",
+    "ultimate2Name": "Shootout!",
+    "ultimate2Desc": "225% (281%) Atk\n11% (27%) Chance to Stun for Three Turns"
+  },
+  "nightshade": {
+    "title": "Tilda Johnson",
+    "aliases": "",
+    "nickname": [
+      "nightshade"
+    ],
+    "thumbnail": "https://cdn.discordapp.com/attachments/410302586436976641/461279974503219201/mar_2p0_premium_nightshade_token2x.png",
+    "type": "Tech",
+    "class": "Support",
+    "location": "Luke Cage Mini Event Only",
+    "skins": {},
+    "basicName": "Fight Smart",
+    "basicDesc": "100% (115%) Atk",
+    "specialName": "Throw Shade",
+    "specialDesc": "165% (231%) Atk\n-7% (-14%) Atk Debuff to Two Random Targets for Three Turns",
+    "ultimate1Name": "Test New Tech",
+    "ultimate1Desc": "113% (158%) Atk to Front Row\n16% (32%) Heal to Front Row Allies",
+    "passiveName": "Experimental Serum",
+    "passiveDesc": "5% (11%) Increased HP for All Allies",
+    "ultimate2Name": "Deadly Nightshade",
+    "ultimate2Desc": "11% (17%) HoT to All Allies for Three Turns\n-5% (-12%) Accuracy Debuff to All Enemies for One Turn"
   }
 }
