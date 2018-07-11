@@ -17,46 +17,61 @@
       ]
     }
   },
-  "gold" : {
+    "gold" : {
     "category" : "Gold",
     "time" : "3 Days",
     "color" : "0xFFD700",
     "image" : "https://i.imgur.com/tSPAAHK.png",
-    "heroes" : ["Black Panther", "Black Widow", "Bucky Barnes", "Captain America", "Captain Marvel", "Doctor Strange", "Enchantress", "Falcon", "Hawkeye", "Hulk", "Iron man", "Jocasta", "Loki", "Maria Hill", "Mockingbird", "Ms. Marvel", "Nebula", "Okoye", "Phil Coulson", "Quake", "Red Hulk", "Shuri", "Spider Woman", "Spider-Man Shard", "Star-Lord", "Thor", "Tigra", "Valkyrie", "Vision", "Voyager", "War Machine", "Wasp", "Wiccan", "Winter Soldier"],
+    "heroes" : ["Black Panther", "Black Widow", "Bucky Barnes", "Captain America", "Captain Marvel", "Daredevil", "Doctor Strange", "Enchantress", "Falcon", "Firebird", "Hawkeye", "Hellcat", "Hulk", "Iron man", "Jessica Jones", "Jocasta", "Loki", "Luke Cage", "Maria Hill", "Misty Knight", "Mockingbird", "Moon Knight", "Ms. Marvel", "Nebula", "Okoye", "Phil Coulson", "Quake", "Red Hulk", "Rick Jones", "Shuri", "Skaar", "Spider Woman", "Spider-Man Shard", "Star-Lord", "Thor", "Tigra", "Valkyrie", "Vision", "Voyager", "War Machine", "Wasp", "Wiccan", "Winter Soldier"],
     "prizes" : {
-      "0.147" : [
+      "0.116" : [
         "30 Hero Shards"
       ],
-      "0.441" : [
+      "0.3488" : [
         "10 Hero Shards"
       ],
-      "0.588" : [
+      "0.4651" : [
         "8 Hero Shards"
       ],
-      "0.735" : [
+      "0.5814" : [
         "5 Hero Shards"
       ],
-      "1.029" : [
+      "0.814" : [
         "3 Hero Shards"
       ]
     }
   },
-  "lukecage": {
-    "category": "Luke Cage",
+  "hope": {
+    "category": "Hope",
     "time": "",
-    "color": "0xFFD700",
-    "image": "https://i.imgur.com/ByvCE8Z.png",
+    "color": "0x111E6C",
+    "image": "https://media.discordapp.net/attachments/410302586436976641/464559320714182687/mar_2p0_p_gacha_capsule_hope2x.png",
     "heroes": [],
     "prizes": {
-    "0.5" : ["80 Nightshade Shards, 1100 Domino Masks"],
-    "0.95" : ["**7 Hero Shards for:**\n\tBlack Panther, Captain America, Enchantress, Falcon, Hawkeye, Hulk, Jocasta, Maria Hill, Mockingbird, Ms. Marvel, Okoye, Phil Coulson, Quake, Red Hulk, Shuri, Spider-Woman, Thor, Tigra, Valkyrie, Vision, Voyager, War Machine, Wiccan, Winter Soldier"],
-    "1" : ["600 Luke's Ties"],
-    "1.5" : ["**80 Hero Shards for:**\n\tLuke Cage, Misty Knight"],
-    "2" : ["20 Nightshade Shards"],
-    "4" : ["**20 Hero Shards for:**\n\tLuke Cage, Misty Knight"],
-    "5" : ["10 Nightshade Shards"],
-    "21.5" : ["10 Misty Knight Shards"],
-    "30.7" : ["10 Luke Cage Shards"]
+        "0.5" : ["3 Bio-Synthetic Wings"],
+        "1" : ["1 Bio-Synthetic Wings, 1 Tier 2 Science Energy Core, 300 Academy XP"],
+        "2" : ["10 Rick Jones Shards"],
+        "3" : ["1 Stamina Pack"],
+        "10" : ["3 Rick Jones Shards"],
+        "20" : ["2 Rick Jones Shards"],
+        "30" : ["1 Rick Jones Shard"]
+    }
+  },
+  "pym": {
+    "category": "Pym Tech",
+    "time": "",
+    "color": "0x7C0A02",
+    "image": "https://media.discordapp.net/attachments/410302586436976641/464559306319069185/mar_2p0_p_gacha_capsule_antman2x.png",
+    "heroes": [],
+    "prizes": {
+        "0.5" : ["80 Hope van Dyne Shards"],
+        "1.4" : ["1 Tier 3 Attribute Energy Core"],
+        "2.5" : ["20 Hope van Dyne Shards"],
+        "3" : ["500 Shards"],
+        "4" : ["10 Hope van Dyne Shards"],
+        "5" : ["80 Ant-Man Shards, 75 Titanium Wings, 5 Gold Timefog Capsules"],
+        "10" : ["5 Graphic Novel Box Sets"],
+        "29" : ["10 or 20 Ant-Man Shards"]
     }
   }
 }
