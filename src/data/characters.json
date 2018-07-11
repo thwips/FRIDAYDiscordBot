@@ -95,7 +95,7 @@
     "basicName": "Combo",
     "basicDesc": "100% (115%) Atk",
     "specialName": "Pistol Combo",
-    "specialDesc": "150% (210%) Atk/n113% (173%) Atk to Random Target",
+    "specialDesc": "150% (210%) Atk\n113% (173%) Atk to Random Target",
     "ultimate1Name": "Bombing Run",
     "ultimate1Desc": "130% (182%) Atk to Front Row",
     "passiveName": "True Grit",
@@ -183,7 +183,9 @@
     "passiveDesc": "15% (30%) Increased Crit Hit Chance to Middle Row Allies",
     "ultimate2Name": "Bolster",
     "ultimate2Desc": "225% (405%) Atk\n8% (20%) Heal All Allies",
-    "skins": {}
+    "skins": {
+      "Infinite": "+8% Boost to Atk"
+    }
   },
   "hawkeye": {
     "title": "Clint Barton",
@@ -267,7 +269,8 @@
     "ultimate2Name": "Self Repair",
     "ultimate2Desc": "146% (263%) Atk to Front Row\n27% (68%) Self Heal",
     "skins": {
-      "Thanosbuster": "+35% boost to HP"
+      "Model 42": "+10% Boost to Atk",
+      "Thanosbuster": "+35% Boost to HP"
     }
   },
   "jocasta": {
@@ -480,7 +483,9 @@
     "passiveDesc": "10% (20%) Increased Crit Chance\n7.5% (15%) Increased Evasion",
     "ultimate2Name": "Richter Wrecker",
     "ultimate2Desc": "62% (111%) Atk to Four Random Targets\n10% (25%) Chance to Stun",
-    "skins": {}
+    "skins": {
+      "Secret War": "+3% Boost to Atk"
+    }
   },
   "red hulk": {
     "title": "Thaddeus Ross",
@@ -521,7 +526,7 @@
     "thumbnail": "https://i.imgur.com/I434WfI.png",
     "type": "Cosmic",
     "class": "Tank",
-    "location": "World War Hulk Event Only",
+    "location": "Gold Capsule",
     "basicName": "Firing the Laser!",
     "basicDesc": "100% (115%) Atk",
     "specialName": "Flying Marvel",
@@ -567,7 +572,7 @@
     "thumbnail": "https://i.imgur.com/CrUKSt6.png",
     "type": "Science",
     "class": "Attacker",
-    "location": "World War Hulk Event Only",
+    "location": "Gold Capsule",
     "basicName": "Cleave",
     "basicDesc": "100% (115%) Atk",
     "specialName": "Cut Them Down",
@@ -780,7 +785,10 @@
     "passiveDesc": "10% (20%) Increased Crit Hit\n7.5% (15%) Increased Evasion",
     "ultimate2Name": "Buzz",
     "ultimate2Desc": "No Damage\n30% (70%) Self Atk Buff\n30% (70%) Self Evasion Buff",
-    "skins": {}
+    "skins": {
+      "Original": "+1% Boost to HP",
+      "High Fashion": "+2% Boost to Atk"
+    }
   },
   "wiccan": {
     "title": "William Kaplan",
@@ -849,7 +857,7 @@
     "thumbnail": "https://i.imgur.com/lfBIAbN.png",
     "type": "Physical",
     "class": "Attacker",
-    "location": "Jessica Jones Event Only",
+    "location": "Gold Capsule",
     "basicName": "Deal Some Justice",
     "basicDesc": "100% (115%) Atk",
     "specialName": "\"Special Abilities\"",
@@ -877,7 +885,7 @@
     "thumbnail": "https://i.imgur.com/xAYTkYO.png",
     "type": "Physical",
     "class": "Tank",
-    "location": "Jessica Jones Event Only\nLuke Cage Event Only",
+    "location": "Gold Capsule",
     "basicName": "Move Forward",
     "basicDesc": "100% (115%) Atk",
     "specialName": "Uptown Uppercut",
@@ -1340,7 +1348,7 @@
     },
     "type": "Physical",
     "class": "Attacker",
-    "location": "Cloak and Dagger Event Only",
+    "location": "Gold Capsule",
     "basicName": "Switch-Hit",
     "basicDesc": "100% (115%) Atk",
     "specialName": "Justice is Served",
@@ -1363,7 +1371,7 @@
     "thumbnail": "https://cdn.discordapp.com/attachments/410302586436976641/454425994263265291/mar_2p0_premium_moonknight_token2x.png",
     "type": "Tech",
     "class": "Tank",
-    "location": "Cloak and Dagger Event Only",
+    "location": "Gold Capsule",
     "skins": {},
     "basicName": "Mercenary Training",
     "basicDesc": "100% (115%) Atk",
@@ -1411,7 +1419,7 @@
     "thumbnail": "https://cdn.discordapp.com/attachments/410302586436976641/456879428883185664/mar_2p0_premium_firebird_token2x.png",
     "type": "Cosmic",
     "class": "Attacker",
-    "location": "Cloak and Dagger Event Only",
+    "location": "Gold Capsule",
     "skins": {},
     "basicName": "Energy Manipulation",
     "basicDesc": "100% (115%) Atk",
@@ -1459,7 +1467,7 @@
     "thumbnail": "https://cdn.discordapp.com/attachments/410302586436976641/461279974503219200/mar_2p0_premium_misty_token2x.png",
     "type": "Tech",
     "class": " Attacker",
-    "location": "Luke Cage Mini Event Only",
+    "location": "Gold Capsule",
     "skins": {
       "Captain America Misty Knight": "+2% Boost to HP"
     },
@@ -1495,5 +1503,59 @@
     "passiveDesc": "5% (11%) Increased HP for All Allies",
     "ultimate2Name": "Deadly Nightshade",
     "ultimate2Desc": "11% (17%) HoT to All Allies for Three Turns\n-5% (-12%) Accuracy Debuff to All Enemies for One Turn"
+  },
+  "ant-man": {
+    "title": "Scott Lang",
+    "aliases": "",
+    "nickname": [
+      "ant-man",
+      "paulrudd",
+      "antman",
+      "scott",
+      "scottlang"
+    ],
+    "thumbnail": "https://cdn.discordapp.com/attachments/410302586436976641/464559274044162049/mar_2p0_premium_antman_token2x.png",
+    "type": "Science",
+    "class": "Attacker",
+    "location": "Ant-Man and the Wasp Event Only\nPym Tech Capsule",
+    "skins": {
+      "Giant-Man": "+2% Boost to HP",
+      "Irredeemable": "+20% Boost to Atk"
+    },
+    "basicName": "Prison Punch",
+    "basicDesc": "100% (115%) Atk",
+    "specialName": "Applied Physics",
+    "specialDesc": "150% (210%) Atk\n14% (27%) Self Crit Chance Buff",
+    "ultimate1Name": "Gigantic Stomp",
+    "ultimate1Desc": "150% (210%) Atk\n14% (27%) Self Evasion Buff",
+    "passiveName": "Hive Helpers",
+    "passiveDesc": "100% (310%) Increased Crit Damage",
+    "ultimate2Name": "Actual Size",
+    "ultimate2Desc": "225% (405%) Atk\n27% (67.5%) Self Crit Chance Buff"
+  },
+  "hope van dyne": {
+    "title": "Hope van Dyne",
+    "aliases": "AU Wasp",
+    "nickname": [
+      "hopevandyne",
+      "auwasp",
+      "evangelinelilly",
+      "hope"
+    ],
+    "thumbnail": "https://cdn.discordapp.com/attachments/410302586436976641/464559274044162048/mar_2p0_premium_hope_token2x.png",
+    "type": "Science",
+    "class": "Attacker",
+    "location": "Ant-Man and the Wasp Event Only\nPym Tech Capsule",
+    "skins": {},
+    "basicName": "Self-Defense Training",
+    "basicDesc": "100% (115%) Atk",
+    "specialName": "Wasp Sting",
+    "specialDesc": "173% (242%) Atk\n72% (144%) Self Crit Damage Buff",
+    "ultimate1Name": "Pym Discs",
+    "ultimate1Desc": "173% (242%) Atk\n19% (38%) Self Crit Chance Buff",
+    "passiveName": "Quantum Manipulation",
+    "passiveDesc": "21% (42%) Increased Crit Chance",
+    "ultimate2Name": "Extra Seasoning",
+    "ultimate2Desc": "247.5% (445.5%) Atk\n105% (262.5%) Self Crit Damage Buff"
   }
 }
