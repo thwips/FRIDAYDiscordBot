@@ -64,14 +64,37 @@
     "image": "https://media.discordapp.net/attachments/410302586436976641/464559306319069185/mar_2p0_p_gacha_capsule_antman2x.png",
     "heroes": [],
     "prizes": {
-        "0.5" : ["80 Hope van Dyne Shards"],
-        "1.4" : ["1 Tier 3 Attribute Energy Core"],
-        "2.5" : ["20 Hope van Dyne Shards"],
-        "3" : ["500 Shards"],
-        "4" : ["10 Hope van Dyne Shards"],
-        "5" : ["80 Ant-Man Shards, 75 Titanium Wings, 5 Gold Timefog Capsules"],
-        "10" : ["5 Graphic Novel Box Sets"],
-        "29" : ["10 or 20 Ant-Man Shards"]
+      "0.5" : ["80 Hope van Dyne Shards"],
+      "1" : ["80 Goliath Shards"],
+      "1.4" : ["1 Tier Three Attribute Energy Core"]
+      "1.5" : ["5 Gold Timefog Capsules, 500 Shards"],
+      "2" : ["75 Titanium Wings"],
+      "2.5" : ["20 Hope van Dyne Shards"],
+      "3" : ["80 Ant-Man Shards, 80 Stinger Shards, 75 Quantum Arc Reactors"],
+      "4" : ["10 Hope van Dyne Shards"],
+      "5" : ["20 Goliath Shards"],
+      "7" : ["5 Graphic Novel Box Sets"],
+      "9" : ["10 Goliath Shards"],
+      "12" : ["20 Stinger Shards, 20 Ant-Man Shards"],
+      "13" : ["10 Ant-Man Shards, 10 Stinger Shards"]
+    }
+  },
+  "goliath": {
+    "category": "goliath",
+    "time": "",
+    "color": "0x0F52BA",
+    "image": "https://media.discordapp.net/attachments/410302586436976641/467097837549649922/mar_2p0_p_gacha_capsule_goliath2x.png",
+    "heroes": [],
+    "prizes": {
+		"0.5" : ["10 Goliath Shards"],
+		"1" : ["5 Goliath Shards"],
+		"1.5" : ["300 Academy XP"],
+		"2" : ["2 Tier Two Science Energy Cores"],
+		"4" : ["1 Stamina Pack, 6 Graphic Novels"],
+		"5" : ["3 Goliath Shards"],
+		"7" : ["3 Graphic Novels"],
+		"20" : ["2 Goliath Shards"],
+		"55" : ["1 Goliath Shard"]
     }
   }
 }
