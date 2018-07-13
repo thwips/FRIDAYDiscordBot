@@ -729,7 +729,7 @@
     "specialName": "Time Warp",
     "specialDesc": "No Damage\n100% (200%) Crit Damage Buff to Random Ally For Three Turns\n-25% (-50%) Crit Chance Debuff to Random Target for Three Turns",
     "ultimate1Name": "Portal Field",
-    "ultimate1Desc": "45% (53.5%) Atk to All Enemies\n8.6% (26.6%) Crit Chance Buff to All Allies for Three Turns",
+    "ultimate1Desc": "45% (63%) Atk to All Enemies\n8.6% (17.1%) Crit Chance Buff to All Allies for Three Turns",
     "passiveName": "Temporal Anomaly",
     "passiveDesc": "60% (120%) Increased Crit Damage to All Allies",
     "ultimate2Name": "Quantum Field",
@@ -1506,7 +1506,7 @@
   },
   "ant-man": {
     "title": "Scott Lang",
-    "aliases": "",
+    "aliases": "Ant-Man",
     "nickname": [
       "ant-man",
       "paulrudd",
@@ -1557,5 +1557,54 @@
     "passiveDesc": "21% (42%) Increased Crit Chance",
     "ultimate2Name": "Extra Seasoning",
     "ultimate2Desc": "247.5% (445.5%) Atk\n105% (262.5%) Self Crit Damage Buff"
+  },
+  "stinger": {
+    "title": "Cassandra Lang",
+    "aliases": "Stinger",
+    "nickname": [
+      "stinger",
+      "cassielang",
+      "cassandralang"
+    ],
+    "thumbnail": "https://cdn.discordapp.com/attachments/410302586436976641/467097808500031498/mar_2p0_premium_stinger_token2x.png",
+    "type": "Science",
+    "class": "Attacker",
+    "location": "Ant-Man and the Wasp Event Only\nPym Tech Capsule",
+    "skins": {},
+    "basicName": "That Stings",
+    "basicDesc": "100% (115%) Atk",
+    "specialName": "Ride Into Battle",
+    "specialDesc": "150% (210%) Atk\n27% (54%) Self Evasion Buff for ? Turns",
+    "ultimate1Name": "Statuesque Slam",
+    "ultimate1Desc": "150% (210%) Atk\n-8.6% (-17.1%) Accuracy Debuff to Back Row",
+    "passiveName": "Pym Particle Enhancement",
+    "passiveDesc": "10% (20%) Increased Atk\n7.5% (15%) Increased Evasion",
+    "ultimate2Name": "Lethal Legacy",
+    "ultimate2Desc": "225% (405%) Atk\n68% (169%) Self Crit Damage Buff for ? Turns"
+  },
+  "goliath": {
+    "title": "William Foster",
+    "aliases": "Goliath",
+    "nickname": [
+      "goliath",
+      "billfoster",
+      "williamfoster",
+      "david"
+    ],
+    "thumbnail": "https://cdn.discordapp.com/attachments/410302586436976641/467097821040869376/mar_2p0_premium_goliath_token2x.png",
+    "type": "Science",
+    "class": "Tank",
+    "location": "Ant-Man and the Wasp Event Only\nGoliath Capsule\nPym Tech Capsule",
+    "skins": {},
+    "basicName": "Applied Physics",
+    "basicDesc": "100% (115%) Atk",
+    "specialName": "Double Down",
+    "specialDesc": "165% (231%) Atk\n-22% (-43?%) Evasion Debuff for ? Turns",
+    "ultimate1Name": "Crush It",
+    "ultimate1Desc": "173% (224%) Atk to Random Target\n16% (32%) Chance to Stun for ? Turns",
+    "passiveName": "Maximum Density",
+    "passiveDesc": "21% (32%) Increased HP",
+    "ultimate2Name": "Turn Up The Volume",
+    "ultimate2Desc": "56.3% (101.3%) Atk to All Enemies\n9% (23%) Chance to Stun for ? Turns"
   }
 }
