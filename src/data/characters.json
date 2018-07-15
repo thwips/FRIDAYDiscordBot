@@ -319,7 +319,9 @@
     "passiveDesc": "10% (30%) Increased Evasion to Middle Row",
     "ultimate2Name": "Trickster God",
     "ultimate2Desc": "56% (101%) Atk to All Enemies\n9% (23%) Chance to Confuse All Enemies",
-    "skins": {}
+    "skins": {
+      "Immortal Sorcerer": "+2% Boost to Atk and HP"
+    }
   },
   "maria hill": {
     "title": "Maria Hill",
@@ -834,7 +836,7 @@
     "basicName": "Punch",
     "basicDesc": "100% (115%) Atk",
     "specialName": "Quickshot",
-    "specialDesc": "150% (210%) Atk\n27% (54%) Self Evasion BUff for One Turn",
+    "specialDesc": "150% (210%) Atk\n27% (54%) Self Evasion Buff for One Turn",
     "ultimate1Name": "The Big Guns",
     "ultimate1Desc": "200% (280%) Atk",
     "passiveName": "Super Serum",
@@ -1560,11 +1562,13 @@
   },
   "stinger": {
     "title": "Cassandra Lang",
-    "aliases": "Stinger",
+    "aliases": "Stinger, Stature",
     "nickname": [
       "stinger",
       "cassielang",
-      "cassandralang"
+      "cassandralang",
+      "stature",
+      "peanut"
     ],
     "thumbnail": "https://cdn.discordapp.com/attachments/410302586436976641/467097808500031498/mar_2p0_premium_stinger_token2x.png",
     "type": "Science",
