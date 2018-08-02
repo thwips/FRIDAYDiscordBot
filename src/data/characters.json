@@ -66,7 +66,7 @@
     "specialDesc": "150% (210%) Atk \n36% (72%) Chance to Stun for One Turn",
     "ultimate1Name": "Tear Gas",
     "ultimate1Desc": "41% (58%) Atk to Four Random Enemies\n45% (90%) Self Crit Damage Buff for Three Turns",
-    "passiveName": "Sharpend Blade",
+    "passiveName": "Sharpened Blade",
     "passiveDesc": "100% (310%) Increased Crit Damage",
     "ultimate2Name": "Assassinate",
     "ultimate2Desc": "300% (540%) Atk",
@@ -486,7 +486,7 @@
     "ultimate2Name": "Richter Wrecker",
     "ultimate2Desc": "62% (111%) Atk to Four Random Targets\n10% (25%) Chance to Stun",
     "skins": {
-      "Secret War": "+3% Boost to Atk"
+      "Secret War": "+5% Boost to Atk"
     }
   },
   "red hulk": {
@@ -623,7 +623,8 @@
       "male thor",
       "mthor",
       "lordofthunder",
-      "sparkles"
+      "sparkles",
+      "uncleofthunder"
     ],
     "thumbnail": "http://i.imgur.com/tqgKEg5.png",
     "type": "Cosmic",
@@ -720,7 +721,8 @@
       "valerievector",
       "destroyerofbookclub",
       "grandmaster'sdaughter",
-      "grandmaster’sdaughter"
+      "grandmaster’sdaughter",
+      "fetch"
     ],
     "thumbnail": "https://i.imgur.com/HCgDDem.png",
     "type": "Cosmic",
@@ -1610,5 +1612,103 @@
     "passiveDesc": "21% (32%) Increased HP",
     "ultimate2Name": "Turn Up The Volume",
     "ultimate2Desc": "56.3% (101.3%) Atk to All Enemies\n9% (23%) Chance to Stun for ? Turns"
+  },
+  "yellowjacket": {
+    "title": "Darren Cross",
+    "aliases": "Yellowjacket",
+    "nickname": [
+      "yellowjacket",
+      "darrencross",
+      "yj"
+    ],
+    "thumbnail": "https://cdn.discordapp.com/attachments/410302586436976641/469630801718411285/mar_2p0_premium_yellowjacket_token2x.png",
+    "type": "Tech",
+    "class": "Attacker",
+    "location": "Ant-Man and the Wasp Event Only\nPym Tech Capsule",
+    "skins": {},
+    "basicName": "Get Armed",
+    "basicDesc": "100% (115%) Atk",
+    "specialName": "Crossfire",
+    "specialDesc": "150% (210%) Atk\n27% (54%) Self Accuracy Buff",
+    "ultimate1Name": "Start A Buzz",
+    "ultimate1Desc": "150% (210%) Atk\nHits Twice",
+    "passiveName": "Titanium Stings",
+    "passiveDesc": "20% (40%) Increased Atk",
+    "ultimate2Name": "Play Disintegration",
+    "ultimate2Desc": "225% (405%) Atk\n14% (34%) Self Crit Chance Buff"
+  },
+  "amadeus cho": {
+    "title": "Amadeus Cho",
+    "aliases": "",
+    "nickname": [
+      "amadeuscho",
+      "cho",
+      "amadeus"
+    ],
+    "thumbnail": "https://cdn.discordapp.com/attachments/410302586436976641/469630816574505000/mar_2p0_premium_cho_token2x.png",
+    "type": "Science",
+    "class": "Tank",
+    "location": "Ant-Man and the Wasp Event Only\nPym Tech Capsule\nAmadeus Cho Capsule",
+    "skins": {
+      "Iron Spider": "+12% Boost to HP"
+    },
+    "basicName": "Hulk Out!",
+    "basicDesc": "100% (115%) Atk",
+    "specialName": "Gamma Beam",
+    "specialDesc": "150% (213%) Atk\n29% (58%) Self Crit Chance Buff",
+    "ultimate1Name": "Hack The System",
+    "ultimate1Desc": "150% (213%) Atk\n21% (41%) Chance to Stun",
+    "passiveName": "Total Awesomeness",
+    "passiveDesc": "21% (42%) Increased HP",
+    "ultimate2Name": "Hypermind",
+    "ultimate2Desc": "154% (277%) Atk to Random Target\nWill Stun Target for Two Turns if Crit Hit Occurs"
+  },
+  "hank pym": {
+    "title": "Hank Pym",
+    "aliases": "",
+    "nickname": [
+      "hankpym",
+      "pym",
+      "hank"
+    ],
+    "thumbnail": "https://cdn.discordapp.com/attachments/410302586436976641/472170253858897930/mar_2p0_premium_pym_token2x.png",
+    "type": "Science",
+    "class": "Support",
+    "location": "Ant-Man and the Wasp Event Only\nPym Tech Capsule",
+    "skins": {
+      "Wasp": "+10% Boost to Evasion"
+    },
+    "basicName": "That's Force!",
+    "basicDesc": "100% (115%) Atk",
+    "specialName": "That's Giant!",
+    "specialDesc": "72% (144%) Crit Damage Buff to Second Row Allies",
+    "ultimate1Name": "That's An Army!",
+    "ultimate1Desc": "50% Chance to Stun a Random Enemy\n-20% (-40%) Atk Debuff to that Target if Stun Fails",
+    "passiveName": "That's A Coincidence!",
+    "passiveDesc": "6% (12%) Increased Crit Chance to All Allies",
+    "ultimate2Name": "That's Science!",
+    "ultimate2Desc": "223% (419%) Atk\n6.3% (16%) Attack Buff to All Allies"
+  },
+  "ghost": {
+    "title": "Ava Starr",
+    "aliases": "Ghost, Casper",
+    "nickname": [
+      "ghost"
+    ],
+    "thumbnail": "https://cdn.discordapp.com/attachments/410302586436976641/472170533967101954/mar_2p0_premium_ghost_token2x.png",
+    "type": "Science",
+    "class": "Attacker",
+    "location": "Ant-Man and the Wasp Event Only\nPym Tech Capsule\nGhost Capsule",
+    "skins": {},
+    "basicName": "Stabilized Molecules",
+    "basicDesc": "100% (115%) Atk",
+    "specialName": "Quantum Entropy",
+    "specialDesc": "19% (38%) Self Evasion Buff\n19% (38%) Self Crit Chance Buff",
+    "ultimate1Name": "Certainty",
+    "ultimate1Desc": "173% (241%) Atk\n259% (362%) Atk in addition to normal Crit Damage if Crit Hit Occurs",
+    "passiveName": "Probability Manipulation",
+    "passiveDesc": "24% (48%) Increased Crit Chance",
+    "ultimate2Name": "Deadly Disequilibrium",
+    "ultimate2Desc": "180% (324%) Atk to Back Row"
   }
 }
