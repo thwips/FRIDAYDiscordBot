@@ -33,7 +33,7 @@
       "20" : [
         "8 Hero Shards"
       ],
-      "24" : [
+      "25" : [
         "5 Hero Shards"
       ],
       "35" : [
@@ -44,7 +44,7 @@
   "captainmarvel": {
     "category": "Captain Marvel",
     "time": "",
-    "color": "0xFFD700",
+    "color": "0xFF6600",
     "image": "https://media.discordapp.net/attachments/410302586436976641/475004548918935553/mar_2p0_p_gacha_capsule_captainmarvel2x.png",
     "heroes": [],
     "prizes": {
@@ -59,7 +59,7 @@
   "mar-vell": {
     "category": "Mar-Vell",
     "time": "",
-    "color": "0xFFD700",
+    "color": "0xFFA500",
     "image": "https://media.discordapp.net/attachments/410302586436976641/475004559924658177/mar_2p0_p_gacha_capsule_marvell2x.png",
     "heroes": [],
     "prizes": {
