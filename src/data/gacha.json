@@ -56,6 +56,21 @@
       "20" : ["4 Captain Marvel Shards", "10 Stormbreaker Fragments"]
     }
   },
+  "cosmo": {
+    "category": "Cosmo",
+    "time": "",
+    "color": "0xFF6600",
+    "image": "https://media.discordapp.net/attachments/410302586436976641/475004548918935553/mar_2p0_p_gacha_capsule_captainmarvel2x.png",
+    "heroes": [],
+    "prizes": {
+      "1" : ["200 Shards"],
+      "5" : ["2 Captain Marvel Shards", "5 Stormbreaker Fragments", "300 Academy Xp", "2500 Coins"],
+      "10" : ["2 Graphic Novels"],
+      "14" : ["15 Stormbreaker Fragments"],
+      "15" : ["8 Captain Marvel Shards"],
+      "20" : ["4 Captain Marvel Shards", "10 Stormbreaker Fragments"]
+    }
+  },
   "mar-vell": {
     "category": "Mar-Vell",
     "time": "",
