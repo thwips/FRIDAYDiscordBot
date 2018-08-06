@@ -31,7 +31,12 @@ module.exports.getCharactersByType = (type, classType) => {
       }
     }
   }
-  return characters.substring(0, characters.length - 2)
+  if(characters.length > 3) {
+    return characters.substring(0, characters.length - 2)
+  }
+  else {
+    return `There are no ${type} ${classType}`
+  }
 }
 
 module.exports.embedType = (type, classType) => {
