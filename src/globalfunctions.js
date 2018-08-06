@@ -19,22 +19,27 @@ module.exports.isAllowed = (message, ignoredRooms) => {
   return (module.exports.inAllowedChannel(message, ignoredRooms) || (module.exports.isAdmin(message.guild.id,message.member.id)))
 }
 
-module.exports.getCharactersByType = (type) => {
+module.exports.getCharactersByType = (type, classType) => {
   let characters = ''
   for (let character in characterList){
     if(characterList[character].type == type && characterList[character].class !== "Boss"){
-      characters = characters.concat(character + ', ')
+      if(classType !== null && characterList[character].class === classType) {
+        characters = characters.concat(character + ', ')
+      }
+      else if(classType === null){
+        characters = characters.concat(character + ', ')
+      }
     }
   }
   return characters.substring(0, characters.length - 2)
 }
 
-module.exports.embedType = (type) => {
-  let characters = module.exports.getCharactersByType(type.title)
+module.exports.embedType = (type, classType) => {
+  let characters = module.exports.getCharactersByType(type.title, classType)
   const embed = new Discord.RichEmbed()
     .setAuthor('S.H.I.E.L.D. intel','https://i.imgur.com/JLIGMuA.png')
     .setColor(type.color)
-    .setTitle(type.title)
+    .setTitle(classType === null ? type.title : `${type.title} ${classType}`)
     .setDescription(`${type.description}`)
     .setThumbnail(`${type.image}`)
     .addField(`Characters`, `${characters}`)

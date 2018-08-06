@@ -10,21 +10,24 @@ module.exports.run = async (bot, message, args) => {
   if(type != undefined) {
     type = type.toLowerCase()
     if(typeList[type] === undefined){
-      message.channel.send('Please enter valid type');
-      return;
+      return message.channel.send('Please enter valid type')
     }
     if(arg === undefined) {
-      const embed = gf.embedType(typeList[type])
-      message.channel.send({embed})   
-      return;
-    } else 
-    if(typeList[type][arg] == undefined){
-      message.channel.send('Please enter valid argument {adv | weak}');
+      const embed = gf.embedType(typeList[type], null)
+      return message.channel.send({embed})
+    }
+    else if(arg === 'attacker' || arg === 'support' || arg === 'tank'){
+      arg = arg.charAt(0).toUpperCase() + arg.substr(1);
+      const embed = gf.embedType(typeList[type], arg)
+      return message.channel.send({embed})
+    }
+    else if(typeList[type][arg] == undefined){
+      message.channel.send('Please enter valid argument {adv | weak | attacker | support | tank}');
       return;
     }
     else {
       let typeMod = typeList[type][arg]
-      const embed = gf.embedType(typeList[typeMod])
+      const embed = gf.embedType(typeList[typeMod], null)
       message.channel.send({embed})         
     }
   }
