@@ -1,5 +1,3 @@
-const gf = require('../globalfunctions.js')
-
 module.exports.run = async (bot, message, args) => {
   if(!gf.isAllowed(message, module.exports.help.ignore)) return;
   return message.channel.send({
