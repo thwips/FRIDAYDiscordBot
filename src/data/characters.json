@@ -159,7 +159,9 @@
     "passiveDesc": "15% (30%) Atk Buff for Back Row Allies",
     "ultimate2Name": "Shot through the Heart",
     "ultimate2Desc": "113% (203%) Atk\n-19% (-47%) Atk Debuff to Back Row",
-    "skins": {}
+    "skins": {
+      "Space Warrior": "+6% Boost to Atk and HP"
+    }
   },
   "falcon": {
     "title": "Sam Wilson",
@@ -184,6 +186,7 @@
     "ultimate2Name": "Bolster",
     "ultimate2Desc": "225% (405%) Atk\n8% (20%) Heal All Allies",
     "skins": {
+      "Astronaut": "+2% Boost to HP",
       "Infinite": "+8% Boost to Atk"
     }
   },
@@ -269,6 +272,7 @@
     "ultimate2Name": "Self Repair",
     "ultimate2Desc": "146% (263%) Atk to Front Row\n27% (68%) Self Heal",
     "skins": {
+      "Intergalactic": "2% Boost to Atk",
       "Model 42": "+10% Boost to Atk",
       "Thanosbuster": "+35% Boost to HP"
     }
@@ -946,7 +950,7 @@
     "thumbnail": "https://i.imgur.com/1KwhKVW.png",
     "type": "Mystic",
     "class": "Attacker",
-    "location": "Jessica Jones Event Only",
+    "location": "Gold Capsule",
     "basicName": "Bust A Cap",
     "basicDesc": "100% (115%) Atk",
     "specialName": "Now You See Me",
@@ -1521,7 +1525,7 @@
     "thumbnail": "https://cdn.discordapp.com/attachments/410302586436976641/464559274044162049/mar_2p0_premium_antman_token2x.png",
     "type": "Science",
     "class": "Attacker",
-    "location": "Ant-Man and the Wasp Event Only\nPym Tech Capsule",
+    "location": "Gold Capsule",
     "skins": {
       "Giant-Man": "+2% Boost to HP",
       "Irredeemable": "+20% Boost to Atk"
@@ -1575,7 +1579,7 @@
     "thumbnail": "https://cdn.discordapp.com/attachments/410302586436976641/467097808500031498/mar_2p0_premium_stinger_token2x.png",
     "type": "Science",
     "class": "Attacker",
-    "location": "Ant-Man and the Wasp Event Only\nPym Tech Capsule",
+    "location": "Gold Capsule",
     "skins": {},
     "basicName": "That Stings",
     "basicDesc": "100% (115%) Atk",
@@ -1624,7 +1628,7 @@
     "thumbnail": "https://cdn.discordapp.com/attachments/410302586436976641/469630801718411285/mar_2p0_premium_yellowjacket_token2x.png",
     "type": "Tech",
     "class": "Attacker",
-    "location": "Ant-Man and the Wasp Event Only\nPym Tech Capsule",
+    "location": "Gold Capsule",
     "skins": {},
     "basicName": "Get Armed",
     "basicDesc": "100% (115%) Atk",
@@ -1674,7 +1678,7 @@
     "thumbnail": "https://cdn.discordapp.com/attachments/410302586436976641/472170253858897930/mar_2p0_premium_pym_token2x.png",
     "type": "Science",
     "class": "Support",
-    "location": "Ant-Man and the Wasp Event Only\nPym Tech Capsule",
+    "location": "Gold Capsule",
     "skins": {
       "Wasp": "+10% Boost to Evasion"
     },
@@ -1710,5 +1714,52 @@
     "passiveDesc": "24% (48%) Increased Crit Chance",
     "ultimate2Name": "Deadly Disequilibrium",
     "ultimate2Desc": "180% (324%) Atk to Back Row"
+  },
+  "beta ray bill": {
+    "title": "Beta Ray Bill",
+    "aliases": "",
+    "nickname": [
+      "betaraybill",
+      "horsecorpse",
+      "brb"
+    ],
+    "thumbnail": "https://cdn.discordapp.com/attachments/410302586436976641/475004570544898079/mar_2p0_premium_betaraybill_token2x.png",
+    "type": "Cosmic",
+    "class": "Attacker",
+    "location": "Captain Marvel Capsule\nMar-Vell Capsule\nCosmic Cataclysm Event Only",
+    "skins": {},
+    "basicName": "Korbonite Champion",
+    "basicDesc": "100% (115%) Atk",
+    "specialName": "Stormbreaker",
+    "specialDesc": "140% (194%) Atk to Two Random Targets",
+    "ultimate1Name": "Worthy Warrior",
+    "ultimate1Desc": "53% (74%) Atk to All Enemies\n31% (62%) Self Atk Buff",
+    "passiveName": "Cybernetic Enhancements",
+    "passiveDesc": "11% (22%) Increased Atk\n11% (22%) Increased HP",
+    "ultimate2Name": "Godhunter",
+    "ultimate2Desc": "99% (179%) Atk to Three Random Targets\n18% (45%) Chance to Stun those Targets"
+  },
+  "mar-vell": {
+    "title": "Mar-Vell",
+    "aliases": "Captain Marvel",
+    "nickname": [
+      "mar-vell",
+      "marvell"
+    ],
+    "thumbnail": "https://cdn.discordapp.com/attachments/410302586436976641/475004588978601985/mar_2p0_premium_marvell_token2x.png",
+    "type": "Cosmic",
+    "class": "Attacker",
+    "location": "Mar-Vell Capsule\nCosmic Cataclysm Event Only",
+    "skins": {},
+    "basicName": "Augmented Physiology",
+    "basicDesc": "100% (115%) Atk",
+    "specialName": "Cosmic Punch",
+    "specialDesc": "120% (168%) Atk to Second Row\n14% (28%) Atk Buff to All Allies",
+    "ultimate1Name": "Photon Blasts",
+    "ultimate1Desc": "120% (168%) Atk\nHits Twice\nEach Atk Hits Two Random Targets",
+    "passiveName": "Cosmic Awareness",
+    "passiveDesc": "13% (25%) Increased Atk\n10% (20%) Increased Evasion",
+    "ultimate2Name": "Fatality",
+    "ultimate2Desc": "86% (155%) Atk to All Enemies\nExtra 255% Atk to Single Target"
   }
 }
