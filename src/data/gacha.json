@@ -56,6 +56,22 @@
       "20" : ["4 Captain Marvel Shards", "10 Stormbreaker Fragments"]
     }
   },
+  "cosmo": {
+    "category": "Cosmo",
+    "time": "",
+    "color": "0xD79C60",
+    "image": "https://cdn.discordapp.com/attachments/410302586436976641/477245393613094913/mar_2p0_p_gacha_capsule_cosmo2x.png",
+    "heroes": [],
+    "prizes": {
+      "1" : ["200 Shards"],
+      "4" : ["2 Records"],
+      "5" : ["2 Cosmo Shards", "300 Academy Xp", "2500 Coins"],
+      "10" : ["2 Graphic Novels"],
+      "14" : ["8 Records"],
+      "15" : ["8 Cosmo Shards"],
+      "20" : ["4 Cosmo Shards", "4 Records"]
+    }
+  },
   "mar-vell": {
     "category": "Mar-Vell",
     "time": "",
@@ -63,15 +79,14 @@
     "image": "https://media.discordapp.net/attachments/410302586436976641/475004559924658177/mar_2p0_p_gacha_capsule_marvell2x.png",
     "heroes": [],
     "prizes": {
-      "1" : ["600 Shards", "1 Tier 3 Attribute Energy Core"],
-      "2" : ["5 Gold Timefog Capsules"],
-      "2.5" : ["80 Mar-Vell Shards", "80 Beta Ray Bill Shards"],
-      "4" : ["100 Red Kree Helmets"],
-      "6" : ["80 Captain Marvel Shards"],
-      "9" : ["40 Stormbreaker Fragments"],
-      "18" : ["20 Stormbreaker Fragments"], 
-      "20" : ["20 Captain Marvel Shards"],
-      "30" : ["10 Captain Marvel Shards"]
+      "0.9" : ["1 Tier 3 Attribute Energy Core"],
+      "1" : ["600 Shards"],
+      "2.5" : ["80 Mar-Vell Shards", "80 Beta Ray Bill Shards", "80 Noh-Varr Shards"],
+      "3" : ["80 Captain Marvel Shards", "80 Cosmo Shards"],
+      "4" : ["100 Red Kree Helmets", "100 Green Kree Helmets"],
+      "6" : ["40 Stormbreaker Fragments", "20 Noh-Varr Shards"],
+      "10" : ["20 Stormbreaker Fragments", "20 Captain Marvel Shards", "10 Captain Marvel Shards", "20 Cosmo Shards", "10 Cosmo Shards"],
+      "11" : ["10 Noh-Var Shards"]
     }
   }
 }
