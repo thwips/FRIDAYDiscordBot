@@ -1,106 +1,106 @@
 {
-  "silver" : {
-    "category" : "Silver",
-    "time" : "6 hours",
-    "color" : "0xC0C0C0",
-    "image" : "https://i.imgur.com/cIgnEYF.png",
-    "heroes" : [],
-    "prizes" : {
-      "0.53" : [
-        "**3 Hero Shards for:**\n\tBlack Widow Shard, Bucky Barnes Shard, Captain America Shard, Enchantress Shard, Falcon Shard, Iron Man Shard, Loki Shard, Spider Woman Shard, Wasp Shard\n**1 Hero Shard for**\n\tBlack Widow Shard, Bucky Barnes Shard, Captain America Shard, Enchantress Shard, Falcon Shard, Iron Man Shard, Loki Shard, Spider Woman Shard, Wasp Shard\n20 Infinity Shards"
-      ],
-      "2.31" : [
-        "Tier Two Attribute Energy Core\n2 Ranking Material\n10 Infinity Shards\n1-2 Comic Books"
-      ],
-      "3.53": [
-        "Tier One Attribute Energy Core,\n1 Comic Page\n1-2 Trading Cards\n1-2 Generic Energy Core\n1 Ranking Material\n5 Infinity Shards\n5 Time Remotes"
-      ]
-    }
-  },
-  "gold" : {
-    "category" : "Gold",
-    "time" : "3 Days",
-    "color" : "0xFFD700",
-    "image" : "https://i.imgur.com/tSPAAHK.png",
-    "heroes" : ["Ant-Man", "Black Panther", "Black Widow", "Bucky Barnes", "Captain America", "Captain Marvel", "Daredevil", "Doctor Strange", "Enchantress", "Falcon", "Firebird", "Hank Pym", "Hawkeye", "Hellcat", "Hulk", "Iron man", "Jessica Jones", "Jocasta", "Loki", "Luke Cage", "Maria Hill", "Misty Knight", "Mockingbird", "Moon Knight", "Ms. Marvel", "Nebula", "Okoye", "Phil Coulson", "Quake", "Red Hulk", "Rick Jones", "Shuri", "Skaar", "Spider Woman", "Spider-Man", "Star-Lord", "Stinger", "The Hood", "Thor", "Tigra", "Valkyrie", "Vision", "Voyager", "War Machine", "Wasp", "Wiccan", "Winter Soldier", "Yellowjacket"],
-    "prizes" : {
-      "5" : [
-        "30 Hero Shards"
-      ],
-      "15" : [
-        "10 Hero Shards"
-      ],
-      "20" : [
-        "8 Hero Shards"
-      ],
-      "25" : [
-        "5 Hero Shards"
-      ],
-      "35" : [
-        "3 Hero Shards"
-      ]
-    }
-  },
-  "captainmarvel": {
-    "category": "Captain Marvel",
-    "time": "",
-    "color": "0xFF6600",
-    "image": "https://media.discordapp.net/attachments/410302586436976641/475004548918935553/mar_2p0_p_gacha_capsule_captainmarvel2x.png",
-    "heroes": [],
-    "prizes": {
-      "1" : ["200 Shards"],
-      "5" : ["2 Captain Marvel Shards", "5 Stormbreaker Fragments", "300 Academy Xp", "2500 Coins"],
-      "10" : ["2 Graphic Novels"],
-      "14" : ["15 Stormbreaker Fragments"],
-      "15" : ["8 Captain Marvel Shards"],
-      "20" : ["4 Captain Marvel Shards", "10 Stormbreaker Fragments"]
-    }
-  },
-  "cosmo": {
-    "category": "Cosmo",
-    "time": "",
-    "color": "0xD79C60",
-    "image": "https://cdn.discordapp.com/attachments/410302586436976641/477245393613094913/mar_2p0_p_gacha_capsule_cosmo2x.png",
-    "heroes": [],
-    "prizes": {
-      "1" : ["200 Shards"],
-      "4" : ["2 Records"],
-      "5" : ["2 Cosmo Shards", "300 Academy Xp", "2500 Coins"],
-      "10" : ["2 Graphic Novels"],
-      "14" : ["8 Records"],
-      "15" : ["8 Cosmo Shards"],
-      "20" : ["4 Cosmo Shards", "4 Records"]
-    }
-  },
-  "nova": {
-    "category": "Nova",
-    "time": "",
-    "color": "0x07294b",
-    "image": "https://cdn.discordapp.com/attachments/410302586436976641/479779394269741056/mar_2p0_p_gacha_capsule_nova2x.png",
-    "heroes": [],
-    "prizes": {
-      "1" : ["250 Shards"],
-      "5" : ["2 Nova Shards", "3 Sunbeams", "325 Academy Xp", "4000 Coins"],
-      "10" : ["2 Graphic Novels"],
-      "14" : ["12 Sunbeams"],
-      "15" : ["8 Nova Shards"],
-      "20" : ["4 Nova Shards", "8 Sunbeams"]
-    }
-  },
-  "mar-vell": {
-    "category": "Mar-Vell",
-    "time": "",
-    "color": "0xFFA500",
-    "image": "https://media.discordapp.net/attachments/410302586436976641/475004559924658177/mar_2p0_p_gacha_capsule_marvell2x.png",
-    "heroes": [],
-    "prizes": {
-      "0.5" : ["1 Tier 3 Attribute Energy Core", "600 Shards"],
-      "1" : ["100 Red Kree Helmets", "100 Green Kree Helmets", "100 Yellow Kree Helmets"],
-      "2" : ["80 Captain Marvel Shards", "80 Cosmo Shards"],
-      "2.5" : ["80 Mar-Vell Shards", "80 Beta Ray Bill Shards", "80 Noh-Varr Shards", "80 Nova Shards", "80 Hyperion Shards"],
-      "4" : ["40 Stormbreaker Fragments", "20 Noh-Varr Shards", "20 Nova Shards"],
-      "7" : ["20 Captain Marvel Shards", "10 Captain Marvel Shards", "20 Cosmo Shards", "10 Cosmo Shards" ],
-      "8" : ["20 Stormbreaker Fragments", "10 Noh-Varr Shards", "10 Nova Shards"],
-    }
-  }
+	"silver": {
+		"category": "Silver",
+		"time": "6 hours",
+		"color": "0xC0C0C0",
+		"image": "https://i.imgur.com/cIgnEYF.png",
+		"heroes": [],
+		"prizes": {
+			"0.53": [
+				"**3 Hero Shards for:**\n\tBlack Widow Shard, Bucky Barnes Shard, Captain America Shard, Enchantress Shard, Falcon Shard, Iron Man Shard, Loki Shard, Spider Woman Shard, Wasp Shard\n**1 Hero Shard for**\n\tBlack Widow Shard, Bucky Barnes Shard, Captain America Shard, Enchantress Shard, Falcon Shard, Iron Man Shard, Loki Shard, Spider Woman Shard, Wasp Shard\n20 Infinity Shards"
+			],
+			"2.31": [
+				"Tier Two Attribute Energy Core\n2 Ranking Material\n10 Infinity Shards\n1-2 Comic Books"
+			],
+			"3.53": [
+				"Tier One Attribute Energy Core,\n1 Comic Page\n1-2 Trading Cards\n1-2 Generic Energy Core\n1 Ranking Material\n5 Infinity Shards\n5 Time Remotes"
+			]
+		}
+	},
+	"gold": {
+		"category": "Gold",
+		"time": "3 Days",
+		"color": "0xFFD700",
+		"image": "https://i.imgur.com/tSPAAHK.png",
+		"heroes": ["Ant-Man", "Black Panther", "Black Widow", "Bucky Barnes", "Captain America", "Captain Marvel", "Daredevil", "Doctor Strange", "Enchantress", "Falcon", "Firebird", "Hank Pym", "Hawkeye", "Hellcat", "Hulk", "Iron man", "Jessica Jones", "Jocasta", "Loki", "Luke Cage", "Maria Hill", "Misty Knight", "Mockingbird", "Moon Knight", "Ms. Marvel", "Nebula", "Okoye", "Phil Coulson", "Quake", "Red Hulk", "Rick Jones", "Shuri", "Skaar", "Spider Woman", "Spider-Man", "Star-Lord", "Stinger", "The Hood", "Thor", "Tigra", "Valkyrie", "Vision", "Voyager", "War Machine", "Wasp", "Wiccan", "Winter Soldier", "Yellowjacket"],
+		"prizes": {
+			"5": [
+				"30 Hero Shards"
+			],
+			"15": [
+				"10 Hero Shards"
+			],
+			"20": [
+				"8 Hero Shards"
+			],
+			"25": [
+				"5 Hero Shards"
+			],
+			"35": [
+				"3 Hero Shards"
+			]
+		}
+	},
+	"captainmarvel": {
+		"category": "Captain Marvel",
+		"time": "",
+		"color": "0xFF6600",
+		"image": "https://media.discordapp.net/attachments/410302586436976641/475004548918935553/mar_2p0_p_gacha_capsule_captainmarvel2x.png",
+		"heroes": [],
+		"prizes": {
+			"1": ["200 Shards"],
+			"5": ["2 Captain Marvel Shards", "5 Stormbreaker Fragments", "300 Academy Xp", "2500 Coins"],
+			"10": ["2 Graphic Novels"],
+			"14": ["15 Stormbreaker Fragments"],
+			"15": ["8 Captain Marvel Shards"],
+			"20": ["4 Captain Marvel Shards", "10 Stormbreaker Fragments"]
+		}
+	},
+	"cosmo": {
+		"category": "Cosmo",
+		"time": "",
+		"color": "0xD79C60",
+		"image": "https://cdn.discordapp.com/attachments/410302586436976641/477245393613094913/mar_2p0_p_gacha_capsule_cosmo2x.png",
+		"heroes": [],
+		"prizes": {
+			"1": ["200 Shards"],
+			"4": ["2 Records"],
+			"5": ["2 Cosmo Shards", "300 Academy Xp", "2500 Coins"],
+			"10": ["2 Graphic Novels"],
+			"14": ["8 Records"],
+			"15": ["8 Cosmo Shards"],
+			"20": ["4 Cosmo Shards", "4 Records"]
+		}
+	},
+	"nova": {
+		"category": "Nova",
+		"time": "",
+		"color": "0x07294b",
+		"image": "https://cdn.discordapp.com/attachments/410302586436976641/479779394269741056/mar_2p0_p_gacha_capsule_nova2x.png",
+		"heroes": [],
+		"prizes": {
+			"1": ["250 Shards"],
+			"5": ["2 Nova Shards", "3 Sunbeams", "325 Academy Xp", "4000 Coins"],
+			"10": ["2 Graphic Novels"],
+			"14": ["12 Sunbeams"],
+			"15": ["8 Nova Shards"],
+			"20": ["4 Nova Shards", "8 Sunbeams"]
+		}
+	},
+	"mar-vell": {
+		"category": "Mar-Vell",
+		"time": "",
+		"color": "0xFFA500",
+		"image": "https://media.discordapp.net/attachments/410302586436976641/475004559924658177/mar_2p0_p_gacha_capsule_marvell2x.png",
+		"heroes": [],
+		"prizes": {
+			"0.5": ["1 Tier 3 Attribute Energy Core", "600 Shards"],
+			"1": ["100 Red Kree Helmets", "100 Green Kree Helmets", "100 Yellow Kree Helmets"],
+			"2": ["80 Captain Marvel Shards", "80 Cosmo Shards"],
+			"2.5": ["80 Mar-Vell Shards", "80 Beta Ray Bill Shards", "80 Noh-Varr Shards", "80 Nova Shards", "80 Hyperion Shards"],
+			"4": ["40 Stormbreaker Fragments", "20 Noh-Varr Shards", "20 Nova Shards"],
+			"7": ["20 Captain Marvel Shards", "10 Captain Marvel Shards", "20 Cosmo Shards", "10 Cosmo Shards"],
+			"8": ["20 Stormbreaker Fragments", "10 Noh-Varr Shards", "10 Nova Shards"]
+		}
+	}
 }
