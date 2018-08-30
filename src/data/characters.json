@@ -86,7 +86,7 @@
     "thumbnail": "https://cdn.discordapp.com/attachments/410302586436976641/475004570544898079/mar_2p0_premium_betaraybill_token2x.png",
     "type": "Cosmic",
     "class": "Attacker",
-    "location": "Captain Marvel Capsule\nMar-Vell Capsule\nCosmic Cataclysm Event Only",
+    "location": "Gold Capsule",
     "skins": {},
     "basicName": "Korbonite Champion",
     "basicDesc": "100% (115%) Atk",
@@ -948,7 +948,9 @@
     "passiveDesc": "10% (20%) Increased Crit Hit Chance \n7.5% (15%) Increased Evasion",
     "ultimate2Name": "Javelin",
     "ultimate2Desc": "146% (263%) Atk\n12% (29%) Chance to Stun",
-    "skins": {}
+    "skins": {
+      "Disco": "3% Boost to HP"
+    }
   },
   "moon knight": {
     "title": "Marc Spector",
@@ -1097,7 +1099,9 @@
     "passiveDesc": "2.5% (5%) Increased Crit Hit Chance to All Allies\n2.5% (5%) Increased Atk to All Allies",
     "ultimate2Name": "Timely Rescue",
     "ultimate2Desc": "No Damage\n50% Chance to Cleanse All Allies\n12% (30%) Heal to All Allies",
-    "skins": {}
+    "skins": {
+      "T.A.H.I.T.I.": "10% Boost to HP"
+    }
   },
   "proxima midnight": {
     "title": "Proxima Midnight",
@@ -1776,7 +1780,7 @@
     "thumbnail": "https://cdn.discordapp.com/attachments/410302586436976641/477246616445648906/mar_2p0_premium_cosmo_token_v22x.png",
     "type": "Cosmic",
     "class": "Support",
-    "location": "Cosmo Capsule\nMar-Vell Capsule\nCosmic Cataclysm Event Only",
+    "location": "Gold Capsule",
     "skins": {
       "Nova Corps": "15% Boost to HP"
     },
@@ -1825,7 +1829,7 @@
     "thumbnail": "https://cdn.discordapp.com/attachments/410302586436976641/479779380239794186/mar_2p0_premium_nova_token2x.png",
     "type": "Cosmic",
     "class": "Attacker",
-    "location": "Nova Capsule\nMar-Vell Capsule\nCosmic Cataclysm Event Only",
+    "location": "Gold Capsule",
     "skins": {},
     "basicName": "Nova Corps Enhancement",
     "basicDesc": "100% (115%) Atk",
@@ -1862,47 +1866,89 @@
     "ultimate2Desc": "330% (594%) Atk"
   },
   "nick fury": {
-    "title": "",
-    "aliases": "",
+    "title": "Nicholas Fury",
+    "aliases": "Director of S.H.I.E.L.D.",
     "nickname": [
-      "nickfury"
+      "nickfury",
+      "fury",
+      "flurry",
+      "nick",
+      "directorfury",
+      "samuelljackson",
+      "samueljackson"
     ],
     "thumbnail": "https://cdn.discordapp.com/attachments/410302586436976641/482330191285190657/mar_2p0_premium_fury_token2x.png",
     "type": "Physical",
     "class": "Support",
-    "location": "",
+    "location": "S.H.I.E.L.D. Capsule\nAgents of S.H.I.E.L.D Event Only",
     "skins": {},
-    "basicName": "",
-    "basicDesc": "",
-    "specialName": "",
-    "specialDesc": "",
-    "ultimate1Name": "",
-    "ultimate1Desc": "",
-    "passiveName": "",
-    "passiveDesc": "",
-    "ultimate2Name": "",
-    "ultimate2Desc": ""
+    "basicName": "That's Classified",
+    "basicDesc": "100% (115%) Atk",
+    "specialName": "Be Reasonable",
+    "specialDesc": "158% (221%) Atk\n18% (36%) Accuracy Buff to Two Random Allies for One Turn",
+    "ultimate1Name": "Give Direction",
+    "ultimate1Desc": "120% (168%) Atk to Random Target\n10% (20.4%) Atk Buff to Back Row Allies for Three Turns",
+    "passiveName": "Both Eyes Open",
+    "passiveDesc": "5.5% (11%) Increased Accuracy to Back Row Allies\n5.5% (11%) Increased Evasion to Back Row Allies",
+    "ultimate2Name": "Run the Gauntlet",
+    "ultimate2Desc": "154% (277%) Atk to Random Target\n8% (20%) Evasion Buff to All Allies for Three Turns"
   },
   "peggy carter": {
-    "title": "",
-    "aliases": "",
+    "title": "Margaret Carter",
+    "aliases": "Peggy Carter, Agent Carter",
     "nickname": [
-      "peggycarter"
+      "peggycarter",
+      "peggy",
+      "agentcarter",
+      "hayleyatwell",
+      "margaret",
+      "directorcarter",
+      "margaretcarter",
+      "peg"
     ],
-    "thumbnail": "https://i.imgur.com/sLUUa52.png",
-    "type": "",
-    "class": "",
-    "location": "",
+    "thumbnail": "https://cdn.discordapp.com/attachments/410302586436976641/482330191797157889/mar_2p0_premium_peggy_token2x.png",
+    "type": "Physical",
+    "class": "Attacker",
+    "location": "Peggy Capsule\nS.H.I.E.L.D. Capsule\nAgents of S.H.I.E.L.D Event Only",
     "skins": {},
-    "basicName": "",
-    "basicDesc": "",
-    "specialName": "",
-    "specialDesc": "",
-    "ultimate1Name": "",
-    "ultimate1Desc": "",
-    "passiveName": "",
-    "passiveDesc": "",
-    "ultimate2Name": "",
-    "ultimate2Desc": ""
+    "basicName": "Sock 'Em",
+    "basicDesc": "100% (115%) Atk",
+    "specialName": "Take a Seat",
+    "specialDesc": "150% (322%) Atk\n-14% (-27%) Evasion Debuff on that Target for Three Turns",
+    "ultimate1Name": "Tools of the Trade",
+    "ultimate1Desc": "113% (158%) Atk to Random Target\n23% (47%) Chance to Confuse One Random Target for Three Turns",
+    "passiveName": "S.S.R. Training",
+    "passiveDesc": "10% (20%) Increased Atk\n7.5% (15%) Increased Evasion",
+    "ultimate2Name": "Get It Done",
+    "ultimate2Desc": "135% (277%) Atk to Two Random Targets\n18% (45%) Self Evasion Buff for Three Turns"
+  },
+  "melinda may": {
+    "title": "Melinda May",
+    "aliases": "The Cavalry",
+    "nickname": [
+      "melindamay",
+      "may",
+      "melinda",
+      "ming-nawen",
+      "thecavalry",
+      "cavalry",
+      "mulan",
+      "ping"
+    ],
+    "thumbnail": "https://cdn.discordapp.com/attachments/410302586436976641/482330192971300874/mar_2p0_premium_may_token2x.png",
+    "type": "Physical",
+    "class": "Tank",
+    "location": "S.H.I.E.L.D. Capsule\nAgents of S.H.I.E.L.D Event Only",
+    "skins": {},
+    "basicName": "S.H.I.E.L.D. Training",
+    "basicDesc": "100% (115%) Atk",
+    "specialName": "Well-Aimed Kick",
+    "specialDesc": "79% (110%) Atk to Three Random Targets\n-16% (-31%) Accuracy Debuff on those Targets for One Turn",
+    "ultimate1Name": "Fly-By",
+    "ultimate1Desc": "135% (189%) Atk to Random Target\n19% (38%) Self Evasion Buff for Three Turns",
+    "passiveName": "Best of the Best",
+    "passiveDesc": "12% (24%) Increased HP\n9.5% (19%) Increased Evasion",
+    "ultimate2Name": "Stunt Riding",
+    "ultimate2Desc": "169% (304%) Atk to Random Target\n14% (36%) Chance to Stun All Enemies for One Turn"
   }
 }
