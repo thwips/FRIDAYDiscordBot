@@ -48,12 +48,11 @@
 		"image": "https://cdn.discordapp.com/attachments/410302586436976641/482330192350674985/mar_2p0_p_gacha_capsule_shield2x.png",
 		"heroes": [],
 		"prizes": {
-			"0.80": ["1 Tier 3 Attribute Energy Core"],
-			"1": ["80 Quake Shards", "80 Phil Coulson Shards", "80 Peggy Carter Shards", "80 Nick Fury Shards", "80 Maria Hill Shards"],
+			"0.70": ["1 Tier 3 Attribute Energy Core"],
+			"1": ["80 Quake Shards", "80 Phil Coulson Shards", "80 Peggy Carter Shards", "80 Nick Fury Shards", "80 Maria Hill Shards", "80 Leo Fitz Shards", "80 She-Hulk Shards"],
 			"2.5": ["80 Melinda May Shards"],
-			"5": ["20 Maria Hill Shards", "20 Mockingbird Shards", "20 Phil Coulson Shards", "20 Peggy Carter Shards", "20 Quake Shards", "100 Classified Files"],
-			"9.5": ["10 Mockingbird Shards", "10 Phil Coulson Shards", "10 Peggy Carter Shards", "10 Quake Shards", "50 Classified Files"],
-			"10": ["10 Maria Hill Shards"]
+			"4": ["20 Maria Hill Shards", "20 Mockingbird Shards", "20 Phil Coulson Shards", "20 Peggy Carter Shards", "20 Quake Shards", "20 She-Hulk Shards", "100 Classified Files", "100 Chainsaws"],
+			"6.5": ["10 Mockingbird Shards", "10 Phil Coulson Shards", "10 Peggy Carter Shards", "10 Maria Hill Shards", "10 Quake Shards", "10 She-Hulk Shards", "50 Classified Files", "50 Chainsaws"]
 		}
 	},
 	"peggy": {
@@ -68,6 +67,20 @@
 			"10": ["20 Classified Files", "40 Classified Files"],
 			"15": ["10 Peggy Carter Shards", "10 Phil Coulson Shards"],
 			"17": ["6 Peggy Carter Shards", "6 Phil Coulson Shards"]
+		}
+	},
+	"shehulk": {
+		"category": "She-Hulk",
+		"time": "",
+		"color": "48EB42",
+		"image": "https://cdn.discordapp.com/attachments/410302586436976641/484850281235087362/mar_2p0_p_gacha_capsule_shehulk2x.png",
+		"heroes": [],
+		"prizes": {
+			"2.5": ["13 She-Hulk Shards", "13 Quake Shards", "15 Chainsaws", "60 Chainsaws"],
+			"3": ["3 She-Hulk Shards", "3 Quake Shards"],
+			"10": ["20 Chainsaws", "40 Chainsaws"],
+			"15": ["10 She-Hulk Shards", "10 Quake Shards"],
+			"17": ["6 She-Hulk Shards", "6 Quake Shards"]
 		}
 	}
 }
