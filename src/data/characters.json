@@ -1881,7 +1881,9 @@
     "type": "Physical",
     "class": "Support",
     "location": "S.H.I.E.L.D. Capsule\nAgents of S.H.I.E.L.D Event Only",
-    "skins": {},
+    "skins": {
+      "Undercover": "6% Boost to Atk and HP"
+    },
     "basicName": "That's Classified",
     "basicDesc": "100% (115%) Atk",
     "specialName": "Be Reasonable",
@@ -1950,5 +1952,60 @@
     "passiveDesc": "12% (24%) Increased HP\n9.5% (19%) Increased Evasion",
     "ultimate2Name": "Stunt Riding",
     "ultimate2Desc": "169% (304%) Atk to Random Target\n14% (36%) Chance to Stun All Enemies for One Turn"
+  },
+  "she-hulk": {
+    "title": "Jennifer Walters",
+    "aliases": "She-Hulk",
+    "nickname": [
+      "she-hulk",
+      "shulk",
+      "shehulk",
+      "jenniferwalters",
+      "besttits"
+    ],
+    "thumbnail": "https://cdn.discordapp.com/attachments/410302586436976641/484847945049440268/mar_2p0_premium_shehulk_token2x.png",
+    "type": "Science",
+    "class": "Attacker",
+    "location": "She-Hulk Capsule\nS.H.I.E.L.D. Capsule\nAgents of S.H.I.E.L.D. Event Only",
+    "skins": {
+      "Roller-Derby": "4% Boost to Atk"
+    },
+    "basicName": "Magnificent Biceps",
+    "basicDesc": "100% (115%) Atk",
+    "specialName": "Gamma Attack",
+    "specialDesc": "150% (210%) Atk\n14% (27%) Self Atk Buff for Three Turns",
+    "ultimate1Name": "Piledriver",
+    "ultimate1Desc": "45% (90%) Self Crit Damage Buff for Three Turns\n14% (27%) Self Crit Chance Buff for Three Turns",
+    "passiveName": "Hulk Out!",
+    "passiveDesc": "10% (20%) Increased Atk\n10% (20%) Increased HP",
+    "ultimate2Name": "Closing Argument",
+    "ultimate2Desc": "225% (405%) Atk\n27% (68%) Self Heal"
+  },
+  "leo fitz": {
+    "title": "Leopold \"Leo\" Fitz",
+    "aliases": "",
+    "nickname": [
+      "leofitz",
+      "turbo",
+      "thedoctor",
+      "iaindecaestecker",
+      "fitz",
+      "leopoldfitz"
+    ],
+    "thumbnail": "https://cdn.discordapp.com/attachments/410302586436976641/484847958899294208/mar_2p0_premium_fitz_token2x.png",
+    "type": "Tech",
+    "class": "Support",
+    "location": "S.H.I.E.L.D. Capsule\nAgents of S.H.I.E.L.D. Event Only",
+    "skins": {},
+    "basicName": "Academy Training",
+    "basicDesc": "100% (115%) Atk",
+    "specialName": "Ruddy Big Gun",
+    "specialDesc": "128% (179%) Atk to Random Target\n12% (25%) Evasion Buff to Back Row Allies for Three Turns",
+    "ultimate1Name": "Deploy Nanobots!",
+    "ultimate1Desc": "128% (179%) Atk to Two Random Targets\n22% (43%) Chance to Cleanse Back Row Allies",
+    "passiveName": "Cloaking Devices",
+    "passiveDesc": "4% (8%) Increased HP to All Allies\n4% (8%) Increased Evasion to All Allies",
+    "ultimate2Name": "Technological Marvel",
+    "ultimate2Desc": "296% (533%) Atk to Front Row\n-8% (-20%) Atk Debuff to All Enemies for Three Turns"
   }
 }
