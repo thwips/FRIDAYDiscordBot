@@ -41,60 +41,26 @@
 			]
 		}
 	},
-	"shield": {
-		"category": "Shield",
+	"academy": {
+		"category": "Academy",
 		"time": "",
-		"color": "00fff8",
-		"image": "https://cdn.discordapp.com/attachments/410302586436976641/482330192350674985/mar_2p0_p_gacha_capsule_shield2x.png",
+		"color": "000080",
+		"image": "https://cdn.discordapp.com/attachments/410302586436976641/489948884160872448/mar_2p0_p_gacha_capsule_avengers2x.png",
 		"heroes": [],
 		"prizes": {
-			"0.50": ["1 Tier 3 Attribute Energy Core"],
-			"1": ["80 Quake Shards", "80 Phil Coulson Shards", "80 Peggy Carter Shards", "80 Nick Fury Shards", "80 Maria Hill Shards", "80 Leo Fitz Shards", "80 She-Hulk Shards", "80 Ghost Rider Shards", "80 Jemma Simmons Shards"],
-			"2.5": ["80 Melinda May Shards"],
-			"3.5": ["20 Maria Hill Shards", "20 Mockingbird Shards", "20 Phil Coulson Shards", "20 Peggy Carter Shards", "20 Quake Shards", "20 She-Hulk Shards", "20 Ghost Rider Shards", "100 Classified Files", "100 Chainsaws", "100 D.W.A.R.F.s"],
-			"5": ["10 Mockingbird Shards", "10 Phil Coulson Shards", "10 Peggy Carter Shards", "10 Maria Hill Shards", "10 Quake Shards", "10 She-Hulk Shards", "10 Ghost Rider Shards", "50 Classified Files", "50 Chainsaws", "50 D.W.A.R.F.s"]
-		}
-	},
-	"peggy": {
-		"category": "Peggy",
-		"time": "",
-		"color": "CF3E0A",
-		"image": "https://cdn.discordapp.com/attachments/410302586436976641/482330191285190656/mar_2p0_p_gacha_capsule_peggy2x.png",
-		"heroes": [],
-		"prizes": {
-			"2.5": ["13 Peggy Carter Shards", "13 Phil Coulson Shards", "15 Classified Files", "60 Classified Files"],
-			"3": ["3 Peggy Carter Shards", "3 Phil Coulson Shards"],
-			"10": ["20 Classified Files", "40 Classified Files"],
-			"15": ["10 Peggy Carter Shards", "10 Phil Coulson Shards"],
-			"17": ["6 Peggy Carter Shards", "6 Phil Coulson Shards"]
-		}
-	},
-	"shehulk": {
-		"category": "She-Hulk",
-		"time": "",
-		"color": "48EB42",
-		"image": "https://cdn.discordapp.com/attachments/410302586436976641/484850281235087362/mar_2p0_p_gacha_capsule_shehulk2x.png",
-		"heroes": [],
-		"prizes": {
-			"2.5": ["13 She-Hulk Shards", "13 Quake Shards", "15 Chainsaws", "60 Chainsaws"],
-			"3": ["3 She-Hulk Shards", "3 Quake Shards"],
-			"10": ["20 Chainsaws", "40 Chainsaws"],
-			"15": ["10 She-Hulk Shards", "10 Quake Shards"],
-			"17": ["6 She-Hulk Shards", "6 Quake Shards"]
-		}
-	},
-	"ghostrider": {
-		"category": "Ghost Rider",
-		"time": "",
-		"color": "ff8c00",
-		"image": "https://cdn.discordapp.com/attachments/410302586436976641/487385554497830912/mar_2p0_p_gacha_capsule_ghostrider2x.png",
-		"heroes": [],
-		"prizes": {
-			"2.5": ["13 Ghost Rider Shards", "13 Maria Hill Shards", "15 D.W.A.R.F.s", "60 D.W.A.R.F.s"],
-			"3": ["3 Ghost Rider Shards", "3 Maria Hill Shards"],
-			"10": ["20 D.W.A.R.F.s", "40 D.W.A.R.F.s"],
-			"15": ["10 Ghost Rider Shards", "10 Maria Hill Shards"],
-			"17": ["6 Ghost Rider Shards", "6 Maria Hill Shards"]
+			"0.45": ["30 Crimson Dynamo Shards"],
+			"0.5": ["80 Nadia Pym Shards", "20 Nadia Pym Shards"],
+			"1": ["10 Nadia Pym Shards", "80 Devil Dinosaur Shards"],
+			"1.36": ["80 Crimson Dynamo Shards"],
+			"1.40": ["1 Tier 3 Attribute Energy Core"],
+			"2": ["5 Nadia Pym Shards"],
+			"2.27": ["10 Crimson Dynamo Shards"],
+			"3": ["5 Gold Timefog Capsules"],
+			"3.18": ["20 Crimson Dynamo Shards"],
+			"4": ["8 Stamina Packs"],
+			"5": ["30 Devil Dinosaur Shards"],
+			"10": ["20 Devil Dinosaur Shards"],
+			"25": ["10 Devil Dinosaur Shards"]
 		}
 	}
 }
