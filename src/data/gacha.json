@@ -48,19 +48,13 @@
 		"image": "https://cdn.discordapp.com/attachments/410302586436976641/489948884160872448/mar_2p0_p_gacha_capsule_avengers2x.png",
 		"heroes": [],
 		"prizes": {
-			"0.45": ["30 Crimson Dynamo Shards"],
-			"0.5": ["80 Nadia Pym Shards", "20 Nadia Pym Shards"],
-			"1": ["10 Nadia Pym Shards", "80 Devil Dinosaur Shards"],
-			"1.36": ["80 Crimson Dynamo Shards"],
-			"1.40": ["1 Tier 3 Attribute Energy Core"],
-			"2": ["5 Nadia Pym Shards"],
-			"2.27": ["10 Crimson Dynamo Shards"],
-			"3": ["5 Gold Timefog Capsules"],
-			"3.18": ["20 Crimson Dynamo Shards"],
-			"4": ["8 Stamina Packs"],
-			"5": ["30 Devil Dinosaur Shards"],
-			"10": ["20 Devil Dinosaur Shards"],
-			"25": ["10 Devil Dinosaur Shards"]
+			"0.5": ["80 Nadia Pym Shards", "20 Nadia Pym Shards", "80 Mandarin Shards", "20 Mandarin Shards"],
+			"1": ["10 Nadia Pym Shards", "10 Mandarin Shards", "80 Devil Dinosaur Shards", "80 Crimson Dynamo Shards", "80 Black Bolt Shards", "80 Crystal Shards"],
+			"1.5": ["1 Tier 3 Attribute Energy Core"],
+			"2": ["5 Nadia Pym Shards", "5 Mandarin Shards", "5 Gold Timefog Capsules"],
+			"2.5": ["8 Stamina Packs"],
+			"4": ["30 Devil Dinosaur Shards", "20 Devil Dinosaur Shards", "30 Crimson Dynamo Shards", "20 Crimson Dynamo Shards", "30 Black Bolt Shards", "20 Black Bolt Shards", "30 Crystal Shards", "20 Crystal Shards"],
+			"11": ["10 Devil Dinosaur Shards", "10 Crimson Dynamo Shards", "10 Black Bolt Shards", "10 Crystal Shards"]
 		}
 	}
 }
