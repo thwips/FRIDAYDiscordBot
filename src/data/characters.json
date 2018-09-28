@@ -151,7 +151,8 @@
     "ultimate2Name": "Assassinate",
     "ultimate2Desc": "300% (540%) Atk",
     "skins": {
-      "Original": "10% Boost to Crit Chance"
+      "Original": "10% Boost to Crit Chance",
+      "Mascot": "8% Boost to Crit Chance and 20% Boost to Crit Damage"
     }
   },
   "blade": {
@@ -350,7 +351,6 @@
     "aliases": "Daredevil",
     "nickname": [
       "daredevil",
-      "dd",
       "mattmurdock"
     ],
     "thumbnail": "https://tinyurl.com/y7ovecm5",
@@ -419,7 +419,8 @@
     "ultimate2Name": "Shot through the Heart",
     "ultimate2Desc": "113% (203%) Atk\n-19% (-47%) Atk Debuff to Back Row",
     "skins": {
-      "Space Warrior": "+6% Boost to Atk and HP"
+      "Space Warrior": "+6% Boost to Atk and HP",
+      "Hel's Queen": "3% Boost to HP"
     }
   },
   "falcon": {
@@ -572,7 +573,9 @@
     "passiveDesc": "20% (40%) Increased Accuracy",
     "ultimate2Name": "Precise Shot",
     "ultimate2Desc": "225% (405%) Atk\n23% (56%) Self Accuracy Buff",
-    "skins": {}
+    "skins": {
+      "Original": "6% Boost to Atk and Crit Chance"
+    }
   },
   "hellcat": {
     "title": "Patricia Walker",
@@ -719,7 +722,6 @@
     "nickname": [
       "jessicajones",
       "jj",
-      "jones",
       "jewel",
       "j jones",
       "jessjones"
@@ -893,7 +895,9 @@
     "passiveDesc": "10% (20%) Increased Evasion to Front Row",
     "ultimate2Name": "Air Strike",
     "ultimate2Desc": "150% (270%) Atk to Back Row",
-    "skins": {}
+    "skins": {
+      "Banana": "5% Boost to HP"
+    }
   },
   "misty knight": {
     "title": "Mercedes Knight",
@@ -1219,7 +1223,8 @@
     "nickname": [
       "rickjones",
       "ultimaterickjones",
-      "ultimatecaptainmarvel"
+      "ultimatecaptainmarvel",
+      "rick"
     ],
     "thumbnail": "https://i.imgur.com/I434WfI.png",
     "type": "Cosmic",
@@ -1403,7 +1408,8 @@
       "cassielang",
       "cassandralang",
       "stature",
-      "peanut"
+      "peanut",
+      "cassie"
     ],
     "thumbnail": "https://cdn.discordapp.com/attachments/410302586436976641/467097808500031498/mar_2p0_premium_stinger_token2x.png",
     "type": "Science",
@@ -1539,7 +1545,9 @@
     "passiveDesc": "11% (21%) Increased HP\n10.5% (21%) Increased Atk",
     "ultimate2Name": "Hammer of the Gods",
     "ultimate2Desc": "92% (165%) Atk to Three Random Targets\n16% (41%) Chance to Stun",
-    "skins": {}
+    "skins": {
+      "Gladiator": "3% Boost to HP"
+    }
   },
   "tigra": {
     "title": "Greer Grant",
@@ -1563,7 +1571,9 @@
     "passiveDesc": "10% (20%) Increased Crit Hit Chance\n10% (20%) Increased HP",
     "ultimate2Name": "Huntress",
     "ultimate2Desc": "135% (233%) Atk to Middle Row\n54% (97%) Atk as DoT for Three Turns",
-    "skins": {}
+    "skins": {
+      "Cheerleader": "8% Boost to Crit Chance"
+    }
   },
   "valkyrie": {
     "title": "Brunnhilde",
@@ -1691,7 +1701,8 @@
     "skins": {
       "High Fashion": "+2% Boost to Atk",
       "Original": "+1% Boost to HP",
-      "Retro-Futuristic": "2% Boost to Atk and 1% Boost to HP"
+      "Retro-Futuristic": "2% Boost to Atk and 1% Boost to HP",
+      "Football": "5% Boost to HP, Evasion, and Crit Chance"
     }
   },
   "wiccan": {
@@ -1702,7 +1713,8 @@
       "billykaplan",
       "williamkaplan",
       "demiurge",
-      "billy"
+      "billy",
+      "magicgay"
     ],
     "thumbnail": "http://i.imgur.com/Xx3I2G7.png",
     "type": "Mystic",
@@ -1745,7 +1757,9 @@
     "passiveDesc": "20% (40%) Increased Atk",
     "ultimate2Name": "Cold War",
     "ultimate2Desc": "150% (270%) Atk to Back Row",
-    "skins": {}
+    "skins": {
+      "Marching Band": "8% Boost to Atk"
+    }
   },
   "yellowjacket": {
     "title": "Darren Cross",
@@ -2007,5 +2021,271 @@
     "passiveDesc": "4% (8%) Increased HP to All Allies\n4% (8%) Increased Evasion to All Allies",
     "ultimate2Name": "Technological Marvel",
     "ultimate2Desc": "296% (533%) Atk to Front Row\n-8% (-20%) Atk Debuff to All Enemies for Three Turns"
+  },
+  "jemma simmons": {
+    "title": "Jemma Simmons",
+    "aliases": "",
+    "nickname": [
+      "jemmasimmons",
+      "elizabethhenstridge",
+      "jemma",
+      "simmons",
+      "cursed"
+    ],
+    "thumbnail": "https://cdn.discordapp.com/attachments/410302586436976641/487385613113491456/mar_2p0_premium_jemma_btn2x.png",
+    "type": "Science",
+    "class": "Support",
+    "location": "S.H.I.E.L.D. Capsule\nAgents of S.H.I.E.L.D Event Only",
+    "skins": {},
+    "basicName": "Agent Training",
+    "basicDesc": "100% (115%) Atk",
+    "specialName": "Organic Offense",
+    "specialDesc": "90% (126%) Atk to Two Random Targets\n26% (52%) Chance to Stun those Targets for One Turn",
+    "ultimate1Name": "Electromagnetic Pulse",
+    "ultimate1Desc": "105% (147%) Atk to Two Random Targets\n9% (18%) HoT to Two Random Allies for Three Turns",
+    "passiveName": "Biochemical Enhancement",
+    "passiveDesc": "8% (16%) Increased HP to All Allies",
+    "ultimate2Name": "Mad Science!",
+    "ultimate2Desc": "15% (38%) Atk Buff to Back Row Allies for Three Turns\n23% (52%) Heal to Back Row Allies"
+  },
+  "ghost rider": {
+    "title": "Robbie Reyes",
+    "aliases": "",
+    "nickname": [
+      "ghostrider",
+      "gabrielluna",
+      "robbiereyes",
+      "gr",
+      "robbie",
+      "spiritofvengeance"
+    ],
+    "thumbnail": "https://cdn.discordapp.com/attachments/410302586436976641/487385601692139522/mar_2p0_premium_ghostrider_token_v22x.png",
+    "type": "Mystic",
+    "class": "Tank",
+    "location": "Ghost Rider Capsule\nS.H.I.E.L.D. Capsule\nAgents of S.H.I.E.L.D. Event Only",
+    "skins": {
+      "Cowboy": "18% Boost to Atk"
+    },
+    "basicName": "Spirit Of Vengeance",
+    "basicDesc": "100% (115%) Atk",
+    "specialName": "Party Tricks",
+    "specialDesc": "105% (147%) Atk to Front Row\n-11% (-22%) Atk Debuff to those Targets for Three Turns",
+    "ultimate1Name": "Chain of Hellfire",
+    "ultimate1Desc": "39% (55%) Atk as DoT to Two Random Targets\n15% (31%) Self Evasion Buff for Three Turns",
+    "passiveName": "Penance",
+    "passiveDesc": "23% (46%) Increased HP",
+    "ultimate2Name": "Ghost of Perdition",
+    "ultimate2Desc": "120% (216%) Atk to Back Row\n21% (52%) Chance to Stun those Targets for One Turn"
+  },
+  "devil dinosaur": {
+    "title": "Devil Dinosaur",
+    "aliases": "",
+    "nickname": [
+      "devildinosaur",
+      "devild",
+      "devildino"
+    ],
+    "thumbnail": "https://cdn.discordapp.com/attachments/410302586436976641/489912705566638080/mar_2p0_premium_devil_dinosaur_token2x.png",
+    "type": "Physical",
+    "class": "Tank",
+    "location": "Silver School Supply Crate\nAcademy Capsule\nBack to School Event Only",
+    "skins": {},
+    "basicName": "Snack Time!",
+    "basicDesc": "100% (115%) Atk",
+    "specialName": "Tall Tails",
+    "specialDesc": "150% (210%) Atk\n-9% (-18%) Atk Debuff to Back Row for Three Turns",
+    "ultimate1Name": "Tyrannosaurus Rex",
+    "ultimate1Desc": "150% (210%) Atk\n-15% (-30%) Accuracy Debuff to Back Row for One Turn",
+    "passiveName": "Extinction Resistance",
+    "passiveDesc": "20% (40%) Increased HP",
+    "ultimate2Name": "Apex Predator",
+    "ultimate2Desc": "225% (405%) Atk\n-18% (-45%) Atk Debuff to Back Row for One Turn"
+  },
+  "crimson dynamo": {
+    "title": "Galina Nemirovsky",
+    "aliases": "",
+    "nickname": [
+      "crimsondynamo",
+      "galinanemirovsky",
+      "crazyex-girlfriend",
+      "crazyexgirlfriend",
+      "crimson"
+    ],
+    "thumbnail": "https://cdn.discordapp.com/attachments/410302586436976641/489912656946266114/mar_2p0_premium_crimson_dynamo_token2x.png",
+    "type": "Tech",
+    "class": "Attacker",
+    "location": "Silver School Supply Crate\nAcademy Capsule\nBack to School Event Only",
+    "skins": {},
+    "basicName": "Dynamic Punch",
+    "basicDesc": "100% (115%) Atk",
+    "specialName": "Crimson Unibeam",
+    "specialDesc": "158% (221%) Atk\n7% (16%) Self Atk Buff for Three Turns",
+    "ultimate1Name": "Unleash Missiles",
+    "ultimate1Desc": "158% (221%) Atk\n65% (91%) Atk as DoT for Three Turns",
+    "passiveName": "Improved Plating",
+    "passiveDesc": "21% (42%) Increased HP",
+    "ultimate2Name": "Love from Russia",
+    "ultimate2Desc": "235% (423%) Atk\n150% (270%) Atk to Front Row"
+  },
+  "nadia pym": {
+    "title": "Nadia Pym",
+    "aliases": "",
+    "nickname": [
+      "nadiapym",
+      "nadia"
+    ],
+    "thumbnail": "https://cdn.discordapp.com/attachments/410302586436976641/489912604282716170/mar_2p0_premium_nadia_token2x.png",
+    "type": "Science",
+    "class": "Support",
+    "location": "Silver School Supply Crate\nAcademy Capsule\nBack to School Event Only",
+    "skins": {},
+    "basicName": "Red Room Training",
+    "basicDesc": "100% (115%) Atk",
+    "specialName": "Many Moves to Bust!",
+    "specialDesc": "20% (40%) Heal to Front Row Allies",
+    "ultimate1Name": "Think Small",
+    "ultimate1Desc": "-13% (-26%) Atk Debuff to Back Row for Three Turns",
+    "passiveName": "Voice of Reason",
+    "passiveDesc": "-7% (-15%) Atk Debuff to All Enemies",
+    "ultimate2Name": "Pym Particle Powers!",
+    "ultimate2Desc": "-12% (-30%) Accuracy Debuff to All Enemies for Three Turns"
+  },
+  "black bolt": {
+    "title": "Blackagar Boltagon",
+    "aliases": "",
+    "nickname": [
+      "blackbolt",
+      "blackagarboltagon",
+      "ansonmount"
+    ],
+    "thumbnail": "https://cdn.discordapp.com/attachments/410302586436976641/492458652163375114/mar_2p0_premium_blackbolt_token2x.png",
+    "type": "Science",
+    "class": "Attacker",
+    "location": "Gold School Supply Crate\nAcademy Capsule\nBack to School Event Only",
+    "skins": {},
+    "basicName": "Royal Prerogative",
+    "basicDesc": "100% (115%) Atk",
+    "specialName": "Careful Whisper",
+    "specialDesc": "150% (210%) Atk\n-14% (-27%) Evasion Debuff to Front Row for Three Turns",
+    "ultimate1Name": "Howl",
+    "ultimate1Desc": "150% (210%) Atk\n105% (147%) Atk to Front Row",
+    "passiveName": "Inhuman Physiology",
+    "passiveDesc": "20% (40%) Increased HP",
+    "ultimate2Name": "King's Command",
+    "ultimate2Desc": "146% (263%) Atk to Front Row\n-32% (-79%) Accuracy Debuff to Back Row for One Turn"
+  },
+  "crystal": {
+    "title": "Crystalia Amaquelin",
+    "aliases": "",
+    "nickname": [
+      "crystal",
+      "crystaliaamaquelin",
+      "theavatar"
+    ],
+    "thumbnail": "https://cdn.discordapp.com/attachments/410302586436976641/492458639903293450/mar_2p0_premium_crystal_token2x.png",
+    "type": "Science",
+    "class": "Attacker",
+    "location": "Gold School Supply Crate\nAcademy Capsule\nBack to School Event Only",
+    "skins": {},
+    "basicName": "Princess Punch",
+    "basicDesc": "100% (115%) Atk",
+    "specialName": "Altered Ambient Particles",
+    "specialDesc": "158% (188%) Atk\n15% (30%) Self Crit Chance Buff for Three Turns",
+    "ultimate1Name": "Girl On Fire",
+    "ultimate1Desc": "158% (210%) Atk\n8% (16%) Self Atk Buff for Three Turns",
+    "passiveName": "Element of Surprise",
+    "passiveDesc": "20% (40%) Increased Crit Chance",
+    "ultimate2Name": "Inhuman Flamethrower",
+    "ultimate2Desc": "285% (513%) Atk\n15% (38%) Self Crit Chance Buff for Three Turns"
+  },
+  "mandarin": {
+    "title": "Mandarin",
+    "aliases": "",
+    "nickname": [
+      "mandarin"
+    ],
+    "thumbnail": "https://cdn.discordapp.com/attachments/410302586436976641/492458626774990858/mar_2p0_premium_mandarin_token2x.png",
+    "type": "Cosmic",
+    "class": "Attacker",
+    "location": "Gold School Supply Crate\nAcademy Capsule\nBack to School Event Only",
+    "skins": {},
+    "basicName": "Martial Arts Training",
+    "basicDesc": "100% (115%) Atk",
+    "specialName": "Vortex Beam",
+    "specialDesc": "75% (150%) Atk as Dot to Front Row\n18% (36%) Self Accuracy Buff for Three Turns",
+    "ultimate1Name": "Light It Up",
+    "ultimate1Desc": "155% (217%) Atk to Random Target\n155% (217%) Atk to Second Random Target",
+    "passiveName": "Chi Manipulation",
+    "passiveDesc": "12% (24%) Increased Atk\n12% (24%) Increased HP",
+    "ultimate2Name": "Makluan Mastery",
+    "ultimate2Desc": "135% (243%) Atk to Back Row\n-22% (-54%) Accuracy Debuff to Back Row for Three Turns"
+  },
+  "spider-gwen": {
+    "title": "",
+    "aliases": "",
+    "nickname": [
+      "spider-gwen"
+    ],
+    "thumbnail": "https://cdn.discordapp.com/attachments/410302586436976641/494994863062908931/mar_2p0_premium_spider_gwen_token2x.png",
+    "type": "",
+    "class": "",
+    "location": "",
+    "skins": {
+      "Gwenom": "2% Boost to Atk"
+    },
+    "basicName": "",
+    "basicDesc": "",
+    "specialName": "",
+    "specialDesc": "",
+    "ultimate1Name": "",
+    "ultimate1Desc": "",
+    "passiveName": "",
+    "passiveDesc": "",
+    "ultimate2Name": "",
+    "ultimate2Desc": ""
+  },
+  "squirrel girl": {
+    "title": "Doreen Green",
+    "aliases": "",
+    "nickname": [
+      "squirrelgirl"
+    ],
+    "thumbnail": "https://cdn.discordapp.com/attachments/410302586436976641/494994872781111338/mar_2p0_premium_squirrel_girl_token2x.png",
+    "type": "Physical",
+    "class": "Attacker",
+    "location": "Marvel Rising Capsule\nMarvel Rising Event Only",
+    "skins": {},
+    "basicName": "Kick Butts",
+    "basicDesc": "100% (115%) Atk",
+    "specialName": "Squirrel Physiology",
+    "specialDesc": "150% (210%) Atk\n27% (54%) Self Atk Buff for Three Turns",
+    "ultimate1Name": "Squirrely Wrath",
+    "ultimate1Desc": "",
+    "passiveName": "The Unbeatable!",
+    "passiveDesc": "",
+    "ultimate2Name": "Volley of Death",
+    "ultimate2Desc": ""
+  },
+  "inferno": {
+    "title": "",
+    "aliases": "",
+    "nickname": [
+      "inferno"
+    ],
+    "thumbnail": "https://cdn.discordapp.com/attachments/410302586436976641/494994886936756234/mar_2p0_premium_inferno_token2x.png",
+    "type": "",
+    "class": "",
+    "location": "",
+    "skins": {},
+    "basicName": "",
+    "basicDesc": "",
+    "specialName": "",
+    "specialDesc": "",
+    "ultimate1Name": "",
+    "ultimate1Desc": "",
+    "passiveName": "",
+    "passiveDesc": "",
+    "ultimate2Name": "",
+    "ultimate2Desc": ""
   }
 }
