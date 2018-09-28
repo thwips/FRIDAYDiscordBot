@@ -41,20 +41,39 @@
 			]
 		}
 	},
-	"academy": {
-		"category": "Academy",
+	"inferno": {
+		"category": "Inferno",
 		"time": "",
-		"color": "000080",
-		"image": "https://cdn.discordapp.com/attachments/410302586436976641/489948884160872448/mar_2p0_p_gacha_capsule_avengers2x.png",
+		"color": "ae0001",
+		"image": "https://cdn.discordapp.com/attachments/410302586436976641/494994916145889290/mar_2p0_p_gacha_capsule_inferno2x.png",
 		"heroes": [],
 		"prizes": {
-			"0.5": ["80 Nadia Pym Shards", "20 Nadia Pym Shards", "80 Mandarin Shards", "20 Mandarin Shards"],
-			"1": ["10 Nadia Pym Shards", "10 Mandarin Shards", "80 Devil Dinosaur Shards", "80 Crimson Dynamo Shards", "80 Black Bolt Shards", "80 Crystal Shards"],
-			"1.5": ["1 Tier 3 Attribute Energy Core"],
-			"2": ["5 Nadia Pym Shards", "5 Mandarin Shards", "5 Gold Timefog Capsules"],
-			"2.5": ["8 Stamina Packs"],
-			"4": ["30 Devil Dinosaur Shards", "20 Devil Dinosaur Shards", "30 Crimson Dynamo Shards", "20 Crimson Dynamo Shards", "30 Black Bolt Shards", "20 Black Bolt Shards", "30 Crystal Shards", "20 Crystal Shards"],
-			"11": ["10 Devil Dinosaur Shards", "10 Crimson Dynamo Shards", "10 Black Bolt Shards", "10 Crystal Shards"]
+			"0.25": ["10 Inferno Shards", "9 Inferno Shards"],
+			"0.5": ["8 Inferno Shards", "7 Inferno Shards"],
+			"0.75": ["6 Inferno Shards"],
+			"1": ["5 Inferno Shards"],
+			"1.5": ["4 Inferno Shards"],
+			"2": ["1 Tier 3 Science Energy Core", "15 Tier 2 Science Energy Core"],
+			"2.75": ["3 Inferno Shards"],
+			"14.50": ["2 Inferno Shards"],
+			"73": ["1 Inferno Shards"]
+		}
+	},
+	"marvel rising": {
+		"category": "Marvel Rising",
+		"time": "",
+		"color": "ffc519",
+		"image": "https://cdn.discordapp.com/attachments/410302586436976641/494994899217809409/mar_2p0_p_gacha_capsule_marvel_rising2x.png",
+		"heroes": [],
+		"prizes": {
+			"1": ["80 Inferno Shards", "T3 Attribute Energy Core"],
+			"2": ["20 Inferno Shards", "80 Squirrel Girl Shards", "80 Spider-Gwen Shards"],
+			"2.5": ["80 Captain Marvel Shards", "80 Ms Marvel Shards", "80 Quake Shards"],
+			"3": ["10 Inferno Shards"],
+			"5": ["5 Inferno Shards"],
+			"7.5": ["10 Captain Marvel Shards", "10 Ms Marvel Shards", "10 Quake Shards"],
+			"8": ["20 Squirrel Girl Shards", "20 Spider-Gwen Shards"],
+			"17": ["10 Squirrel Girl Shards", "10 Spider-Gwen Shards"]
 		}
 	}
 }
