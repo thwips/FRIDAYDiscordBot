@@ -2221,34 +2221,45 @@
     "ultimate2Desc": "135% (243%) Atk to Back Row\n-22% (-54%) Accuracy Debuff to Back Row for Three Turns"
   },
   "spider-gwen": {
-    "title": "",
+    "title": "Gwen Stacy",
     "aliases": "",
     "nickname": [
-      "spider-gwen"
+      "spider-gwen",
+      "gwenstacy",
+      "gwen",
+      "stacy",
+      "ghostspider",
+      "dovecameron"
     ],
     "thumbnail": "https://cdn.discordapp.com/attachments/410302586436976641/494994863062908931/mar_2p0_premium_spider_gwen_token2x.png",
-    "type": "",
-    "class": "",
-    "location": "",
+    "type": "Science",
+    "class": "Attacker",
+    "location": "Marvel Rising Capsule\nMarvel Rising Event Only",
     "skins": {
       "Gwenom": "2% Boost to Atk"
     },
-    "basicName": "",
-    "basicDesc": "",
-    "specialName": "",
-    "specialDesc": "",
-    "ultimate1Name": "",
-    "ultimate1Desc": "",
-    "passiveName": "",
-    "passiveDesc": "",
-    "ultimate2Name": "",
-    "ultimate2Desc": ""
+    "basicName": "Proportionate Strength",
+    "basicDesc": "100% (115%) Atk",
+    "specialName": "Rock and Roll!",
+    "specialDesc": "150% (210%) Atk\n-14% (-27%) Accuracy Debuff for Three Turns",
+    "ultimate1Name": "Jumping Spider",
+    "ultimate1Desc": "100% (140%) Atk to Front Row\n-14% (-27%) Evasion Debuff to Front Row for Three Turns",
+    "passiveName": "Spidey-Sense",
+    "passiveDesc": "20% (40%) Increased Evasion",
+    "ultimate2Name": "Web Warrior",
+    "ultimate2Desc": "215% (387%) Atk\n40% (100%) Self Evasion Buff for One Turn"
   },
   "squirrel girl": {
     "title": "Doreen Green",
     "aliases": "",
     "nickname": [
-      "squirrelgirl"
+      "squirrelgirl",
+      "doreengreen",
+      "doreen",
+      "eris",
+      "anti-life",
+      "makotonanaya",
+      "theslayerofallthatbreathes"
     ],
     "thumbnail": "https://cdn.discordapp.com/attachments/410302586436976641/494994872781111338/mar_2p0_premium_squirrel_girl_token2x.png",
     "type": "Physical",
@@ -2260,32 +2271,38 @@
     "specialName": "Squirrel Physiology",
     "specialDesc": "150% (210%) Atk\n27% (54%) Self Atk Buff for Three Turns",
     "ultimate1Name": "Squirrely Wrath",
-    "ultimate1Desc": "",
+    "ultimate1Desc": "150% (210%) Atk\n14% (27%) Self Accuracy Buff for Three Turns",
     "passiveName": "The Unbeatable!",
-    "passiveDesc": "",
+    "passiveDesc": "6% (12%) Increased HP\n6% (12%) Increased Atk\n6% (12%) Increased Evasion",
     "ultimate2Name": "Volley of Death",
-    "ultimate2Desc": ""
+    "ultimate2Desc": "225% (405%) Atk\n11% (28%) Atk Buff to Back Row Allies for Three Turns"
   },
   "inferno": {
-    "title": "",
+    "title": "Dante Pertuz",
     "aliases": "",
     "nickname": [
-      "inferno"
+      "inferno",
+      "dantepertuz",
+      "tylerposey",
+      "dante",
+      "dante'sinferno",
+      "theinhumantorch",
+      "quake'sbootycall"
     ],
     "thumbnail": "https://cdn.discordapp.com/attachments/410302586436976641/494994886936756234/mar_2p0_premium_inferno_token2x.png",
-    "type": "",
-    "class": "",
-    "location": "",
+    "type": "Science",
+    "class": "Attacker",
+    "location": "Inferno Capsule\nMarvel Rising Capsule\nMarvel Rising Event Only",
     "skins": {},
-    "basicName": "",
-    "basicDesc": "",
-    "specialName": "",
-    "specialDesc": "",
-    "ultimate1Name": "",
-    "ultimate1Desc": "",
-    "passiveName": "",
-    "passiveDesc": "",
-    "ultimate2Name": "",
-    "ultimate2Desc": ""
+    "basicName": "Keeping the Beat",
+    "basicDesc": "100% (115%) Atk",
+    "specialName": "Internal Flamethrower",
+    "specialDesc": "100% (140%) Atk as DoT for Three Turns",
+    "ultimate1Name": "Magma Manipulation",
+    "ultimate1Desc": "70% (98%) Atk to All Enemies",
+    "passiveName": "Inhuman Endurance",
+    "passiveDesc": "23% (46%) Increased HP",
+    "ultimate2Name": "Power of Pompeii",
+    "ultimate2Desc": "50% (90%) Atk as DoT to All Enemies for Three Turns"
   }
 }
