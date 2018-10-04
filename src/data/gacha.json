@@ -51,12 +51,30 @@
 			"0.25": ["10 Inferno Shards", "9 Inferno Shards"],
 			"0.5": ["8 Inferno Shards", "7 Inferno Shards"],
 			"0.75": ["6 Inferno Shards"],
-			"1": ["5 Inferno Shards"],
+			"1": ["5 Inferno Shards", "2 Gold Timefog Capsules"],
 			"1.5": ["4 Inferno Shards"],
 			"2": ["1 Tier 3 Science Energy Core", "15 Tier 2 Science Energy Core"],
 			"2.75": ["3 Inferno Shards"],
 			"14.50": ["2 Inferno Shards"],
 			"73": ["1 Inferno Shards"]
+		}
+	},
+	"patriot": {
+		"category": "Patriot",
+		"time": "",
+		"color": "8b9dc3",
+		"image": "https://cdn.discordapp.com/attachments/410302586436976641/497539805530554408/mar_2p0_p_gacha_capsule_patriot2x.png",
+		"heroes": [],
+		"prizes": {
+			"0.25": ["10 Patriot Shards", "9 Patriot Shards"],
+			"0.5": ["8 Patriot Shards", "7 Patriot Shards"],
+			"0.75": ["6 Patriot Shards"],
+			"1": ["5 Patriot Shards", "2 Gold Timefog Capsules"],
+			"1.5": ["4 Patriot Shards"],
+			"2": ["1 Tier 3 Tech Energy Core", "15 Tier 2 Tech Energy Core"],
+			"2.75": ["3 Patriot Shards"],
+			"14.50": ["2 Patriot Shards"],
+			"73": ["1 Patriot Shards"]
 		}
 	},
 	"marvelrising": {
@@ -66,14 +84,14 @@
 		"image": "https://cdn.discordapp.com/attachments/410302586436976641/494994899217809409/mar_2p0_p_gacha_capsule_marvel_rising2x.png",
 		"heroes": [],
 		"prizes": {
-			"1": ["80 Inferno Shards", "T3 Attribute Energy Core"],
-			"2": ["20 Inferno Shards", "80 Squirrel Girl Shards", "80 Spider-Gwen Shards"],
-			"2.5": ["80 Captain Marvel Shards", "80 Ms Marvel Shards", "80 Quake Shards"],
-			"3": ["10 Inferno Shards"],
-			"5": ["5 Inferno Shards"],
-			"7.5": ["10 Captain Marvel Shards", "10 Ms Marvel Shards", "10 Quake Shards"],
-			"8": ["20 Squirrel Girl Shards", "20 Spider-Gwen Shards"],
-			"17": ["10 Squirrel Girl Shards", "10 Spider-Gwen Shards"]
+			".75": ["80 Inferno Shards", "80 Patriot Shards"],
+			"1": ["T3 Attribute Energy Core"],
+			"1.5": ["20 Inferno Shards", "20 Patriot Shards", "80 Squirrel Girl Shards", "80 Spider-Gwen Shards", "80 America Chavez Shards"],
+			"2": ["10 Inferno Shards", "10 Patriot Shards", "80 Captain Marvel Shards", "80 Ms Marvel Shards", "80 Quake Shards"],
+			"4.25": ["5 Inferno Shards", "5 Patriot Shards"],
+			"5": ["10 Captain Marvel Shards", "10 Ms Marvel Shards", "10 Quake Shards"],
+			"6.5": ["20 Squirrel Girl Shards", "20 Spider-Gwen Shards", "20 America Chavez Shards"],
+			"11": ["10 Squirrel Girl Shards", "10 Spider-Gwen Shards", "10 America Chavez Shards"]
 		}
 	}
 }
