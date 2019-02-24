@@ -43,12 +43,12 @@ module.exports.run = async (bot, message, args) => {
     if (add)
     {
       await message.member.removeRole(role);
-      message.channel.send(`You no longer have the role ${role}!`);
+      message.channel.send(`You no longer have the role ${role.name}!`);
     }
     else
     {
       await message.member.addRole(role);
-      message.channel.send(`You now have the role ${role}!`);
+      message.channel.send(`You now have the role ${role.name}!`);
     }
   }
   catch (e)
