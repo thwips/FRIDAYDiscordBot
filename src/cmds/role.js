@@ -15,7 +15,7 @@ module.exports.run = async (bot, message, args) => {
   let str = args.join(' ').trim();
   if (args.join('') == 'show')
   {
-    message.channel.send('Role options: ' + serverRoles.array().join(', '));
+    message.channel.send('Role options: ' + serverRoles.array().map(role => role.name).join(', '));
     return;
   }
 
