@@ -26,7 +26,7 @@ module.exports.run = async (bot, message, args) => {
 
   if (roles.size > 1)
   {
-    message.channel.send('Inputted role not specific enough. Not assign role.\nRoles found: ' + array().map(role => role.name).join(', '));
+    message.channel.send('Inputted role not specific enough. Not assign role.\nRoles found: ' + roles.array().map(role => role.name).join(', '));
     return;
   }
   else if (roles.size == 0)
