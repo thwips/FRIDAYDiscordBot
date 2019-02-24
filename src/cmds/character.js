@@ -22,8 +22,7 @@ module.exports.help = {
   name: "character",
   aliases: [
     "character",
-    "char",
-    "c"
+    "char"
   ],
   ignore: [
   "429222755745923073"
