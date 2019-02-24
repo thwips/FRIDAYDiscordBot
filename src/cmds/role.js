@@ -38,7 +38,7 @@ module.exports.run = async (bot, message, args) => {
 
   try
   {
-    let add = message.member.roles.has(role);
+    let add = message.member.roles.has(role.id);
 
     if (add)
     {
