@@ -1,7 +1,7 @@
 const gf = require('../globalfunctions.js'),
       fs = require('fs')
 
-let colorRoles = ['Guardians 3000', 'Discord Defenders', 'Thunderbolts Founder', 'Discord Avengers', 'Howling Commandos', 'Pet Avengers', 'Poole Boys', 'Pym Technologies', 'Inhumans', 'S.W.O.R.D.', 'A-Force', 'Secret Warriors'];
+let gameRoles = ['FE:H', 'MFF', 'ACPC'];
 
 module.exports.run = async (bot, message, args) => {
   if(!gf.isAllowed(message, module.exports.help.ignore)) return;
@@ -19,7 +19,7 @@ module.exports.run = async (bot, message, args) => {
     return;
   }
 
-  let roles = serverRoles.filter(role =>
+  let roles = gameRoles.filter(role =>
   {
     return role.name.toLowerCase().startsWith(str.toLowerCase());
   });
@@ -35,11 +35,21 @@ module.exports.run = async (bot, message, args) => {
     return;
   }
   let role = roles.first();
+
+  let add = message.member.roles.has(role);
+
   try
   {
-    await message.member.removeRoles(serverRoles);
-    await message.member.addRole(role);
-    message.channel.send(`You now have the color ${role}!`);
+    if (add)
+    {
+      await message.member.removeRole(role);
+      message.channel.send(`You no longer have the role ${role}!`);
+    }
+    else
+    {
+      await message.member.addRole(role);
+      message.channel.send(`You now have the role ${role}!`);
+    }
   }
   catch (e)
   {
@@ -48,10 +58,10 @@ module.exports.run = async (bot, message, args) => {
 }
 
 module.exports.help = {
-  name: "color",
+  name: "role",
   aliases: [
-    "color",
-    "c"
+    "role",
+    "r"
   ],
   ignore: [
   "429222755745923073"
