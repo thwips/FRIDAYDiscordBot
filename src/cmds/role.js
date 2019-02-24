@@ -19,7 +19,7 @@ module.exports.run = async (bot, message, args) => {
     return;
   }
 
-  let roles = gameRoles.filter(role =>
+  let roles = serverRoles.filter(role =>
   {
     return role.name.toLowerCase().startsWith(str.toLowerCase());
   });
