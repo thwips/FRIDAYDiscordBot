@@ -6,7 +6,7 @@ let gameRoles = ['FE:H', 'MFF', 'ACPC'];
 module.exports.run = async (bot, message, args) => {
   if(!gf.isAllowed(message, module.exports.help.ignore)) return;
 
-  let serverRoles = message.guild.roles.filter(role => colorRoles.includes(role.name));
+  let serverRoles = message.guild.roles.filter(role => gameRoles.includes(role.name));
   if (serverRoles.size < 1)
   {
     return;
