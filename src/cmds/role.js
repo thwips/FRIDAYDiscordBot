@@ -36,10 +36,10 @@ module.exports.run = async (bot, message, args) => {
   }
   let role = roles.first();
 
-  let add = message.member.roles.has(role);
-
   try
   {
+    let add = message.member.roles.has(role);
+
     if (add)
     {
       await message.member.removeRole(role);
