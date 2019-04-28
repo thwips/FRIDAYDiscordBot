@@ -46,8 +46,15 @@ module.exports.run = async (bot, message, args) => {
     total += roll;
     diceRolls.push(roll);
   }
-  message.channel.send('Total: ' + total);
-  message.channel.send('Each roll was ' + diceRolls.join(', '));
+  if (diceAmount > 1)
+  {  
+    message.channel.sent('Rolled a ' + total);
+  }
+  else
+  {
+    message.channel.send('Total: ' + total);
+    message.channel.send('Each roll was ' + diceRolls.join(', '));
+  }
 
 }
 
