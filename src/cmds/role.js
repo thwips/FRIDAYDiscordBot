@@ -1,7 +1,7 @@
 const gf = require('../globalfunctions.js'),
       fs = require('fs')
 
-let gameRoles = ['FE:H', 'MFF', 'ACPC'];
+let gameRoles = ['FE:H', 'MFF', 'ACPC', 'Pokemon Masters'];
 
 module.exports.run = async (bot, message, args) => {
   if(!gf.isAllowed(message, module.exports.help.ignore)) return;
