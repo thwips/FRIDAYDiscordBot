@@ -263,7 +263,8 @@
     "ultimate2Name": "Disobey Physics",
     "ultimate2Desc": " 113% (203%) Atk to Back Row\n18% (45%) Chance to Stun",
     "skins": {
-      "WWII": "1% Boost to HP"
+      "WWII": "1% Boost to HP",
+      "Cap Wolf": "2% Boost to HP"
     }
   },
   "captain marvel": {
@@ -357,7 +358,8 @@
     "skins": {
       "Shield": "5% Boost to Atk",
       "Armored": "1% Boost to HP",
-      "Original": "3% Boost to HP"
+      "Original": "3% Boost to HP",
+      "Devil": "20% Boost to Atk and 20% Boost to Crit Chance"
     },
     "type": "Physical",
     "class": "Attacker",
@@ -740,7 +742,9 @@
     "passiveDesc": "10% (20%) Increased Crit\n10% (20%) Increased Atk",
     "ultimate2Name": "You're a Winner!",
     "ultimate2Desc": "146% (263%) Atk to Single Target\n18% (45%) Self Attack Buff",
-    "skins": {}
+    "skins": {
+      "Lady Liberty": "15% Boost to Atk and 10% Boost to Evasion"
+    }
   },
   "jocasta": {
     "title": "Jocasta Vi Quitéria",
@@ -814,7 +818,8 @@
     "ultimate2Name": "Trickster God",
     "ultimate2Desc": "56% (101%) Atk to All Enemies\n9% (23%) Chance to Confuse All Enemies",
     "skins": {
-      "Immortal Sorcerer": "+2% Boost to Atk and HP"
+      "Immortal Sorcerer": "+2% Boost to Atk and HP",
+      "Jester": "15% Boost to Crit Chance and 10% Boost to Evasion"
     }
   },
   "luke cage": {
@@ -1597,7 +1602,9 @@
     "passiveDesc": "11% (21%) Increased HP\n10.5% (21%) Increased Atk",
     "ultimate2Name": "Big Freakin' Gun",
     "ultimate2Desc": "233% (419%) Atk\n10% (25%) Heal All Allies",
-    "skins": {}
+    "skins": {
+      "Mythical": "40% Boost to Atk"
+    }
   },
   "vision": {
     "title": "Vision",
@@ -2229,7 +2236,8 @@
       "gwen",
       "stacy",
       "ghostspider",
-      "dovecameron"
+      "dovecameron",
+      "spidergwen"
     ],
     "thumbnail": "https://cdn.discordapp.com/attachments/410302586436976641/494994863062908931/mar_2p0_premium_spider_gwen_token2x.png",
     "type": "Science",
@@ -2265,7 +2273,9 @@
     "type": "Physical",
     "class": "Attacker",
     "location": "Marvel Rising Capsule\nMarvel Rising Event Only",
-    "skins": {},
+    "skins": {
+      "Park Ranger": "8% Boost to Atk and HP"
+    },
     "basicName": "Kick Butts",
     "basicDesc": "100% (115%) Atk",
     "specialName": "Squirrel Physiology",
@@ -2304,5 +2314,373 @@
     "passiveDesc": "23% (46%) Increased HP",
     "ultimate2Name": "Power of Pompeii",
     "ultimate2Desc": "50% (90%) Atk as DoT to All Enemies for Three Turns"
+  },
+  "america chavez": {
+    "title": "",
+    "aliases": "",
+    "nickname": [
+      "americachavez",
+      "chavez"
+    ],
+    "thumbnail": "https://cdn.discordapp.com/attachments/410302586436976641/497539804066742283/mar_2p0_premium_america_chavez_token2x.png",
+    "type": "Cosmic",
+    "class": "Attacker",
+    "location": "Marvel Rising Capsule\nMarvel Rising Event Only",
+    "skins": {
+      "Knight": "+3% Boost to Atk",
+      "Diver": "+10 Boost to Atk and HP"
+    },
+    "basicName": "Punch Everyone",
+    "basicDesc": "100% (115%) Atk",
+    "specialName": "Ticket to the Multiverse",
+    "specialDesc": "150% (210%) Atk",
+    "ultimate1Name": "Shark Attack",
+    "ultimate1Desc": "98% (137%) Atk to Front Row",
+    "passiveName": "Ignore Physics",
+    "passiveDesc": "20% (40%) Increased Atk",
+    "ultimate2Name": "America YES",
+    "ultimate2Desc": "130% (234%) Atk to Front Row\nHits Twice"
+  },
+  "rayshaun lucas": {
+    "title": "Rayshaun Lucas",
+    "aliases": "",
+    "nickname": [
+      "rayshaunlucas",
+      "patriot"
+    ],
+    "thumbnail": "https://cdn.discordapp.com/attachments/410302586436976641/497539803529609277/mar_2p0_premium_patriot_token2x.png",
+    "type": "Physical",
+    "class": "Tank",
+    "location": "Patriot Capsule\nMarvel Rising Capsule\nMarvel Rising Event Only",
+    "skins": {},
+    "basicName": "Hologram Training",
+    "basicDesc": "100% (115%) Atk",
+    "specialName": "Shield Wield",
+    "specialDesc": "?% (?%) Atk\n15% (?%) Self Evasion Buff for Three Turns",
+    "ultimate1Name": "Hover-Shield",
+    "ultimate1Desc": "?% (?%) Atk\n100% Chance to Stun to One Random Target for One Turn",
+    "passiveName": "Maximum Svelteness",
+    "passiveDesc": "18% (36%) Increased Evasion",
+    "ultimate2Name": "Codename: Eagle 2",
+    "ultimate2Desc": "25% (?%) Chance to Stun All Enemies for One Turn"
+  },
+  "speed": {
+    "title": "",
+    "aliases": "",
+    "nickname": [
+      "speed"
+    ],
+    "thumbnail": "https://cdn.discordapp.com/attachments/410302586436976641/500080794241466371/mar_2p0_premium_speed_token2x.png",
+    "type": "Physical",
+    "class": "Attacker",
+    "location": "Speed Capsule\nMarvel Rising Capsule\nMarvel Rising Event Only",
+    "skins": {},
+    "basicName": "",
+    "basicDesc": "",
+    "specialName": "",
+    "specialDesc": "",
+    "ultimate1Name": "",
+    "ultimate1Desc": "",
+    "passiveName": "",
+    "passiveDesc": "",
+    "ultimate2Name": "",
+    "ultimate2Desc": ""
+  },
+  "lockjaw": {
+    "title": "",
+    "aliases": "",
+    "nickname": [
+      "lockjaw"
+    ],
+    "thumbnail": "https://cdn.discordapp.com/attachments/410302586436976641/500080794241466369/mar_2p0_premium_lockjaw_token2x.png",
+    "type": "Science",
+    "class": "Support",
+    "location": "Marvel Rising Capsule\nMarvel Rising Event Only",
+    "skins": {},
+    "basicName": "Chomp!",
+    "basicDesc": "100% (115%) Atk",
+    "specialName": "Overwhelming Affection",
+    "specialDesc": "20% (40%) Atk Buff to All Allies for One Turn",
+    "ultimate1Name": "Psionic Pop",
+    "ultimate1Desc": "-25% (-50%) Atk Debuff to All Enemies for One Turn",
+    "passiveName": "Inhuman Support Dog",
+    "passiveDesc": "6% (12%) Increased HP for All Allies",
+    "ultimate2Name": "The Biggest Bark",
+    "ultimate2Desc": "50% (100%) Chance to Cleanse All Ally Debuffs\n25% (100%) Chance to Cleanse All Enemy Buffs"
+  },
+  "elektra": {
+    "title": "",
+    "aliases": "",
+    "nickname": [
+      "elektra"
+    ],
+    "thumbnail": "https://cdn.discordapp.com/attachments/410302586436976641/505135576337481730/mar_2p0_premium_elektra_token2x.png",
+    "type": "",
+    "class": "",
+    "location": "",
+    "skins": {
+      "Virtual": "3% Boost to Atk"
+    },
+    "basicName": "",
+    "basicDesc": "",
+    "specialName": "",
+    "specialDesc": "",
+    "ultimate1Name": "",
+    "ultimate1Desc": "",
+    "passiveName": "",
+    "passiveDesc": "",
+    "ultimate2Name": "",
+    "ultimate2Desc": ""
+  },
+  "iron fist": {
+    "title": "",
+    "aliases": "",
+    "nickname": [
+      "ironfist"
+    ],
+    "thumbnail": "https://cdn.discordapp.com/attachments/410302586436976641/502922318075396098/mar_2p0_premium_ironfist_token2x.png",
+    "type": "",
+    "class": "",
+    "location": "",
+    "skins": {
+      "Immortal": "7% Boost to Atk"
+    },
+    "basicName": "",
+    "basicDesc": "",
+    "specialName": "",
+    "specialDesc": "",
+    "ultimate1Name": "",
+    "ultimate1Desc": "",
+    "passiveName": "",
+    "passiveDesc": "",
+    "ultimate2Name": "",
+    "ultimate2Desc": ""
+  },
+  "white tiger": {
+    "title": "",
+    "aliases": "",
+    "nickname": [
+      "whitetiger"
+    ],
+    "thumbnail": "https://cdn.discordapp.com/attachments/410302586436976641/502922307166273547/mar_2p0_premium_white_tiger_token2x.png",
+    "type": "",
+    "class": "",
+    "location": "",
+    "skins": {},
+    "basicName": "",
+    "basicDesc": "",
+    "specialName": "",
+    "specialDesc": "",
+    "ultimate1Name": "",
+    "ultimate1Desc": "",
+    "passiveName": "",
+    "passiveDesc": "",
+    "ultimate2Name": "",
+    "ultimate2Desc": ""
+  },
+  "madame masque": {
+    "title": "",
+    "aliases": "",
+    "nickname": [
+      "madamemasque"
+    ],
+    "thumbnail": "https://cdn.discordapp.com/attachments/410302586436976641/505135558843170846/mar_2p0_premium_madame_masque_token2x.png",
+    "type": "",
+    "class": "",
+    "location": "",
+    "skins": {},
+    "basicName": "",
+    "basicDesc": "",
+    "specialName": "",
+    "specialDesc": "",
+    "ultimate1Name": "",
+    "ultimate1Desc": "",
+    "passiveName": "",
+    "passiveDesc": "",
+    "ultimate2Name": "",
+    "ultimate2Desc": ""
+  },
+  "colleen wing": {
+    "title": "",
+    "aliases": "",
+    "nickname": [
+      "colleenwing"
+    ],
+    "thumbnail": "https://i.imgur.com/sLUUa52.png",
+    "type": "",
+    "class": "",
+    "location": "",
+    "skins": {},
+    "basicName": "",
+    "basicDesc": "",
+    "specialName": "",
+    "specialDesc": "",
+    "ultimate1Name": "",
+    "ultimate1Desc": "",
+    "passiveName": "",
+    "passiveDesc": "",
+    "ultimate2Name": "",
+    "ultimate2Desc": ""
+  },
+  "bullseye": {
+    "title": "",
+    "aliases": "",
+    "nickname": [
+      "bullseye"
+    ],
+    "thumbnail": "https://i.imgur.com/sLUUa52.png",
+    "type": "",
+    "class": "",
+    "location": "",
+    "skins": {},
+    "basicName": "",
+    "basicDesc": "",
+    "specialName": "",
+    "specialDesc": "",
+    "ultimate1Name": "",
+    "ultimate1Desc": "",
+    "passiveName": "",
+    "passiveDesc": "",
+    "ultimate2Name": "",
+    "ultimate2Desc": ""
+  },
+  "hogun": {
+    "title": "",
+    "aliases": "",
+    "nickname": [
+      "hogun"
+    ],
+    "thumbnail": "https://i.imgur.com/sLUUa52.png",
+    "type": "",
+    "class": "",
+    "location": "",
+    "skins": {},
+    "basicName": "",
+    "basicDesc": "",
+    "specialName": "",
+    "specialDesc": "",
+    "ultimate1Name": "",
+    "ultimate1Desc": "",
+    "passiveName": "",
+    "passiveDesc": "",
+    "ultimate2Name": "",
+    "ultimate2Desc": ""
+  },
+  "angela": {
+    "title": "",
+    "aliases": "",
+    "nickname": [
+      "angela"
+    ],
+    "thumbnail": "https://i.imgur.com/sLUUa52.png",
+    "type": "",
+    "class": "",
+    "location": "",
+    "skins": {
+      "Asgardian Assassin": "5% Boost to Atk and HP"
+    },
+    "basicName": "",
+    "basicDesc": "",
+    "specialName": "",
+    "specialDesc": "",
+    "ultimate1Name": "",
+    "ultimate1Desc": "",
+    "passiveName": "",
+    "passiveDesc": "",
+    "ultimate2Name": "",
+    "ultimate2Desc": ""
+  },
+  "jane foster": {
+    "title": "",
+    "aliases": "",
+    "nickname": [
+      "janefoster"
+    ],
+    "thumbnail": "https://i.imgur.com/sLUUa52.png",
+    "type": "",
+    "class": "",
+    "location": "",
+    "skins": {
+      "Paladin": "5% Boost to HP"
+    },
+    "basicName": "",
+    "basicDesc": "",
+    "specialName": "",
+    "specialDesc": "",
+    "ultimate1Name": "",
+    "ultimate1Desc": "",
+    "passiveName": "",
+    "passiveDesc": "",
+    "ultimate2Name": "",
+    "ultimate2Desc": ""
+  },
+  "odin": {
+    "title": "",
+    "aliases": "",
+    "nickname": [
+      "odin"
+    ],
+    "thumbnail": "https://i.imgur.com/sLUUa52.png",
+    "type": "",
+    "class": "",
+    "location": "",
+    "skins": {
+      "Cosmic": "5% Boost to Crit Chance",
+      "Mythical": "40% Boost to Atk and 30% Boost to HP"
+    },
+    "basicName": "",
+    "basicDesc": "",
+    "specialName": "",
+    "specialDesc": "",
+    "ultimate1Name": "",
+    "ultimate1Desc": "",
+    "passiveName": "",
+    "passiveDesc": "",
+    "ultimate2Name": "",
+    "ultimate2Desc": ""
+  },
+  "volstagg": {
+    "title": "",
+    "aliases": "",
+    "nickname": [
+      "volstagg"
+    ],
+    "thumbnail": "https://i.imgur.com/sLUUa52.png",
+    "type": "",
+    "class": "",
+    "location": "",
+    "skins": {},
+    "basicName": "",
+    "basicDesc": "",
+    "specialName": "",
+    "specialDesc": "",
+    "ultimate1Name": "",
+    "ultimate1Desc": "",
+    "passiveName": "",
+    "passiveDesc": "",
+    "ultimate2Name": "",
+    "ultimate2Desc": ""
+  },
+  "fandral": {
+    "title": "",
+    "aliases": "",
+    "nickname": [
+      "fandral"
+    ],
+    "thumbnail": "https://i.imgur.com/sLUUa52.png",
+    "type": "",
+    "class": "",
+    "location": "",
+    "skins": {},
+    "basicName": "",
+    "basicDesc": "",
+    "specialName": "",
+    "specialDesc": "",
+    "ultimate1Name": "",
+    "ultimate1Desc": "",
+    "passiveName": "",
+    "passiveDesc": "",
+    "ultimate2Name": "",
+    "ultimate2Desc": ""
   }
 }

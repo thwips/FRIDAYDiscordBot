@@ -33,7 +33,7 @@ module.exports.run = async (bot, message, args) => {
     message.channel.send('Needs to have 2 or more faces');
     return;
   }
-  else if (diceSize > 20)
+  else if (diceSize > 420)
   {
     message.channel.send('Dice too big');
     return;
