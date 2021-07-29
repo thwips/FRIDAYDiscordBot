@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/thwips/FRIDAYDiscordBot#readme",
   "dependencies": {
-    "discord.js": "^11.3.2",
+    "discord.js": "^12.4.1",
     "fs": "0.0.1-security"
   }
 }
