@@ -1,60 +1,73 @@
 const gf = require('../globalfunctions.js'),
       fs = require('fs')
 
-let gameRoles = ['FE:H', 'MFF', 'ACPC', 'Pokemon Masters', 'Dragalia', 'Uatu\'s Observers'];
+let gameRoles = ['FE:H', 'MFF', 'PROM', 'APEX', 'Uatu\'s Observers'];
 
 module.exports.run = async (bot, message, args) => {
   if(!gf.isAllowed(message, module.exports.help.ignore)) return;
 
-  let serverRoles = message.guild.roles.filter(role => gameRoles.includes(role.name));
-  if (serverRoles.size < 1)
-  {
-    return;
-  }
 
-  let str = args.join(' ').trim();
-  if (args.join('') == 'show')
-  {
-    message.channel.send('Role options: ' + serverRoles.array().map(role => role.name).join(', '));
-    return;
-  }
 
-  let roles = serverRoles.filter(role =>
-  {
-    return role.name.toLowerCase().startsWith(str.toLowerCase());
-  });
+  message.guild.roles.fetch()
+    .then(async serverRoles => {
+      serverRoles = serverRoles.cache.filter(role => gameRoles.includes(role.name));
+      if (serverRoles.size < 1)
+      {
+        return;
+      }
 
-  if (roles.size > 1)
-  {
-    message.channel.send('Inputted role not specific enough. Not assign role.\nRoles found: ' + roles.array().map(role => role.name).join(', '));
-    return;
-  }
-  else if (roles.size == 0)
-  {
-    message.channel.send('Cannot find role starting with ' + str)
-    return;
-  }
-  let role = roles.first();
+      let str = args.join(' ').trim();
+      if (args.join('') == 'show')
+      {
+        message.channel.send('Role options: ' + expandRoles(serverRoles));
+        return;
+      }
 
-  try
-  {
-    let add = message.member.roles.has(role.id);
+      let roles = serverRoles.filter(role =>
+      {
+        return role.name.toLowerCase().startsWith(str.toLowerCase());
+      });
 
-    if (add)
-    {
-      await message.member.removeRole(role);
-      message.channel.send(`You no longer have the role ${role.name}!`);
-    }
-    else
-    {
-      await message.member.addRole(role);
-      message.channel.send(`You now have the role ${role.name}!`);
-    }
-  }
-  catch (e)
-  {
-    message.channel.send(`Operation failed! ${e.message}`);
-  }
+      if (roles.size > 1)
+      {
+        message.channel.send('Inputted role not specific enough. Not assign role.\nRoles found: ' + expandRoles(roles));
+        return;
+      }
+      else if (roles.size == 0)
+      {
+        message.channel.send('Cannot find role starting with ' + str)
+        return;
+      }
+      let role = roles.first();
+      try
+      {
+        let add = message.member.roles.cache.has(role.id);
+
+        if (add)
+        {
+          message.member.roles.remove(role)
+            .then(message.channel.send(`You no longer have the role ${role.name}!`))
+        }
+        else
+        {
+          message.member.roles.add(role)
+           .then(message.channel.send(`You now have the role ${role.name}!`))
+        }
+      }
+      catch (e)
+      {
+        message.channel.send(`Operation failed! ${e.message}`);
+      }
+    })
+    .catch(console.error);
+}
+
+function expandRoles(serverRoles) {
+  let roles = [];
+  serverRoles.array().forEach(role => {
+    roles.push(role.name);
+  })
+  return roles.join(', ')
 }
 
 module.exports.help = {
