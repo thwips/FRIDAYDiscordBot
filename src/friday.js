@@ -1,50 +1,58 @@
-// Import the discord.js module
-const Discord = require('discord.js'),
-      config  = require('./config/config.json'),
-      fs = require('fs')
+const fs = require('fs');
+const { Client, Collection, Intents } = require('discord.js');
+const { token } = require('./config/config.json');
+const gf = require('./globalfunctions.js');
 
-// The token of your bot - https://discordapp.com/developers/applications/me
-const token = config.token;
+// Create a new client instance
+const client = new Client({ disableEveryone: true, intents: [Intents.FLAGS.GUILDS] });
 
-// Create an instance of a Discord Client
-const bot = new Discord.Client({disableEveryone: true})
-bot.commands = new Discord.Collection()
+client.commands = new Collection();
+const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
 
-fs.readdir("./cmds", (err, files) => {
-  if(err) console.error(err)
-  let jsfiles = files.filter(f => f.split(".").pop() === "js")
-  if(jsfiles.length <= 0){
-    console.log("No commands to load")
+for (const file of commandFiles) {
+  const command = require(`./commands/${file}`);
+  // Set a new item in the Collection
+  // With the key as the command name and the value as the exported module
+  client.commands.set(command.data.name, command);
+}
+
+// When the client is ready, run this code (only once)
+client.once('ready', () => {
+  console.log('Ready!');
+});
+
+client.on('interactionCreate', async interaction => 
+{
+  if (!gf.isAllowed(interaction)) {
+    await interaction.reply({ content: `I'm not allowed to post in here :(`, ephemeral: true });
+    return;
+  } 
+  const command = client.commands.get(interaction.commandName);
+  if (!command) {
+    await interaction.reply({ content: `Something went wrong`, ephemeral: true });
     return;
   }
 
-  console.log(`Load ${jsfiles.length} commands!`)
+  if (interaction.isCommand()) {
+    try {
+        await command.reply(interaction);
+    }
+    catch (error) {
+        console.error(error);
+        await interaction.reply({ content: 'There was an error while executing this command!', ephemeral: true });
+    }
+  }
 
-  jsfiles.forEach((f, i) => {
-    let props = require(`./cmds/${f}`)
-    console.log(`${i + 1}: ${f} loaded!`)
-    // bot.commands.set(props.help.name, props)
-    props.help.aliases.forEach((name) => {
-      bot.commands.set(name, props)
-    })
-  })
-})
-
-// The ready event is vital, it means that your bot will only start reacting to information
-// from Discord _after_ ready is emitted
-bot.on('ready', () => {
-  console.log('I am ready!')
-})
-
-// Create an event listener for messages
-bot.on('message', async message => {
-  if (!message.content.startsWith(config.prefix) || message.author.bot || message.channel.type === 'dm') return;
-  let args = message.content.slice(config.prefix.length).trim().split(/ +/g);
-  const command = args.shift().toLowerCase();
-
-  let cmd = bot.commands.get(command)
-  if(cmd) cmd.run(bot, message, args)
+  if (interaction.isButton()) {
+    try {
+        await command.click(interaction);
+    }
+    catch (error) {
+        console.error(error);
+        await interaction.reply({ content: 'There was an error while executing this command!', ephemeral: true });
+    }
+  }
 });
 
-// // Log our bot in
-bot.login(token)
+// Login to Discord with your client's token
+client.login(token);
